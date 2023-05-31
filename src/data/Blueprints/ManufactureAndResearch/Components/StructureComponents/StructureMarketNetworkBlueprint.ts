@@ -20,7 +20,7 @@ import {
 import { StructureMarketNetwork } from "../../../../Items/ManufactureAndResearch/Components/StructureComponents";
 
 const StructureMarketNetworkBlueprint: Blueprint = {
-  id: 0,
+  id: 21964,
   name: "Structure Market Network Blueprint", //建筑市场网络蓝图
   manufacturing: {
     outcome: {
