@@ -1,7 +1,7 @@
 import { Item } from "../../../../types";
 
 const Megacyte: Item = {
-  id: 39,
+  id: 40,
   name: "Megacyte", //超噬矿
 };
 
