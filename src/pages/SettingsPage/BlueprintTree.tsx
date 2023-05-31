@@ -1,13 +1,15 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { DownOutlined, FileOutlined } from '@ant-design/icons';
 import { Tree } from 'antd';
 
-import settingsNodes from './DataProvider';
+import { getBlueprintSettingNodes, BlueprintDataNode } from './DataProvider';
 import { BlueprintSettingPageContext } from './BlueprintSettingPage';
 import { Blueprint } from '../../data/types';
 
 const BlueprintTree: React.FC = () => {
-  const { setBlueprint } = useContext(BlueprintSettingPageContext);
+  const { blueprintSettingsVisibility, setBlueprint } = useContext(BlueprintSettingPageContext);
+  const initBlueprintSettingNodes: BlueprintDataNode[] = [];
+  const [blueprintSettingNodes, setBlueprintSettingNodes] = useState(initBlueprintSettingNodes);
 
   const onSelect = (selectedKeys: React.Key[], info: any) => {
     const blueprint: Blueprint | null = info.node.blueprint;
@@ -15,6 +17,11 @@ const BlueprintTree: React.FC = () => {
       setBlueprint(blueprint);
     }
   };
+
+  useEffect(() => {
+    const nodes = getBlueprintSettingNodes(blueprintSettingsVisibility);
+    setBlueprintSettingNodes(nodes);
+  }, [blueprintSettingsVisibility]);
   
   return (
     <Tree
@@ -23,7 +30,7 @@ const BlueprintTree: React.FC = () => {
       showIcon={false}
       defaultExpandedKeys={['0-0-0']}
       onSelect={onSelect}
-      treeData={settingsNodes}
+      treeData={blueprintSettingNodes}
     />
   )
 };

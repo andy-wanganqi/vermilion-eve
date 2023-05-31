@@ -1,4 +1,4 @@
-import React, { ComponentType } from 'react';
+import React from 'react';
 import type { MenuProps } from 'antd';
 import { Layout, Menu, theme } from 'antd';
 import {

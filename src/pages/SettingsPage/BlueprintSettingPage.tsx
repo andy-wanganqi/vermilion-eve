@@ -7,6 +7,7 @@ import {
   Image,
   Button,
   message,
+  Typography,
 } from "antd";
 
 import SettingsPage from ".";
@@ -15,13 +16,18 @@ import { Blueprint } from "../../data/types";
 import { fallbackImage } from "../../assets/strings";
 import db from "../../db";
 import { BlueprintSetting, defaultBlueprintSetting } from "../../db/types";
+const { Title } = Typography;
 
 interface BlueprintSettingPageContextType {
+  blueprintSettingsVisibility: boolean;
+  setBlueprintSettingsVisibility: React.Dispatch<React.SetStateAction<boolean>>;
   blueprint: Blueprint | null;
   setBlueprint: React.Dispatch<React.SetStateAction<Blueprint | null>>;
 }
 
 const BlueprintSettingPageContextState = {
+  blueprintSettingsVisibility: false,
+  setBlueprintSettingsVisibility: () => {},
   blueprint: null,
   setBlueprint: () => {},
 };
@@ -32,6 +38,7 @@ export const BlueprintSettingPageContext =
   );
 
 const BlueprintSettingPage: React.FC = () => {
+  const [blueprintSettingsVisibility, setBlueprintSettingsVisibility] = useState(false);
   const [blueprint, setBlueprint] = useState<Blueprint | null>(null);
   const [setting, setSetting] = useState<BlueprintSetting>(
     defaultBlueprintSetting
@@ -39,25 +46,6 @@ const BlueprintSettingPage: React.FC = () => {
 
   const materiaEfficiencyDisabled = !blueprint?.manufacturing;
   const defaultRunsDisabled = !blueprint;
-  const titleText =
-    blueprint !== null
-      ? blueprint.name
-      : "Select a blueprint or reaction formula to start";
-
-  const title =
-    blueprint !== null ? (
-      <Space>
-        <Image
-          width={32}
-          height={32}
-          src={`https://images.evetech.net/types/${blueprint.id}/bp`}
-          fallback={fallbackImage}
-        />
-        <span>{titleText}</span>
-      </Space>
-    ) : (
-      titleText
-    );
 
   const handleSave = (
     e:
@@ -66,7 +54,9 @@ const BlueprintSettingPage: React.FC = () => {
   ) => {
     if (blueprint) {
       db.setBlueprintSetting(blueprint.id, setting);
-      message.success(`Successfully saved blueprint setting of ${blueprint.name}`);
+      message.success(
+        `Successfully saved blueprint setting of ${blueprint.name}`
+      );
     }
   };
 
@@ -78,11 +68,34 @@ const BlueprintSettingPage: React.FC = () => {
   }, [blueprint]);
 
   return (
-    <BlueprintSettingPageContext.Provider value={{ blueprint, setBlueprint }}>
+    <BlueprintSettingPageContext.Provider
+      value={{
+        blueprintSettingsVisibility,
+        setBlueprintSettingsVisibility,
+        blueprint,
+        setBlueprint,
+      }}
+    >
       <SettingsPage>
         <>
-          <Descriptions column={2} title={title}></Descriptions>
           <Space direction="vertical">
+            {blueprint === null ? (
+              <Title level={3}>
+                Select a blueprint or reaction formula to start
+              </Title>
+            ) : (
+              <Space>
+                <Image
+                  preview={false}
+                  width={32}
+                  height={32}
+                  src={`https://images.evetech.net/types/${blueprint.id}/bp`}
+                  fallback={fallbackImage}
+                />
+                <Title level={3}>{blueprint.name}</Title>
+              </Space>
+            )}
+
             <InputNumber
               disabled={materiaEfficiencyDisabled}
               addonBefore="Material Efficiency"
@@ -115,7 +128,7 @@ const BlueprintSettingPage: React.FC = () => {
             </Button>
           </Space>
           <Divider></Divider>
-          <BlueprintView blueprint={blueprint} />
+          <BlueprintView blueprint={blueprint} setting={setting} />
           <Divider></Divider>
           <Descriptions column={1} title="Explanation">
             <Descriptions.Item label="Material Efficiency">

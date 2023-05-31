@@ -1,24 +1,26 @@
 import React from "react";
 import { AndroidOutlined, AppleOutlined } from '@ant-design/icons';
-import { Col, Divider, Row, Descriptions, Tabs, InputNumber } from "antd";
+import { Tabs } from "antd";
 import type { TabsProps } from "antd";
 
 import BlueprintIndustryFlowView from "./BlueprintIndustryFlowView";
 import { Blueprint } from "../../data/types";
+import { BlueprintSetting } from "../../db/types";
 
 
 export interface BlueprintViewProps {
   blueprint: Blueprint | null;
+  setting: BlueprintSetting;
 };
 
 const BlueprintView: React.FC<BlueprintViewProps> = (
   props: BlueprintViewProps
 ) => {
-  const { blueprint } = props;
+  const { blueprint, setting } = props;
   const activeKey = blueprint === null ? '' : !!blueprint?.manufacturing ? 'manufacturing' : 'reaction';
   const manufacturingDisabled = !blueprint?.manufacturing;
   const reactionDisabled = !blueprint?.reaction;
-  const children = <BlueprintIndustryFlowView blueprint={blueprint} materialEfficiency={10} defaultRuns={10}/>;
+  const children = <BlueprintIndustryFlowView blueprint={blueprint} setting={setting}/>;
 
   const items: TabsProps["items"] = [
     {
@@ -46,7 +48,7 @@ const BlueprintView: React.FC<BlueprintViewProps> = (
   ];
   return (
     <>
-      <Tabs type="card" activeKey={activeKey} items={items} />
+      <Tabs activeKey={activeKey} items={items} />
     </>
   );
 };
