@@ -13,7 +13,7 @@ import { StructureExertConduitCoupler } from "../../../../Items/ManufactureAndRe
 
 const StructureExertConduitCouplerBlueprint: Blueprint = {
   id: 49721,
-  name: "Structure Exert ConduitCoupler Blueprint", //建筑导管联结器蓝图
+  name: "Structure Exert ConduitCoupler Blueprint (Incompleted)", //建筑导管联结器蓝图
   manufacturing: {
     outcome: {
       item: StructureExertConduitCoupler,

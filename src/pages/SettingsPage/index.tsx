@@ -50,13 +50,13 @@ const SettingsPage: React.FC<React.PropsWithChildren> = (
         <Col className="gutter-row" span={12}>
           <Collapse defaultActiveKey={["blueprints"]} onChange={onChange}>
             <Panel
-              header="蓝图设置"
+              header="Blueprint Settings"
               key="blueprints"
               extra={blueprintTreeExtra()}
             >
               <BlueprintTree />
             </Panel>
-            <Panel header="堡垒设置" key="structures">
+            <Panel header="Structure Settings" key="structures">
               <p>{text}</p>
             </Panel>
           </Collapse>

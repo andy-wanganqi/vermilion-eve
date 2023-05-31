@@ -41,7 +41,6 @@ const BlueprintTree: React.FC = () => {
         showLine={{ showLeafIcon: <FileOutlined /> }}
         switcherIcon={<DownOutlined />}
         showIcon={false}
-        defaultExpandedKeys={["0-0-0"]}
         onSelect={onSelect}
         treeData={blueprintSettingNodes}
       />

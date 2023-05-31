@@ -38,7 +38,8 @@ export const BlueprintSettingPageContext =
   );
 
 const BlueprintSettingPage: React.FC = () => {
-  const [blueprintSettingsVisibility, setBlueprintSettingsVisibility] = useState(false);
+  const [blueprintSettingsVisibility, setBlueprintSettingsVisibility] =
+    useState(false);
   const [blueprint, setBlueprint] = useState<Blueprint | null>(null);
   const [setting, setSetting] = useState<BlueprintSetting>(
     defaultBlueprintSetting
@@ -128,14 +129,16 @@ const BlueprintSettingPage: React.FC = () => {
             </Button>
           </Space>
           <Divider></Divider>
+
           <BlueprintView blueprint={blueprint} setting={setting} />
           <Divider></Divider>
+
           <Descriptions column={1} title="Explanation">
             <Descriptions.Item label="Material Efficiency">
-              How Material Efficiency works
+              Material efficiency of each blueprint will be used in other pages to calculate the final quantity of materials.
             </Descriptions.Item>
             <Descriptions.Item label="Default Runs">
-              How Default Runs works
+              Default runs of each blueprint will be used in other pages to calculate the materials and outcome. For example, if the default runs is 10, and your materials is only enough for 1 run, then the calculation will show you that the shortage of materials is based on 10 runs.
             </Descriptions.Item>
           </Descriptions>
         </>
