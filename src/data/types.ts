@@ -3,8 +3,14 @@ export interface Item {
   id: number;
 };
 
-export interface Material {
+export interface ItemGroup {
   name: string;
+  subgroups: ItemGroup[] | null;
+  items: Item[] | null;
+};
+
+export interface Material {
+  item: Item;
   quantity: number;
 };
 

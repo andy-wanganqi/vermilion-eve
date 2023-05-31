@@ -20,10 +20,10 @@ const BlueprintIndustryFlowView: React.FC<BlueprintIndustryFlowViewProps> = (
     <>
       <Collapse defaultActiveKey={["outcome", "materials"]}>
         <Panel header="Outcome" key="outcome">
-          {industryFlow && (<div>{industryFlow.outcome.quantity} x {industryFlow.outcome.name}</div>)}
+          {industryFlow && (<div>{industryFlow.outcome.quantity} x {industryFlow.outcome.item.name}</div>)}
         </Panel>
         <Panel header="Required input materials" key="materials">
-          {industryFlow && industryFlow.materials.map(material => (<div key={material.name}>{material.quantity} x {material.name}</div>))}
+          {industryFlow && industryFlow.materials.map(material => (<div key={material.item.name}>{material.quantity} x {material.item.name}</div>))}
         </Panel>
       </Collapse>
     </>

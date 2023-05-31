@@ -1,9 +1,13 @@
 import { BlueprintGroup } from "../types";
+import ManufactureAndResearchBlueprints from "./ManufactureAndResearch";
 import StructuresBlueprints from "./Structures";
 
 const ManufacturingBlueprints: BlueprintGroup = {
   name: "Manufacturing",
-  subgroups: [StructuresBlueprints],
+  subgroups: [
+    ManufactureAndResearchBlueprints, 
+    StructuresBlueprints
+  ],
   blueprints: null,
 };
 

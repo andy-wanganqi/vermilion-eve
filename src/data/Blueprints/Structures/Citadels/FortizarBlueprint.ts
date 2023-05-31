@@ -1,3 +1,18 @@
+import {
+  StructureAdvertisementNexus,
+  StructureConstructionParts,
+  StructureDockingBay,
+  StructureFactory,
+  StructureHangarArray,
+  StructureLaboratory,
+  StructureMarketNetwork,
+  StructureMedicalCenter,
+  StructureOfficeCenter,
+  StructureRepairFacility,
+  StructureReprocessingPlant,
+  StructureStorageBay,
+} from "../../../Items/ManufactureAndResearch/Components/StructureComponents";
+import Fortizar from "../../../Items/Structures/Citadels/Fortizar";
 import { Blueprint } from "../../../types";
 
 const FortizarBlueprint: Blueprint = {
@@ -5,22 +20,22 @@ const FortizarBlueprint: Blueprint = {
   name: "Fortizar Blueprint", //铁壁蓝图
   manufacturing: {
     outcome: {
-      name: "Fortizar",
+      item: Fortizar,
       quantity: 1,
     },
     materials: [
-      { name: "Structure Construction Parts", quantity: 10 },
-      { name: "Structure Hangar Array", quantity: 10 },
-      { name: "Structure Storage Bay", quantity: 10 },
-      { name: "Structure Laboratory", quantity: 4 },
-      { name: "Structure Factory", quantity: 4 },
-      { name: "Structure Repair Facility", quantity: 10 },
-      { name: "Structure Reprocessing Plant", quantity: 4 },
-      { name: "Structure Docking Bay", quantity: 10 },
-      { name: "Structure Market Network", quantity: 40 },
-      { name: "Structure Medical Center", quantity: 10 },
-      { name: "Structure Office Center", quantity: 10 },
-      { name: "Structure Advertisement Nexus", quantity: 4 },
+      { item: StructureConstructionParts, quantity: 10 },
+      { item: StructureHangarArray, quantity: 10 },
+      { item: StructureStorageBay, quantity: 10 },
+      { item: StructureLaboratory, quantity: 4 },
+      { item: StructureFactory, quantity: 4 },
+      { item: StructureRepairFacility, quantity: 10 },
+      { item: StructureReprocessingPlant, quantity: 4 },
+      { item: StructureDockingBay, quantity: 10 },
+      { item: StructureMarketNetwork, quantity: 40 },
+      { item: StructureMedicalCenter, quantity: 10 },
+      { item: StructureOfficeCenter, quantity: 10 },
+      { item: StructureAdvertisementNexus, quantity: 4 },
     ],
   },
   reaction: null,
