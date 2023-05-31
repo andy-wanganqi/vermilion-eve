@@ -9,7 +9,7 @@ import { PercentageOutlined, RightCircleOutlined } from "@ant-design/icons";
 
 export type BlueprintDataNode = DataNode & { blueprint: Blueprint | null };
 
-const blueprint2DataNode = (blueprint: Blueprint, showSetting: boolean): BlueprintDataNode => {
+const blueprint2DataNode = (blueprint: Blueprint, searchKeyword: string, showSetting: boolean): BlueprintDataNode => {
   let title: ReactNode | string = blueprint.name;
   if(showSetting){
     const setting = db.getBlueprintSetting(blueprint.id);
@@ -29,17 +29,21 @@ const blueprint2DataNode = (blueprint: Blueprint, showSetting: boolean): Bluepri
   };
 };
 
-const blueprintGroup2DataNode = (folder: BlueprintGroup, showSetting: boolean): BlueprintDataNode => {
+const blueprintGroup2DataNode = (folder: BlueprintGroup, searchKeyword: string, showSetting: boolean): BlueprintDataNode => {
   let children: BlueprintDataNode[] = [];
   if (folder.subgroups) {
-    children = children.concat(
-      folder.subgroups.map((subgroup) => blueprintGroup2DataNode(subgroup, showSetting))
-    );
+    const refineSearchKeyword = searchKeyword === '' ? '' : folder.name.indexOf(searchKeyword) >= 0 ? '' : searchKeyword;
+    const nodes = folder.subgroups
+      .map((subgroup) => blueprintGroup2DataNode(subgroup, refineSearchKeyword, showSetting))
+      .filter((subgroup) => subgroup.children && subgroup.children.length > 0)
+      ;
+    children = children.concat(nodes);
   }
   if (folder.blueprints) {
-    children = children.concat(
-      folder.blueprints.map((blueprint) => blueprint2DataNode(blueprint, showSetting))
-    );
+    const nodes = folder.blueprints
+      .filter((subgroup) => searchKeyword.trim() === '' || subgroup.name.indexOf(searchKeyword) >= 0)
+      .map((blueprint) => blueprint2DataNode(blueprint, searchKeyword, showSetting));
+    children = children.concat(nodes);
   }
 
   return {
@@ -50,10 +54,19 @@ const blueprintGroup2DataNode = (folder: BlueprintGroup, showSetting: boolean): 
   };
 };
 
-export const getBlueprintSettingNodes = (showSetting: boolean = false) => {
+export const getBlueprintSettingNodes = (searchKeyword: string, showSetting: boolean) => {
   const { blueprintGroup, reactionGroup } = data;
   let blueprintSettingNodes: BlueprintDataNode[] = [];
-  blueprintSettingNodes.push(blueprintGroup2DataNode(blueprintGroup, showSetting));
-  blueprintSettingNodes.push(blueprintGroup2DataNode(reactionGroup, showSetting));
+
+  const manufacturingNode = blueprintGroup2DataNode(blueprintGroup, searchKeyword, showSetting);
+  if(manufacturingNode.children && manufacturingNode.children.length > 0){
+    blueprintSettingNodes.push(manufacturingNode);
+  }
+
+  const reactionNode = blueprintGroup2DataNode(reactionGroup, searchKeyword, showSetting);
+  if(reactionNode.children && reactionNode.children.length > 0){
+    blueprintSettingNodes.push(reactionNode);
+  }
+  
   return blueprintSettingNodes;
 }
