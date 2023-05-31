@@ -32,7 +32,6 @@ export const BlueprintSettingPageContext =
   );
 
 const BlueprintSettingPage: React.FC = () => {
-  const [messageApi, contextHolder] = message.useMessage();
   const [blueprint, setBlueprint] = useState<Blueprint | null>(null);
   const [setting, setSetting] = useState<BlueprintSetting>(
     defaultBlueprintSetting
