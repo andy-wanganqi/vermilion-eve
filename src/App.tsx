@@ -1,26 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ConfigProvider } from 'antd';
+import en_GB from 'antd/es/locale/en_GB';
+import 'antd/dist/reset.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Workspace from './Workspace';
+import BlueprintSettingPage from './pages/SettingsPage/BlueprintSettingPage';
+
+const App: React.FC = () => (
+  <ConfigProvider locale={en_GB}>
+    <Workspace>
+      <BlueprintSettingPage />
+    </Workspace>
+  </ConfigProvider>
+);
 
 export default App;
