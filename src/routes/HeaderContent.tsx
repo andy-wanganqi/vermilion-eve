@@ -10,13 +10,9 @@ const items: MenuProps["items"] = [
   {
     key: "profile",
     label: (
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="#"
-      >
+      <span>
         Profile
-      </a>
+      </span>
     ),
     icon: <UserOutlined />,
     disabled: true,
@@ -24,13 +20,9 @@ const items: MenuProps["items"] = [
   {
     key: "signoff",
     label: (
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="#"
-      >
+      <span>
         Sign off
-      </a>
+      </span>
     ),
     icon: <PoweroffOutlined />,
     disabled: true,
