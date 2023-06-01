@@ -1,4 +1,4 @@
-import { Item } from "../../../../types";
+import { Item } from "../../../..";
 
 const StructureMarketNetwork: Item = {
   id: 21963,

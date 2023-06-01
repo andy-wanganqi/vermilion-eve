@@ -13,7 +13,7 @@ import {
   StructureStorageBay,
 } from "../../../Items/ManufactureAndResearch/Components/StructureComponents";
 import Fortizar from "../../../Items/Structures/Citadels/Fortizar";
-import { Blueprint } from "../../../types";
+import { Blueprint } from "../../..";
 
 const FortizarBlueprint: Blueprint = {
   id: 36967,

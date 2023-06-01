@@ -1,4 +1,4 @@
-import { Item } from "../../../../types";
+import { Item } from "../../../..";
 
 const StructureAccelerationCoils: Item = {
   id: 36957,

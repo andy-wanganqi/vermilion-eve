@@ -1,4 +1,4 @@
-import { BlueprintGroup } from "../../types";
+import { BlueprintGroup } from "../../";
 import CaesariumCadmideFormula from "./CaesariumCadmideFormula";
 
 const CompositeReactionFormulas: BlueprintGroup = {

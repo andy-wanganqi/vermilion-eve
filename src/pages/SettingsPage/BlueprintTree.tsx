@@ -4,7 +4,7 @@ import { Space, Tree, Input } from "antd";
 
 import { getBlueprintSettingNodes, BlueprintDataNode } from "./DataProvider";
 import { BlueprintSettingPageContext } from "./BlueprintSettingPage";
-import { Blueprint } from "../../data/types";
+import { Blueprint } from "../../data";
 const { Search } = Input;
 
 const BlueprintTree: React.FC = () => {

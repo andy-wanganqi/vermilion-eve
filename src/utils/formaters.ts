@@ -1,6 +1,6 @@
 import numeral from "numeral";
-import { Material } from "../data/types";
-import { BlueprintSetting } from "../db/types";
+import { Material } from "../data";
+import { BlueprintSetting } from "../db";
 
 export const formatQuantity = (quantity: number) => {
   // return numeral(quantity).format('0,0.00');

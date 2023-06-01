@@ -1,4 +1,4 @@
-import { Item } from "../../../../../types";
+import { Item } from "../../../../..";
 
 const NanoFactory: Item = {
   id: 2869,

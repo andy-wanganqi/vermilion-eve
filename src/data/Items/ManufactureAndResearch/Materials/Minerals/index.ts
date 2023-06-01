@@ -1,4 +1,4 @@
-import { ItemGroup } from '../../../../types';
+import { ItemGroup } from '../../../..';
 import Tritanium from './Tritanium';
 import Pyerite from './Pyerite';
 import Mexallon from './Mexallon';

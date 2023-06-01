@@ -1,4 +1,4 @@
-import { Blueprint } from "../../../../types";
+import { Blueprint } from "../../../..";
 import {
   Tritanium,
   Pyerite,

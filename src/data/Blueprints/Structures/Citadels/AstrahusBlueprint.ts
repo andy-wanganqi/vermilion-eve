@@ -9,7 +9,7 @@ import {
   StructureStorageBay,
 } from "../../../Items/ManufactureAndResearch/Components/StructureComponents";
 import Astrahus from "../../../Items/Structures/Citadels/Astrahus";
-import { Blueprint } from "../../../types";
+import { Blueprint } from "../../..";
 
 
 const AstrahusBlueprint: Blueprint = {

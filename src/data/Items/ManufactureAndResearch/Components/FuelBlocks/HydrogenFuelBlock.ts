@@ -1,4 +1,4 @@
-import { Item } from "../../../../types";
+import { Item } from "../../../..";
 
 const HydrogenFuelBlock: Item = {
   id: 4246,

@@ -1,4 +1,4 @@
-import { Item } from "../../../../../types";
+import { Item } from "../../../../..";
 
 const WetwareMainframe: Item = {
   id: 2876,
