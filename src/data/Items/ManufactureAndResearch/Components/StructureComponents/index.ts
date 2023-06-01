@@ -1,4 +1,4 @@
-import { ItemGroup } from "../../../../types";
+import { ItemGroup } from "../../../..";
 import StructureAccelerationCoils from "./StructureAccelerationCoils";
 import StructureAdvertisementNexus from "./StructureAdvertisementNexus";
 import StructureConstructionParts from "./StructureConstructionParts";

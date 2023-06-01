@@ -3,8 +3,7 @@ import { PercentageOutlined, RightCircleOutlined } from "@ant-design/icons";
 import type { DataNode } from "antd/es/tree";
 import { Space } from "antd";
 
-import { Blueprint, BlueprintGroup } from "../../data/types";
-import data from "../../data";
+import data, { Blueprint, BlueprintGroup } from "../../data";
 import db from "../../db";
 
 export type BlueprintDataNode = DataNode & { blueprint: Blueprint | null };

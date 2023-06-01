@@ -1,4 +1,4 @@
-import { Item } from "../../../types";
+import { Item } from "../../..";
 
 const Astrahus: Item = {
   id: 35832,

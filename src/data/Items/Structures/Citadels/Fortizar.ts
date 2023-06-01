@@ -1,4 +1,4 @@
-import { Item } from "../../../types";
+import { Item } from "../../../";
 
 const Fortizar: Item = {
   id: 35833,

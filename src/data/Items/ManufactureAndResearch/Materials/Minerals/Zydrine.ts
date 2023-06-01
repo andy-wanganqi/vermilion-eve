@@ -1,4 +1,4 @@
-import { Item } from "../../../../types";
+import { Item } from "../../../..";
 
 const Zydrine: Item = {
   id: 39,

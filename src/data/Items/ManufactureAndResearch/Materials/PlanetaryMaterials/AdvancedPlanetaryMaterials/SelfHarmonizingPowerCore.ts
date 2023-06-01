@@ -1,4 +1,4 @@
-import { Item } from "../../../../../types";
+import { Item } from "../../../../..";
 
 const SelfHarmonizingPowerCore: Item = {
   id: 2872,

@@ -2,7 +2,7 @@ import OxygenFuelBlock from "../../Items/ManufactureAndResearch/Components/FuelB
 import CaesariumCadmide from "../../Items/ManufactureAndResearch/Materials/ReactionMaterials/ProcessedMoonMaterials/CaesariumCadmide";
 import Cadmium from "../../Items/ManufactureAndResearch/Materials/ReactionMaterials/RawMoonMaterials/Cadmium";
 import Caesium from "../../Items/ManufactureAndResearch/Materials/ReactionMaterials/RawMoonMaterials/Caesium";
-import { Blueprint } from "../../types";
+import { Blueprint } from "../../";
 
 const CaesariumCadmideFormula: Blueprint = {
   id: 46166,

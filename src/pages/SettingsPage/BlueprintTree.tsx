@@ -1,15 +1,17 @@
 import React, { useContext, useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { DownOutlined, FileOutlined } from "@ant-design/icons";
 import { Space, Tree, Input } from "antd";
 
 import { getBlueprintSettingNodes, BlueprintDataNode } from "./DataProvider";
-import { BlueprintSettingPageContext } from "./BlueprintSettingPage";
-import { Blueprint } from "../../data/types";
+import { SettingsPageContext } from ".";
+import { Blueprint } from "../../data";
 const { Search } = Input;
 
 const BlueprintTree: React.FC = () => {
-  const { blueprintSettingsVisibility, setBlueprint } = useContext(
-    BlueprintSettingPageContext
+  const navigate = useNavigate();
+  const { blueprintSettingsVisibility } = useContext(
+    SettingsPageContext
   );
   const [searchKeyword, setSearchKeyword] = useState('');
   const initBlueprintSettingNodes: BlueprintDataNode[] = [];
@@ -20,7 +22,7 @@ const BlueprintTree: React.FC = () => {
   const onSelect = (selectedKeys: React.Key[], info: any) => {
     const blueprint: Blueprint | null = info.node.blueprint;
     if (blueprint) {
-      setBlueprint(blueprint);
+      navigate(`/settings/blueprint/${blueprint.id}`);
     }
   };
 

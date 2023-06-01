@@ -1,10 +1,10 @@
 import React from "react";
 import { Collapse, Space, Image, Row, Col, Typography  } from "antd";
 
-import { Blueprint } from "../../data/types";
+import { Blueprint } from "../../data";
 import { fallbackImage } from "../../assets/strings";
 import { formatMaterial, formatMaterialWithSetting } from "../../utils/formaters";
-import { BlueprintSetting } from "../../db/types";
+import { BlueprintSetting } from "../../db";
 
 const { Title } = Typography;
 

@@ -1,4 +1,4 @@
-import { Item } from "../../../../types";
+import { Item } from "../../../..";
 
 const StructureExertConduitCoupler: Item = {
   id: 49720,
