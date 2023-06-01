@@ -1,4 +1,4 @@
-import { BlueprintGroup } from "../../../types";
+import { BlueprintGroup } from "../../..";
 import AstrahusBlueprint from "./AstrahusBlueprint";
 import FortizarBlueprint from "./FortizarBlueprint";
 

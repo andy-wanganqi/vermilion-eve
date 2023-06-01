@@ -1,4 +1,4 @@
-import { ItemGroup } from '../../../../../types';
+import { ItemGroup } from '../../../../..';
 import BroadcastNode from './BroadcastNode';
 import IntegrityResponseDrones from './IntegrityResponseDrones';
 import NanoFactory from './NanoFactory';

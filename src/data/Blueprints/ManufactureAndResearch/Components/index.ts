@@ -1,4 +1,4 @@
-import { BlueprintGroup } from "../../../types";
+import { BlueprintGroup } from "../../..";
 import StructureComponents from "./StructureComponents";
 
 const ComponentsBlueprints: BlueprintGroup = {

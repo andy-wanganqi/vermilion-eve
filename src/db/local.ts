@@ -1,4 +1,4 @@
-import { BlueprintSetting, defaultBlueprintSetting } from "./types";
+import { BlueprintSetting, defaultBlueprintSetting } from ".";
 
 const getBlueprintSettingKey = (id: number) => `bsk${id}`;
 

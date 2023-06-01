@@ -1,6 +1,7 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import type { MenuProps } from 'antd';
-import { Layout, Menu, theme } from 'antd';
+import { Layout, Menu, theme, ConfigProvider } from 'antd';
 import {
   AppstoreOutlined,
   BarChartOutlined,
@@ -12,6 +13,7 @@ import {
   VideoCameraOutlined,
 } from '@ant-design/icons';
 import 'antd/dist/reset.css';
+import en_GB from 'antd/es/locale/en_GB';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -36,6 +38,7 @@ const Workspace: React.FC<React.PropsWithChildren> = (props: React.PropsWithChil
   } = theme.useToken();
 
   return (
+    <ConfigProvider locale={en_GB}>
     <Layout hasSider>
       <Sider
         style={{
@@ -54,12 +57,13 @@ const Workspace: React.FC<React.PropsWithChildren> = (props: React.PropsWithChil
         <Header style={{ padding: 0, background: colorBgContainer }} />
         <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
           <div style={{ padding: 24, background: colorBgContainer }}>
-            {props.children}
+            <Outlet />
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>Ant Design ©2023 Created by Ant UED</Footer>
       </Layout>
     </Layout>
+    </ConfigProvider>
   )
 };
 

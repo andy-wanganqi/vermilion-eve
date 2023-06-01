@@ -1,4 +1,4 @@
-import { Item } from "../../../../types";
+import { Item } from "../../../..";
 
 const StructureElectromagneticSensor: Item = {
   id: 36956,

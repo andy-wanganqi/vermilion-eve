@@ -1,4 +1,4 @@
-import { ItemGroup } from '../../../types';
+import { ItemGroup } from '../../../';
 import Astrahus from './Astrahus';
 import Fortizar from './Fortizar';
 

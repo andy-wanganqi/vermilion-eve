@@ -4,8 +4,8 @@ import { Tabs } from "antd";
 import type { TabsProps } from "antd";
 
 import BlueprintIndustryFlowView from "./BlueprintIndustryFlowView";
-import { Blueprint } from "../../data/types";
-import { BlueprintSetting } from "../../db/types";
+import { Blueprint } from "../../data";
+import { BlueprintSetting } from "../../db";
 
 
 export interface BlueprintViewProps {

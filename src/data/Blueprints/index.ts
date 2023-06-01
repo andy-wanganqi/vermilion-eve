@@ -1,4 +1,4 @@
-import { BlueprintGroup } from "../types";
+import { BlueprintGroup } from "..";
 import ManufactureAndResearchBlueprints from "./ManufactureAndResearch";
 import StructuresBlueprints from "./Structures";
 

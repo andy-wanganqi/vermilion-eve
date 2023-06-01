@@ -1,4 +1,4 @@
-import { BlueprintGroup } from "../types";
+import { BlueprintGroup } from "..";
 import CompositeReactionFormulas from "./Composite";
 
 const ReactionFormulas: BlueprintGroup = {

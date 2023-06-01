@@ -1,4 +1,4 @@
-import { ItemGroup } from '../../../../types';
+import { ItemGroup } from '../../../..';
 import HeliumFuelBlock from './HeliumFuelBlock';
 import HydrogenFuelBlock from './HydrogenFuelBlock';
 import NitrogenFuelBlock from './NitrogenFuelBlock';

@@ -1,4 +1,4 @@
-import { BlueprintGroup } from "../../../../types";
+import { BlueprintGroup } from "../../../..";
 import StructureAccelerationCoilsBlueprint from "./StructureAccelerationCoilsBlueprint";
 import StructureAdvertisementNexusBlueprint from "./StructureAdvertisementNexusBlueprint";
 import StructureConstructionPartsBlueprint from "./StructureConstructionPartsBlueprint";

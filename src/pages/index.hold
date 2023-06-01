@@ -1,7 +1,0 @@
-import BlueprintSettingPage from './SettingsPage/BlueprintSettingPage';
-
-const pages = {
-  BlueprintSettingPage,
-};
-
-export default pages;
