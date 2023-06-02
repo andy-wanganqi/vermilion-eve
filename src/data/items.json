@@ -6,21 +6,282 @@
       {
         "name": "Citadels",
         "cn": "堡垒",
+        "subgroups": [
+          {
+            "name": "Standard Citadels",
+            "cn": "标准堡垒",
+            "items": [
+              {
+                "name": "Astrahus",
+                "cn": "空堡",
+                "id": 35832
+              },
+              {
+                "name": "Fortizar",
+                "cn": "铁壁",
+                "id": 35833
+              },
+              {
+                "name": "Starkeep",
+                "cn": "星城",
+                "id": 35834
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Navigation Structures",
+        "cn": "导航建筑",
         "items": [
           {
-            "name": "Astrahus",
-            "cn": "空堡",
-            "id": 35832
+            "name": "Ansiblex Jump Gate",
+            "cn": "安塞波跳跃星门",
+            "id": 35841
           },
           {
-            "name": "Fortizar",
-            "cn": "铁壁",
-            "id": 35833
+            "name": "Pharolux Cyno Beacon",
+            "cn": "明灯诱导信标",
+            "id": 35840
           },
           {
-            "name": "Starkeep",
-            "cn": "星城",
-            "id": 35834
+            "name": "Tenebrex Cyno Jammer",
+            "cn": "暗影诱导干扰塔",
+            "id": 37534
+          }
+        ]
+      },
+      {
+        "name": "Engineering Complexes",
+        "cn": "工程复合体",
+        "items": [
+          {
+            "name": "Raitaru",
+            "cn": "莱塔卢",
+            "id": 35825
+          },
+          {
+            "name": "Azbel",
+            "cn": "阿兹贝尔",
+            "id": 35826
+          },
+          {
+            "name": "Sotiyo",
+            "cn": "索迪约",
+            "id": 35827
+          }
+        ]
+      },
+      {
+        "name": "Refineries",
+        "cn": "精炼厂",
+        "items": [
+          {
+            "name": "Athanor",
+            "cn": "阿塔诺",
+            "id": 35835
+          },
+          {
+            "name": "Tatara",
+            "cn": "塔塔拉",
+            "id": 35836
+          }
+        ]
+      },
+      {
+        "name": "Sovereignty Structures",
+        "cn": "主权设施",
+        "subgroups": [
+          {
+            "name": "Territorial Claim Units",
+            "cn": "主权宣布设施",
+            "items": [
+              {
+                "name": "Territorial Claim Unit",
+                "cn": "主权宣布设施",
+                "id": 32226
+              }
+            ]
+          },
+          {
+            "name": "Infrastructure Hubs",
+            "cn": "基础设施中心",
+            "items": [
+              {
+                "name": "Infrastructure Hub",
+                "cn": "基础设施中心",
+                "id": 32458
+              }
+            ]
+          },
+          {
+            "name": "Infrastructure Upgrades",
+            "cn": "基础设施升级",
+            "subgroups": [
+              {
+                "name": "Industrial Upgrades",
+                "cn": "工业升级",
+                "items": [
+                  {
+                    "name": "Ore Prospecting Array 1",
+                    "cn": "矿石勘探阵列 1",
+                    "id": 2040
+                  },
+                  {
+                    "name": "Ore Prospecting Array 2",
+                    "cn": "矿石勘探阵列 2",
+                    "id": 2041
+                  },
+                  {
+                    "name": "Ore Prospecting Array 3",
+                    "cn": "矿石勘探阵列 3",
+                    "id": 2042
+                  },
+                  {
+                    "name": "Ore Prospecting Array 4",
+                    "cn": "矿石勘探阵列 4",
+                    "id": 2043
+                  },
+                  {
+                    "name": "Ore Prospecting Array 5",
+                    "cn": "矿石勘探阵列 5",
+                    "id": 2044
+                  },
+                  {
+                    "name": "Survey Networks 1",
+                    "cn": "勘探网络 1",
+                    "id": 2053
+                  },
+                  {
+                    "name": "Survey Networks 2",
+                    "cn": "勘探网络 2",
+                    "id": 2054
+                  },
+                  {
+                    "name": "Survey Networks 3",
+                    "cn": "勘探网络 3",
+                    "id": 2055
+                  },
+                  {
+                    "name": "Survey Networks 4",
+                    "cn": "勘探网络 4",
+                    "id": 2056
+                  },
+                  {
+                    "name": "Survey Networks 5",
+                    "cn": "勘探网络 5",
+                    "id": 2057
+                  }
+                ]
+              },
+              {
+                "name": "Military Upgrades",
+                "cn": "军事升级",
+                "items": [
+                  {
+                    "name": "Entrapment Array 1",
+                    "cn": "诱捕阵列 1",
+                    "id": 2031
+                  },
+                  {
+                    "name": "Entrapment Array 2",
+                    "cn": "诱捕阵列 2",
+                    "id": 2034
+                  },
+                  {
+                    "name": "Entrapment Array 3",
+                    "cn": "诱捕阵列 3",
+                    "id": 2035
+                  },
+                  {
+                    "name": "Entrapment Array 4",
+                    "cn": "诱捕阵列 4",
+                    "id": 2036
+                  },
+                  {
+                    "name": "Entrapment Array 5",
+                    "cn": "诱捕阵列 5",
+                    "id": 2037
+                  },
+                  {
+                    "name": "Pirate Detection Array 1",
+                    "cn": "游寇监测阵列 1",
+                    "id": 2026
+                  },
+                  {
+                    "name": "Pirate Detection Array 2",
+                    "cn": "游寇监测阵列 2",
+                    "id": 2027
+                  },
+                  {
+                    "name": "Pirate Detection Array 3",
+                    "cn": "游寇监测阵列 3",
+                    "id": 2028
+                  },
+                  {
+                    "name": "Pirate Detection Array 4",
+                    "cn": "游寇监测阵列 4",
+                    "id": 2029
+                  },
+                  {
+                    "name": "Pirate Detection Array 5",
+                    "cn": "游寇监测阵列 5",
+                    "id": 2030
+                  },
+                  {
+                    "name": "Quantum Flux Generator 1",
+                    "cn": "量子通量发生器 1",
+                    "id": 2058
+                  },
+                  {
+                    "name": "Quantum Flux Generator 2",
+                    "cn": "量子通量发生器 2",
+                    "id": 2059
+                  },
+                  {
+                    "name": "Quantum Flux Generator 3",
+                    "cn": "量子通量发生器 3",
+                    "id": 2060
+                  },
+                  {
+                    "name": "Quantum Flux Generator 4",
+                    "cn": "量子通量发生器 4",
+                    "id": 2061
+                  },
+                  {
+                    "name": "Quantum Flux Generator 5",
+                    "cn": "量子通量发生器 5",
+                    "id": 2062
+                  }
+                ]
+              },
+              {
+                "name": "Strategic Upgrades",
+                "cn": "战略升级",
+                "items": [
+                  {
+                    "name": "Advanced Logicstics Network",
+                    "cn": "高级后勤网络",
+                    "id": 32422
+                  },
+                  {
+                    "name": "Cynosual Navigation",
+                    "cn": "诱导力场导航系统",
+                    "id": 2008
+                  },
+                  {
+                    "name": "Cynosual Suppression",
+                    "cn": "诱导力场压制",
+                    "id": 2001
+                  },
+                  {
+                    "name": "Supercapital Construction Facilities",
+                    "cn": "超级旗舰建造设施",
+                    "id": 2009
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
