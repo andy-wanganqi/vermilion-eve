@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useLoaderData, LoaderFunction } from "react-router-dom";
 import {
   Descriptions,
@@ -13,8 +13,7 @@ import {
 
 import BlueprintView from "../../components/BlueprintView";
 import { fallbackImage } from "../../assets/strings";
-import db, { BlueprintSetting, defaultBlueprintSetting } from "../../db";
-import { Blueprint, findBlueprint } from "../../data";
+import { Blueprint, BlueprintSetting, defaultBlueprintSetting, findBlueprint } from "../../data";
 const { Title } = Typography;
 
 export const blueprintLoader: LoaderFunction = ({params}) => {
@@ -37,26 +36,17 @@ const BlueprintPreview: React.FC = () => {
       | React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
     if (blueprint) {
-      db.setBlueprintSetting(blueprint.id, setting);
       message.success(
         `Successfully saved blueprint setting of ${blueprint.name}`
       );
     }
   };
 
-  const [setting, setSetting] = useState<BlueprintSetting>(
-    defaultBlueprintSetting
+  const [setting, setSetting] = useState<BlueprintSetting>(defaultBlueprintSetting
   );
 
   const materiaEfficiencyDisabled = !blueprint?.manufacturing;
   const defaultRunsDisabled = !blueprint;
-
-  useEffect(() => {
-    if (blueprint) {
-      const setting = db.getBlueprintSetting(blueprint.id);
-      setSetting(setting);
-    }
-  }, [blueprint]);
 
   return (
     <>

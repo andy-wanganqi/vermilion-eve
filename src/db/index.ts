@@ -1,16 +1,22 @@
 import * as local from './local';
 
-export interface BlueprintSetting {
-  materialEfficiency: number;
-  defaultRuns: number;
-};
-
-export const defaultBlueprintSetting: BlueprintSetting = {
-  materialEfficiency: 0,
-  defaultRuns: 1,
+//Blueprint Setting
+export interface BS {
+  //Key
+  K: number;
+  //Material Effeciency
+  M: number;
+  //Default Runs
+  D: number;
+}
+export const defaultBS = {
+  M: 0,
+  D: 1,
 };
 
 const db = {
+  getBlueprintSettings: local.getBlueprintSettings,
+  setBlueprintSettings: local.setBlueprintSettings,
   getBlueprintSetting: local.getBlueprintSetting,
   setBlueprintSetting: local.setBlueprintSetting,
 };

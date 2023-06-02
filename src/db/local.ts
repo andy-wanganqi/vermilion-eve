@@ -1,20 +1,60 @@
-import { BlueprintSetting, defaultBlueprintSetting } from ".";
+import { BS, defaultBS } from ".";
 
-const getBlueprintSettingKey = (id: number) => `bsk${id}`;
+const BlueprintSettingsKey = "BSsK";
+let BSArrayCache: BS[] | null = null;
+let BSMapCache = new Map<number, BS>();
 
-export const getBlueprintSetting = (id: number): BlueprintSetting => {
-  const key = getBlueprintSettingKey(id);
-  const settingStr = localStorage.getItem(key); 
-  if (settingStr) {
-    const setting = JSON.parse(settingStr) as BlueprintSetting;
-    return setting;
-  } else {
-    return defaultBlueprintSetting;
+const UpdateBSs = (BSs: BS[]) => {
+  BSArrayCache = BSs;
+  BSs.forEach((bs)=>{
+    BSMapCache.set(bs.K, bs);
+  });
+}
+
+export const getBlueprintSettings = (): BS[] => {
+  if (BSArrayCache) {
+    return BSArrayCache;
   }
+
+  const str = localStorage.getItem(BlueprintSettingsKey);
+  if (str) {
+    BSArrayCache = JSON.parse(str) as BS[];
+  }
+
+  return BSArrayCache ?? [];
 };
 
-export const setBlueprintSetting = (id: number, setting: BlueprintSetting) => {
-  const key = getBlueprintSettingKey(id);
-  const settingStr = JSON.stringify(setting);
-  localStorage.setItem(key, settingStr); 
+export const setBlueprintSettings = (BSs: BS[]) => {
+  if (!BSs) {
+    return;
+  }
+
+  const filteredSettings = BSs.filter(
+    (s) => s.M !== defaultBS.M || s.D !== defaultBS.D
+  );
+  const filteredSettingsStr = JSON.stringify(filteredSettings);
+  localStorage.setItem(BlueprintSettingsKey, filteredSettingsStr);
+  UpdateBSs(filteredSettings);
+};
+
+export const getBlueprintSetting = (id: number) => {
+  const BSs = getBlueprintSettings();
+  const index = BSs?.findIndex((bs) => bs.K === id);
+  return index < 0
+    ? {
+        ...defaultBS,
+        K: id,
+      }
+    : BSs[index];
+};
+
+export const setBlueprintSetting = (bs: BS) => {
+  const BSs = getBlueprintSettings();
+  const index = BSs?.findIndex((a) => a.K === bs.K);
+  if (index < 0) {
+    BSs.push(bs);
+  } else {
+    BSs[index] = bs;
+  }
+  setBlueprintSettings(BSs);
 };
