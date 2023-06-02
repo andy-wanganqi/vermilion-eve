@@ -4,7 +4,7 @@ const BlueprintSettingsKey = "BSsK";
 let BSArrayCache: BS[] | null = null;
 let BSMapCache = new Map<number, BS>();
 
-const UpdateBSs = (BSs: BS[]) => {
+const updateBSs = (BSs: BS[]) => {
   BSArrayCache = BSs;
   BSs.forEach((bs)=>{
     BSMapCache.set(bs.K, bs);
@@ -34,7 +34,7 @@ export const setBlueprintSettings = (BSs: BS[]) => {
   );
   const filteredSettingsStr = JSON.stringify(filteredSettings);
   localStorage.setItem(BlueprintSettingsKey, filteredSettingsStr);
-  UpdateBSs(filteredSettings);
+  updateBSs(filteredSettings);
 };
 
 export const getBlueprintSetting = (id: number) => {

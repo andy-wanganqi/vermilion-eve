@@ -10,6 +10,7 @@ export interface BS {
   D: number;
 }
 export const defaultBS = {
+  K: 0,
   M: 0,
   D: 1,
 };

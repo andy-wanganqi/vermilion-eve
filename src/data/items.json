@@ -1,0 +1,311 @@
+[
+  {
+    "name": "Structures",
+    "cn": "建筑",
+    "subgroups": [
+      {
+        "name": "Citadels",
+        "cn": "堡垒",
+        "items": [
+          {
+            "name": "Astrahus",
+            "cn": "空堡",
+            "id": 35832
+          },
+          {
+            "name": "Fortizar",
+            "cn": "铁壁",
+            "id": 35833
+          },
+          {
+            "name": "Starkeep",
+            "cn": "星城",
+            "id": 35834
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manufacture & Research",
+    "cn": "制造与研究",
+    "subgroups": [
+      {
+        "name": "Components",
+        "cn": "组件",
+        "subgroups": [
+          {
+            "name": "FuelBlocks",
+            "cn": "燃料块",
+            "items": [
+              {
+                "name": "Helium Fuel Block",
+                "cn": "氦燃料块",
+                "id": 4247
+              },
+              {
+                "name": "Hydrogen Fuel Block",
+                "cn": "氢燃料块",
+                "id": 4246
+              },
+              {
+                "name": "Nitrogen Fuel Block",
+                "cn": "氮燃料块",
+                "id": 4051
+              },
+              {
+                "name": "Oxygen Fuel Block",
+                "cn": "氧燃料块",
+                "id": 4312
+              }
+            ]
+          },
+          {
+            "name": "StructureComponents",
+            "cn": "建筑组件",
+            "items": [
+              {
+                "name": "Structure Acceleration Coils",
+                "cn": "建筑加速线圈",
+                "id": 36957
+              },
+              {
+                "name": "Structure Advertisement Nexus",
+                "cn": "建筑宣传节点",
+                "id": 36958
+              },
+              {
+                "name": "Structure Construction Parts",
+                "cn": "建筑建造组件",
+                "id": 21947
+              },
+              {
+                "name": "Structure Docking Bay",
+                "cn": "建筑停泊港",
+                "id": 21961
+              },
+              {
+                "name": "Structure Electromagnetic Sensor",
+                "cn": "建筑磁力感应器",
+                "id": 36956
+              },
+              {
+                "name": "Structure EXERT Conduit Coupler",
+                "cn": "建筑导管联结器",
+                "id": 49720
+              },
+              {
+                "name": "Structure Factory",
+                "cn": "建筑工厂",
+                "id": 21955
+              },
+              {
+                "name": "Structure Hangar Array",
+                "cn": "建筑机库阵列",
+                "id": 21949
+              },
+              {
+                "name": "Structure Laboratory",
+                "cn": "建筑实验室",
+                "id": 21953
+              },
+              {
+                "name": "Structure Market Network",
+                "cn": "建筑市场网络",
+                "id": 21963
+              },
+              {
+                "name": "Structure Medical Center",
+                "cn": "建筑医疗中心",
+                "id": 21965
+              },
+              {
+                "name": "Structure Mission Network",
+                "cn": "建筑任务网络",
+                "id": 36957
+              },
+              {
+                "name": "Structure Office Center",
+                "cn": "建筑办公室中心",
+                "id": 21967
+              },
+              {
+                "name": "Structure Repair Facility",
+                "cn": "建筑维修设施",
+                "id": 21957
+              },
+              {
+                "name": "Structure Reprocessing Plant",
+                "cn": "建筑提炼工厂",
+                "id": 21959
+              },
+              {
+                "name": "Structure Storage Bay",
+                "cn": "建筑贮藏舱",
+                "id": 21951
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Materials",
+        "cn": "材料",
+        "subgroups": [
+          {
+            "name": "Minerals",
+            "cn": "矿物",
+            "items": [
+              {
+                "name": "Tritanium",
+                "cn": "三钛合金",
+                "id": 34
+              },
+              {
+                "name": "Pyerite",
+                "cn": "类晶体胶矿",
+                "id": 35
+              },
+              {
+                "name": "Mexallon",
+                "cn": "类银超金属",
+                "id": 36
+              },
+              {
+                "name": "Isogen",
+                "cn": "同位聚合体",
+                "id": 37
+              },
+              {
+                "name": "Nocxium",
+                "cn": "超新星诺克石",
+                "id": 38
+              },
+              {
+                "name": "Zydrine",
+                "cn": "晶状石英核岩",
+                "id": 39
+              },
+              {
+                "name": "Megacyte",
+                "cn": "超噬矿",
+                "id": 40
+              }
+            ]
+          },
+          {
+            "name": "Planetary Minerals",
+            "cn": "行星材料",
+            "subgroups": [
+              {
+                "name": "Advanced Planetary Minerals",
+                "cn": "高级行星材料",
+                "items": [
+                  {
+                    "name": "Broadcast Node",
+                    "cn": "广播节点",
+                    "id": 2867
+                  },
+                  {
+                    "name": "Integrity Response Drones",
+                    "cn": "反破损快速反应无人机",
+                    "id": 2868
+                  },
+                  {
+                    "name": "Nano-Factory",
+                    "cn": "纳米-工厂",
+                    "id": 2869
+                  },
+                  {
+                    "name": "Organic Mortar Applicators",
+                    "cn": "有机砂浆喷注器",
+                    "id": 2870
+                  },
+                  {
+                    "name": "Recursive Computing Module",
+                    "cn": "递推计算模块",
+                    "id": 2871
+                  },
+                  {
+                    "name": "Self-Harmonizing Power Core",
+                    "cn": "自协调能源核心",
+                    "id": 2872
+                  },
+                  {
+                    "name": "Sterile Conduits",
+                    "cn": "无菌管道",
+                    "id": 2875
+                  },
+                  {
+                    "name": "Wetware Mainframe",
+                    "cn": "湿件主机",
+                    "id": 2876
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Reaction Materials",
+            "cn": "反应材料",
+            "subgroups": [
+              {
+                "name": "Processed Moon Materials",
+                "cn": "加工过的月矿材料?",
+                "items": [
+                  {
+                    "name": "Caesarium Cadmide",
+                    "cn": "镉化铯",
+                    "id": 16663
+                  }
+                ]
+              },
+              {
+                "name": "Raw Moon Materials",
+                "cn": "原始月矿材料?",
+                "items": [
+                  {
+                    "name": "Cadmium",
+                    "cn": "镉",
+                    "id": 16643
+                  },
+                  {
+                    "name": "Caesium",
+                    "cn": "铯",
+                    "id": 16647
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "R.A.M.",
+        "cn": "R.A.M."
+      }
+    ]
+  },
+  {
+    "name": "Trade Goods",
+    "cn": "交易物品?",
+    "subgroups": [
+      {
+        "name": "Passengers",
+        "cn": "乘客?",
+        "items": [
+          {
+            "name": "Marines",
+            "cn": "海军陆战队员?",
+            "id": 3810
+          },
+          {
+            "name": "Janitor",
+            "cn": "看门人?",
+            "id": 13267
+          }
+        ]
+      }
+    ]
+  }
+]

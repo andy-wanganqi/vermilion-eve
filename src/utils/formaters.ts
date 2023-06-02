@@ -1,5 +1,6 @@
 import numeral from "numeral";
-import { BlueprintSetting, Material } from "../data";
+import { BS } from "../db";
+import { Material } from "../data/blueprints";
 
 export const formatQuantity = (quantity: number) => {
   // return numeral(quantity).format('0,0.00');
@@ -10,9 +11,9 @@ export const formatMaterial = (material: Material) => {
   return `${formatQuantity(material.quantity)} x ${material.item.name}`;
 };
 
-export const formatMaterialWithSetting = (material: Material, setting: BlueprintSetting) => {
-  const calcQuantity = material.quantity * setting.defaultRuns * (1 - setting.materialEfficiency / 100.0);
-  const quantity = Math.max(Math.ceil(calcQuantity), setting.defaultRuns);
+export const formatMaterialWithSetting = (material: Material, blueprintSetting: BS) => {
+  const calcQuantity = material.quantity * blueprintSetting.D * (1 - blueprintSetting.M / 100.0);
+  const quantity = Math.max(Math.ceil(calcQuantity), blueprintSetting.D);
 
   return `${formatQuantity(quantity)} x ${material.item.name}`;
 };

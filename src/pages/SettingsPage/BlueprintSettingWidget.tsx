@@ -8,8 +8,8 @@ import {
 import { Space, Tree, Input, InputNumber, Button, message } from "antd";
 import { DataNode } from "antd/es/tree";
 
-import { Blueprint, BlueprintGroup, allBlueprintGroups } from "../../data";
 import db, { BS } from "../../db";
+import { Blueprint, BlueprintGroup, getBlueprintTreeRoots } from "../../data/blueprints";
 const { Search } = Input;
 
 type BlueprintDataNodeType = DataNode & { blueprint: Blueprint | null };
@@ -192,9 +192,10 @@ const getBlueprintSettingNodes = (
   selectedKeys: React.Key[]
 ) => {
   let expandedKeys: (string | number)[] = [];
-  const dataNodes = allBlueprintGroups
-    .map((blueprintGroup) =>
-      blueprintGroup2DataNode(blueprintGroup, selectedKeys, searchKeyword, 0)
+  const treeRoots = getBlueprintTreeRoots();
+  const dataNodes = treeRoots
+    .map((group) =>
+      blueprintGroup2DataNode(group, selectedKeys, searchKeyword, 0)
     )
     .filter(
       (node) => node.dataNode.children && node.dataNode.children.length > 0
