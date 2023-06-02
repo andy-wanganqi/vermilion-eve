@@ -1,4 +1,4 @@
-import React, { memo, useMemo, useState } from "react";
+import React, { memo, useMemo, useState, useTransition } from "react";
 import {
   DownOutlined,
   FileOutlined,
@@ -19,7 +19,6 @@ interface BlueprintDataNodeTitleProps {
   blueprintSetting: BS;
   selected: boolean;
 }
-
 const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
   const { blueprint, blueprintSetting, selected } = props;
   const materiaEfficiencyDisabled = !blueprint?.manufacturing;
@@ -128,6 +127,7 @@ const blueprintGroup2DataNode = (
     expandedKeys.push(blueprintGroup.name);
   }
 
+  // Work through sub groups
   if (blueprintGroup.subgroups) {
     const refineSearchKeyword =
       searchKeyword === ""
@@ -136,7 +136,14 @@ const blueprintGroup2DataNode = (
         ? ""
         : searchKeyword;
     const subnodes = blueprintGroup.subgroups
-      .map((subgroup) => blueprintGroup2DataNode(subgroup,selectedKeys, refineSearchKeyword, level + 1)      )
+      .map((subgroup) =>
+        blueprintGroup2DataNode(
+          subgroup,
+          selectedKeys,
+          refineSearchKeyword,
+          level + 1
+        )
+      )
       .filter(
         (subgroup) =>
           subgroup.dataNode.children && subgroup.dataNode.children.length > 0
@@ -148,6 +155,8 @@ const blueprintGroup2DataNode = (
       );
     }
   }
+
+  // Work through blueprints
   if (blueprintGroup.blueprints) {
     const nodes = blueprintGroup.blueprints
       .filter(
@@ -195,28 +204,28 @@ const getBlueprintSettingNodes = (
 };
 
 const BlueprintSettingWidget: React.FC = () => {
+  const [, startTransition] = useTransition();
   const initKeyword = "";
   const [searchKeyword, setSearchKeyword] = useState(initKeyword);
   const initSelectedKeys: React.Key[] = [];
   const [selectedKeys, setSelectedKeys] = useState(initSelectedKeys);
 
   const onSelect = (selectedKeys: React.Key[], info: any) => {
-    if(selectedKeys.length > 0) {
-      setSelectedKeys(selectedKeys);
+    if (selectedKeys.length > 0) {
+      startTransition(() => {
+        setSelectedKeys(selectedKeys);
+      });
     }
     // const blueprint: Blueprint | null = info.node.blueprint;
-    // if (blueprint) {
-    //   navigate(`/settings/blueprint/${blueprint.id}`);
-    // }
   };
 
-  console.time('getBlueprintSettingNodes');
-  const { expandedKeys, treeData } = useMemo(() => getBlueprintSettingNodes(
-    searchKeyword,
-    selectedKeys
-  ), [searchKeyword, selectedKeys]);
-  console.timeEnd('getBlueprintSettingNodes');
-  
+  // console.time('getBlueprintSettingNodes');
+  const { expandedKeys, treeData } = useMemo(
+    () => getBlueprintSettingNodes(searchKeyword, selectedKeys),
+    [searchKeyword, selectedKeys]
+  );
+  // console.timeEnd('getBlueprintSettingNodes');
+
   return (
     <Space direction="vertical" style={{ width: "100%" }}>
       <Search
