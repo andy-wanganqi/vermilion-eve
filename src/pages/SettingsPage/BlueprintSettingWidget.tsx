@@ -6,43 +6,59 @@ import {
   RightCircleOutlined,
 } from "@ant-design/icons";
 import { Space, Tree, Input, InputNumber, Button, message } from "antd";
+import { DataNode } from "antd/es/tree";
 
 import { Blueprint, BlueprintGroup, allBlueprintGroups } from "../../data";
-import { DataNode } from "antd/es/tree";
+import db, { BS } from '../../db';
 const { Search } = Input;
 
 type BlueprintDataNodeType = DataNode & { blueprint: Blueprint | null };
 
 interface BlueprintDataNodeTitleProps {
   blueprint: Blueprint;
+  blueprintSetting: BS;
 }
 
 const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
-  const { blueprint } = props;
+  const { blueprint, blueprintSetting } = props;
+  const materiaEfficiencyDisabled = !blueprint?.manufacturing;
+  const [bs, setBS] = useState(blueprintSetting);
+  
   return (
     <Space>
       <span>{blueprint.name}</span>
       <InputNumber
         size="small"
         style={{ width: "120px" }}
-        disabled={false}
+        disabled={materiaEfficiencyDisabled}
         addonBefore={<PercentageOutlined />}
         min={0}
         max={10}
+        value={bs.M}
+        onChange={(value: number | null) => {
+          if(value) {
+            setBS({...bs, M: value})
+          }
+        }}
       />
       <InputNumber
         size="small"
         style={{ width: "160px" }}
-        disabled={false}
         addonBefore={<RightCircleOutlined />}
         min={1}
         max={9999999}
+        value={bs.D}
+        onChange={(value: number | null) => {
+          if(value) {
+            setBS({...bs, D: value})
+          }
+        }}
       />
       <Button
         type="primary"
         size="small"
         onClick={() => {
-          // db.setBlueprintSetting(blueprint.id, setting);
+          db.setBlueprintSetting(bs);
           message.success(
             `Successfully saved blueprint setting of ${blueprint.name}`
           );
@@ -54,9 +70,9 @@ const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
   );
 };
 
-const blueprint2DataNode = (blueprint: Blueprint): BlueprintDataNodeType => {
+const blueprint2DataNode = (blueprint: Blueprint, blueprintSetting: BS): BlueprintDataNodeType => {
   // const setting = db.getBlueprintSetting(blueprint.id);
-  const title = <BlueprintDataNodeTitle blueprint={blueprint} />;
+  const title = <BlueprintDataNodeTitle blueprint={blueprint} blueprintSetting={blueprintSetting} />;
 
   return {
     title,
@@ -106,7 +122,10 @@ const blueprintGroup2DataNode = (
           searchKeyword.trim() === "" ||
           blueprint.name.indexOf(searchKeyword) >= 0
       )
-      .map((blueprint) => blueprint2DataNode(blueprint));
+      .map((blueprint) => {
+        const blueprintSetting = db.getBlueprintSetting(blueprint.id);
+        return blueprint2DataNode(blueprint, blueprintSetting);
+      });
     children = children.concat(nodes);
   }
 
