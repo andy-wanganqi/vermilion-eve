@@ -58,3 +58,19 @@ export const setBlueprintSetting = (bs: BS) => {
   }
   setBlueprintSettings(BSs);
 };
+
+export const cacheBlueprintSetting = (bs: BS) => {
+  const BSs = getBlueprintSettings();
+  const index = BSs?.findIndex((a) => a.K === bs.K);
+  if (index < 0) {
+    BSs.push(bs);
+  } else {
+    BSs[index] = bs;
+  }
+};
+
+export const saveCachedBlueprintSettings = () => {
+  if(BSArrayCache){
+    setBlueprintSettings(BSArrayCache);
+  }
+};

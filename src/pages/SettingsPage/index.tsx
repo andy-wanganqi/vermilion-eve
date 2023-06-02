@@ -1,11 +1,12 @@
 import React from "react";
-import { Col, Row, Anchor, Card, Space, Image } from "antd";
+import { Col, Row, Anchor, Card, Space, Image, Button, message } from "antd";
 
 import BlueprintSettingWidget from "./BlueprintSettingWidget";
 import StructureModificationSettingWidget from "./StructureModificationSettingWidget";
 import { fallbackImage } from "../../assets/strings";
 import blueprintImage from "../../assets/images/blueprint.png";
 import modificationImage from "../../assets/images/modification.png";
+import db from "../../db";
 
 interface SettingsPageContextType {}
 
@@ -15,7 +16,7 @@ export const SettingsPageContext = React.createContext<SettingsPageContextType>(
   SettingsPageContextState
 );
 
-const BlueprintTitle = (
+const BlueprintTitle = (showSaveButton: boolean) => (
   <Space>
     <Image
       preview={false}
@@ -25,6 +26,16 @@ const BlueprintTitle = (
       fallback={fallbackImage}
     />
     <span>Blueprint Setting</span>
+    { showSaveButton && <Button
+      type="primary"
+      size="small"
+      onClick={() => {
+        db.saveCachedBlueprintSettings();
+        message.success(`Successfully saved blueprint settings`);
+      }}
+    >
+      Save All
+    </Button>}
   </Space>
 );
 
@@ -48,7 +59,7 @@ const SettingsPage: React.FC = () => {
         <Col className="gutter-row" span={18}>
           <Space direction="vertical" style={{ width: "100%" }}>
             <div id="blueprint">
-              <Card title={BlueprintTitle}>
+              <Card title={BlueprintTitle(true)}>
                 <BlueprintSettingWidget />
               </Card>
             </div>
@@ -65,7 +76,7 @@ const SettingsPage: React.FC = () => {
               {
                 key: "blueprint",
                 href: "#blueprint",
-                title: BlueprintTitle,
+                title: BlueprintTitle(false),
               },
               {
                 key: "structure_modification",

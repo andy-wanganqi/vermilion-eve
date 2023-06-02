@@ -1,4 +1,4 @@
-import React, { memo, useMemo, useState, useTransition } from "react";
+import React, { useMemo, useState, useTransition } from "react";
 import {
   DownOutlined,
   FileOutlined,
@@ -31,6 +31,7 @@ const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
         <InputNumber
           size="small"
           style={{ width: "120px" }}
+          autoFocus
           disabled={materiaEfficiencyDisabled}
           addonBefore={<PercentageOutlined />}
           min={0}
@@ -38,7 +39,9 @@ const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
           value={bs.M}
           onChange={(value: number | null) => {
             if (value) {
-              setBS({ ...bs, M: value });
+              const updateBS = { ...bs, M: value };
+              db.cacheBlueprintSetting(updateBS);
+              setBS(updateBS);
             }
           }}
         />
@@ -58,7 +61,9 @@ const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
           value={bs.D}
           onChange={(value: number | null) => {
             if (value) {
-              setBS({ ...bs, D: value });
+              const updateBS = { ...bs, D: value };
+              db.cacheBlueprintSetting(updateBS);
+              setBS(updateBS);
             }
           }}
         />
