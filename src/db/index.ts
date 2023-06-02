@@ -19,6 +19,8 @@ const db = {
   setBlueprintSettings: local.setBlueprintSettings,
   getBlueprintSetting: local.getBlueprintSetting,
   setBlueprintSetting: local.setBlueprintSetting,
+  cacheBlueprintSetting: local.cacheBlueprintSetting,
+  saveCachedBlueprintSettings: local.saveCachedBlueprintSettings,
 };
 
 export default db;
