@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useMemo, useState } from "react";
 import {
   DownOutlined,
   FileOutlined,
@@ -9,7 +9,7 @@ import { Space, Tree, Input, InputNumber, Button, message } from "antd";
 import { DataNode } from "antd/es/tree";
 
 import { Blueprint, BlueprintGroup, allBlueprintGroups } from "../../data";
-import db, { BS } from '../../db';
+import db, { BS } from "../../db";
 const { Search } = Input;
 
 type BlueprintDataNodeType = DataNode & { blueprint: Blueprint | null };
@@ -17,62 +17,96 @@ type BlueprintDataNodeType = DataNode & { blueprint: Blueprint | null };
 interface BlueprintDataNodeTitleProps {
   blueprint: Blueprint;
   blueprintSetting: BS;
+  selected: boolean;
 }
 
 const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
-  const { blueprint, blueprintSetting } = props;
+  const { blueprint, blueprintSetting, selected } = props;
   const materiaEfficiencyDisabled = !blueprint?.manufacturing;
   const [bs, setBS] = useState(blueprintSetting);
-  
+
   return (
     <Space>
       <span>{blueprint.name}</span>
-      <InputNumber
-        size="small"
-        style={{ width: "120px" }}
-        disabled={materiaEfficiencyDisabled}
-        addonBefore={<PercentageOutlined />}
-        min={0}
-        max={10}
-        value={bs.M}
-        onChange={(value: number | null) => {
-          if(value) {
-            setBS({...bs, M: value})
-          }
-        }}
-      />
-      <InputNumber
-        size="small"
-        style={{ width: "160px" }}
-        addonBefore={<RightCircleOutlined />}
-        min={1}
-        max={9999999}
-        value={bs.D}
-        onChange={(value: number | null) => {
-          if(value) {
-            setBS({...bs, D: value})
-          }
-        }}
-      />
-      <Button
-        type="primary"
-        size="small"
-        onClick={() => {
-          db.setBlueprintSetting(bs);
-          message.success(
-            `Successfully saved blueprint setting of ${blueprint.name}`
-          );
-        }}
-      >
-        Save
-      </Button>
+      {selected ? (
+        <InputNumber
+          size="small"
+          style={{ width: "120px" }}
+          disabled={materiaEfficiencyDisabled}
+          addonBefore={<PercentageOutlined />}
+          min={0}
+          max={10}
+          value={bs.M}
+          onChange={(value: number | null) => {
+            if (value) {
+              setBS({ ...bs, M: value });
+            }
+          }}
+        />
+      ) : (
+        <>
+          <PercentageOutlined />
+          <span>{bs.M}</span>
+        </>
+      )}
+      {selected ? (
+        <InputNumber
+          size="small"
+          style={{ width: "160px" }}
+          addonBefore={<RightCircleOutlined />}
+          min={1}
+          max={9999999}
+          value={bs.D}
+          onChange={(value: number | null) => {
+            if (value) {
+              setBS({ ...bs, D: value });
+            }
+          }}
+        />
+      ) : (
+        <>
+          <RightCircleOutlined />
+          <span>{bs.D}</span>
+        </>
+      )}
+      {selected && (
+        <Button
+          type="primary"
+          size="small"
+          onClick={() => {
+            db.setBlueprintSetting(bs);
+            message.success(
+              `Successfully saved blueprint setting of ${blueprint.name}`
+            );
+          }}
+        >
+          Save
+        </Button>
+      )}
     </Space>
   );
 };
 
-const blueprint2DataNode = (blueprint: Blueprint, blueprintSetting: BS): BlueprintDataNodeType => {
-  // const setting = db.getBlueprintSetting(blueprint.id);
-  const title = <BlueprintDataNodeTitle blueprint={blueprint} blueprintSetting={blueprintSetting} />;
+const blueprint2DataNode = (
+  blueprint: Blueprint,
+  blueprintSetting: BS,
+  selectedKeys: React.Key[]
+): BlueprintDataNodeType => {
+  const selected = selectedKeys.findIndex((k) => k === blueprint.name) >= 0;
+  // const title = useMemo(() => <BlueprintDataNodeTitle
+  //   blueprint={blueprint}
+  //   blueprintSetting={blueprintSetting}
+  //   selected={selected}
+  // />, [
+  //   blueprint,blueprintSetting,selected,
+  // ]);
+  const title = (
+    <BlueprintDataNodeTitle
+      blueprint={blueprint}
+      blueprintSetting={blueprintSetting}
+      selected={selected}
+    />
+  );
 
   return {
     title,
@@ -83,6 +117,7 @@ const blueprint2DataNode = (blueprint: Blueprint, blueprintSetting: BS): Bluepri
 
 const blueprintGroup2DataNode = (
   blueprintGroup: BlueprintGroup,
+  selectedKeys: React.Key[],
   searchKeyword: string,
   level: number
 ) => {
@@ -101,9 +136,7 @@ const blueprintGroup2DataNode = (
         ? ""
         : searchKeyword;
     const subnodes = blueprintGroup.subgroups
-      .map((subgroup) =>
-        blueprintGroup2DataNode(subgroup, refineSearchKeyword, level + 1)
-      )
+      .map((subgroup) => blueprintGroup2DataNode(subgroup,selectedKeys, refineSearchKeyword, level + 1)      )
       .filter(
         (subgroup) =>
           subgroup.dataNode.children && subgroup.dataNode.children.length > 0
@@ -124,7 +157,7 @@ const blueprintGroup2DataNode = (
       )
       .map((blueprint) => {
         const blueprintSetting = db.getBlueprintSetting(blueprint.id);
-        return blueprint2DataNode(blueprint, blueprintSetting);
+        return blueprint2DataNode(blueprint, blueprintSetting, selectedKeys);
       });
     children = children.concat(nodes);
   }
@@ -140,11 +173,14 @@ const blueprintGroup2DataNode = (
   };
 };
 
-const getBlueprintSettingNodes = (searchKeyword: string) => {
+const getBlueprintSettingNodes = (
+  searchKeyword: string,
+  selectedKeys: React.Key[]
+) => {
   let expandedKeys: (string | number)[] = [];
   const dataNodes = allBlueprintGroups
     .map((blueprintGroup) =>
-      blueprintGroup2DataNode(blueprintGroup, searchKeyword, 0)
+      blueprintGroup2DataNode(blueprintGroup, selectedKeys, searchKeyword, 0)
     )
     .filter(
       (node) => node.dataNode.children && node.dataNode.children.length > 0
@@ -159,17 +195,28 @@ const getBlueprintSettingNodes = (searchKeyword: string) => {
 };
 
 const BlueprintSettingWidget: React.FC = () => {
-  const [searchKeyword, setSearchKeyword] = useState("");
+  const initKeyword = "";
+  const [searchKeyword, setSearchKeyword] = useState(initKeyword);
+  const initSelectedKeys: React.Key[] = [];
+  const [selectedKeys, setSelectedKeys] = useState(initSelectedKeys);
 
   const onSelect = (selectedKeys: React.Key[], info: any) => {
+    if(selectedKeys.length > 0) {
+      setSelectedKeys(selectedKeys);
+    }
     // const blueprint: Blueprint | null = info.node.blueprint;
     // if (blueprint) {
     //   navigate(`/settings/blueprint/${blueprint.id}`);
     // }
   };
 
-  const { expandedKeys, treeData } = getBlueprintSettingNodes(searchKeyword);
-
+  console.time('getBlueprintSettingNodes');
+  const { expandedKeys, treeData } = useMemo(() => getBlueprintSettingNodes(
+    searchKeyword,
+    selectedKeys
+  ), [searchKeyword, selectedKeys]);
+  console.timeEnd('getBlueprintSettingNodes');
+  
   return (
     <Space direction="vertical" style={{ width: "100%" }}>
       <Search
