@@ -289,7 +289,7 @@
   },
   {
     "name": "Manufacture & Research",
-    "cn": "制造与研究",
+    "cn": "制造和研究",
     "subgroups": [
       {
         "name": "Components",
@@ -512,7 +512,7 @@
             "subgroups": [
               {
                 "name": "Processed Moon Materials",
-                "cn": "加工过的月矿材料?",
+                "cn": "加工过的卫星材料",
                 "items": [
                   {
                     "name": "Caesarium Cadmide",
@@ -523,7 +523,7 @@
               },
               {
                 "name": "Raw Moon Materials",
-                "cn": "原始月矿材料?",
+                "cn": "卫星原材料",
                 "items": [
                   {
                     "name": "Cadmium",
@@ -549,20 +549,20 @@
   },
   {
     "name": "Trade Goods",
-    "cn": "交易物品?",
+    "cn": "贸易货物",
     "subgroups": [
       {
         "name": "Passengers",
-        "cn": "乘客?",
+        "cn": "乘客",
         "items": [
           {
             "name": "Marines",
-            "cn": "海军陆战队员?",
+            "cn": "海军陆战队员",
             "id": 3810
           },
           {
             "name": "Janitor",
-            "cn": "看门人?",
+            "cn": "看门人",
             "id": 13267
           }
         ]
