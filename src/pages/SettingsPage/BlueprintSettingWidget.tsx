@@ -167,7 +167,7 @@ const BlueprintSettingWidget: React.FC = () => {
         switcherIcon={<DownOutlined />}
         showIcon={false}
         onSelect={onSelect}
-        expandedKeys={expandedKeys}
+        defaultExpandedKeys={expandedKeys}
         treeData={treeData}
       />
     </Space>
