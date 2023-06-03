@@ -161,9 +161,13 @@ const blueprintGroup2DataNode = (
     }
   }
 
-  // Work through blueprints
-  if (blueprintGroup.blueprints) {
-    const nodes = blueprintGroup.blueprints
+  // Work through blueprints or formulas
+  let subitems = blueprintGroup.blueprints;
+  if (blueprintGroup.formulas) {
+    subitems = blueprintGroup.formulas;
+  }
+  if (subitems) {
+    const nodes = subitems
       .filter(
         (blueprint) =>
           searchKeyword.trim() === "" ||
