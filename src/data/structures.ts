@@ -41,7 +41,7 @@ const rawRefineries: RawStructureGroup = {
 };
 
 const rawComplexes: RawStructureGroup = {
-  name: "Structure Complexes",
+  name: "Engineering Complexes",
   structures: [
     {
       id: 35827, //Sotiyo

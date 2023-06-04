@@ -8,13 +8,17 @@
       "subgroups": [
         {
           "name": "Citadels",
-          "cn": "堡垒?",
+          "cn": "堡垒",
           "blueprints": [
             {
               "id": 36966,
               "name": "Astrahus Blueprint",
               "cn": "空堡蓝图",
               "manufacturing": {
+                "outcome": {
+                  "id": 35832,
+                  "quantity": 1
+                },
                 "materials": [
                   {
                     "id": 21947,
@@ -48,11 +52,7 @@
                     "id": 21967,
                     "quantity": 1
                   }
-                ],
-                "outcome": {
-                  "id": 35832,
-                  "quantity": 1
-                }
+                ]
               }
             },
             {
@@ -60,6 +60,10 @@
               "name": "Fortizar Blueprint",
               "cn": "铁壁蓝图",
               "manufacturing": {
+                "outcome": {
+                  "id": 35833,
+                  "quantity": 1
+                },
                 "materials": [
                   {
                     "id": 21947,
@@ -109,17 +113,18 @@
                     "id": 36958,
                     "quantity": 4
                   }
-                ],
-                "outcome": {
-                  "id": 35833,
-                  "quantity": 0
-                }
+                ]
               }
-            },{
-              "id": 0,
+            },
+            {
+              "id": 36968,
               "name": "Keepstar Blueprint",
               "cn": "星城蓝图",
               "manufacturing": {
+                "outcome": {
+                  "id": 35834,
+                  "quantity": 1
+                },
                 "materials": [
                   {
                     "id": 21947,
@@ -189,27 +194,329 @@
                     "id": 13267,
                     "quantity": 250
                   }
-                ],
-                "outcome": {
-                  "id": 35834,
-                  "quantity": 1
-                }
+                ]
               }
             }
           ]
         },
         {
-          "name": "Engineering Complexes"
+          "name": "Engineering Complexes",
+          "cn": "工程复合体",
+          "blueprints": [
+            {
+              "id": 36972,
+              "name": "Azbel Blueprint",
+              "cn": "阿兹贝尔蓝图",
+              "manufacturing": {
+                "outcome": {
+                  "id": 35826,
+                  "quantity": 1
+                },
+                "materials": [
+                  {
+                    "id": 21947,
+                    "quantity": 6
+                  },
+                  {
+                    "id": 21949,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21951,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21953,
+                    "quantity": 8
+                  },
+                  {
+                    "id": 21955,
+                    "quantity": 8
+                  },
+                  {
+                    "id": 21957,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21959,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21961,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21963,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21965,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21967,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 36958,
+                    "quantity": 4
+                  }
+                ]
+              }
+            },
+            {
+              "id": 36971,
+              "name": "Raitaru Blueprint",
+              "cn": "莱塔卢蓝图",
+              "manufacturing": {
+                "outcome": {
+                  "id": 35825,
+                  "quantity": 1
+                },
+                "materials": [
+                  {
+                    "id": 21947,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21949,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21951,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21953,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21955,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21957,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21959,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21961,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21967,
+                    "quantity": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": 36973,
+              "name": "Sotiyo Blueprint",
+              "cn": "索迪约蓝图",
+              "manufacturing": {
+                "outcome": {
+                  "id": 35827,
+                  "quantity": 1
+                },
+                "materials": [
+                  {
+                    "id": 21947,
+                    "quantity": 60
+                  },
+                  {
+                    "id": 21949,
+                    "quantity": 40
+                  },
+                  {
+                    "id": 21951,
+                    "quantity": 40
+                  },
+                  {
+                    "id": 21953,
+                    "quantity": 80
+                  },
+                  {
+                    "id": 21955,
+                    "quantity": 80
+                  },
+                  {
+                    "id": 21957,
+                    "quantity": 10
+                  },
+                  {
+                    "id": 21959,
+                    "quantity": 10
+                  },
+                  {
+                    "id": 21961,
+                    "quantity": 10
+                  },
+                  {
+                    "id": 21963,
+                    "quantity": 10
+                  },
+                  {
+                    "id": 21965,
+                    "quantity": 10
+                  },
+                  {
+                    "id": 21967,
+                    "quantity": 10
+                  },
+                  {
+                    "id": 21969,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36956,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36957,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36958,
+                    "quantity": 8
+                  },
+                  {
+                    "id": 3810,
+                    "quantity": 25
+                  },
+                  {
+                    "id": 13267,
+                    "quantity": 50
+                  }
+                ]
+              }
+            }
+          ]
         },
         {
-          "name": "Refineries"
+          "name": "Refineries",
+          "cn": "精炼厂",
+          "blueprints": [
+            {
+              "id": 36977,
+              "name": "Athanor Blueprint",
+              "cn": "阿塔诺蓝图",
+              "manufacturing": {
+                "outcome": {
+                  "id": 35835,
+                  "quantity": 1
+                },
+                "materials": [
+                  {
+                    "id": 21947,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21949,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21951,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21957,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21959,
+                    "quantity": 3
+                  },
+                  {
+                    "id": 21961,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36956,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36957,
+                    "quantity": 1
+                  }
+                ]
+              }
+            },
+            {
+              "id": 36978,
+              "name": "Tatara Blueprint",
+              "cn": "塔塔拉蓝图",
+              "manufacturing": {
+                "outcome": {
+                  "id": 35836,
+                  "quantity": 1
+                },
+                "materials": [
+                  {
+                    "id": 21947,
+                    "quantity": 8
+                  },
+                  {
+                    "id": 21949,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21951,
+                    "quantity": 20
+                  },
+                  {
+                    "id": 21953,
+                    "quantity": 2
+                  },
+                  {
+                    "id": 21955,
+                    "quantity": 2
+                  },
+                  {
+                    "id": 21957,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21959,
+                    "quantity": 24
+                  },
+                  {
+                    "id": 21961,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21963,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21965,
+                    "quantity": 2
+                  },
+                  {
+                    "id": 21967,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 36956,
+                    "quantity": 6
+                  },
+                  {
+                    "id": 36957,
+                    "quantity": 6
+                  },
+                  {
+                    "id": 36958,
+                    "quantity": 2
+                  }
+                ]
+              }
+            }
+          ]
         }
       ]
-    },
-    {
-      "name": "",
-      "cn": "",
-      "subgroups": []
     }
   ]
 }
