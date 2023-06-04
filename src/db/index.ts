@@ -1,3 +1,6 @@
+import { loadBlueprints } from '../data/blueprints';
+import { loadItems } from '../data/items';
+import { loadStructureModifications } from '../data/structures';
 import * as local from './local';
 
 //Blueprint Setting
@@ -14,6 +17,13 @@ export const defaultBS = {
   M: 0,
   D: 1,
 };
+//Structure Modification Setting
+export interface SMS {
+  //Key
+  K: number;
+  //Modifications
+  Ms: number[];
+};
 
 const db = {
   getBlueprintSettings: local.getBlueprintSettings,
@@ -22,6 +32,17 @@ const db = {
   setBlueprintSetting: local.setBlueprintSetting,
   cacheBlueprintSetting: local.cacheBlueprintSetting,
   saveCachedBlueprintSettings: local.saveCachedBlueprintSettings,
+
+  getStructureModificationSettings: local.getStructureModificationSettings,
+  setStructureModificationSettings: local.setStructureModificationSettings,
+  getStructureModificationSetting: local.getStructureModificationSetting,
+  setStructureModificationSetting: local.setStructureModificationSetting,
+};
+
+export const preloadStaticData = () => {
+  loadItems();
+  loadBlueprints();
+  loadStructureModifications();
 };
 
 export default db;

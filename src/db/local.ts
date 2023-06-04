@@ -1,9 +1,8 @@
-import { BS, defaultBS } from ".";
+import { BS, SMS, defaultBS } from ".";
 
 const BlueprintSettingsKey = "BSsK";
 let BSArrayCache: BS[] | null = null;
 let BSMapCache = new Map<number, BS>();
-
 const updateBSs = (BSs: BS[]) => {
   BSArrayCache = BSs;
   BSs.forEach((bs)=>{
@@ -73,4 +72,54 @@ export const saveCachedBlueprintSettings = () => {
   if(BSArrayCache){
     setBlueprintSettings(BSArrayCache);
   }
+};
+
+const StructureModificationSettingsKey = "SMSsK";
+let SMSArrayCache: SMS[] | null = null;
+
+export const getStructureModificationSettings = (): SMS[] => {
+  if (SMSArrayCache) {
+    return SMSArrayCache;
+  }
+
+  const str = localStorage.getItem(StructureModificationSettingsKey);
+  if (str) {
+    SMSArrayCache = JSON.parse(str) as SMS[];
+  }
+
+  return SMSArrayCache ?? [];
+};
+
+export const setStructureModificationSettings = (SMSs: SMS[]) => {
+  if (!SMSs) {
+    return;
+  }
+
+  const filteredSettings = SMSs.filter(
+    (s) => s.Ms.length > 0
+  );
+  const filteredSettingsStr = JSON.stringify(filteredSettings);
+  localStorage.setItem(StructureModificationSettingsKey, filteredSettingsStr);
+};
+
+export const getStructureModificationSetting = (id: number): SMS => {
+  const SMSs = getStructureModificationSettings();
+  const index = SMSs?.findIndex((sms) => sms.K === id);
+  return index < 0
+    ? {
+        K: id,
+        Ms: [],
+      }
+    : SMSs[index];
+};
+
+export const setStructureModificationSetting = (sms: SMS) => {
+  const SMSs = getStructureModificationSettings();
+  const index = SMSs?.findIndex((a) => a.K === sms.K);
+  if (index < 0) {
+    SMSs.push(sms);
+  } else {
+    SMSs[index] = sms;
+  }
+  setStructureModificationSettings(SMSs);
 };

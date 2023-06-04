@@ -50,6 +50,7 @@ export const loadItems = () => {
 export const findItem = (id:number): Item => {
   if(itemMap.has(id)) {
     return itemMap.get(id) as Item;
+  } else {
+    throw Error(`Cannot find item with id: ${id}`);
   }
-  throw Error(`Cannot find item with id: ${id}`);
 };

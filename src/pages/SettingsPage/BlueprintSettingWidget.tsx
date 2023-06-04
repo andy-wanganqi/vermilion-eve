@@ -9,16 +9,20 @@ import { Space, Tree, Input, InputNumber, Button, message } from "antd";
 import { DataNode } from "antd/es/tree";
 
 import db, { BS } from "../../db";
-import { Blueprint, BlueprintGroup, getBlueprintTreeRoots } from "../../data/blueprints";
+import {
+  Blueprint,
+  BlueprintGroup,
+  getBlueprintTreeRoots,
+} from "../../data/blueprints";
 const { Search } = Input;
 
-type BlueprintDataNodeType = DataNode & { blueprint: Blueprint | null };
+const EXPAND_LEVEL = 1;
 
 interface BlueprintDataNodeTitleProps {
   blueprint: Blueprint;
   blueprintSetting: BS;
   selected: boolean;
-}
+};
 const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
   const { blueprint, blueprintSetting, selected } = props;
   const materiaEfficiencyDisabled = !blueprint?.manufacturing;
@@ -95,15 +99,9 @@ const blueprint2DataNode = (
   blueprint: Blueprint,
   blueprintSetting: BS,
   selectedKeys: React.Key[]
-): BlueprintDataNodeType => {
-  const selected = selectedKeys.findIndex((k) => k === blueprint.name) >= 0;
-  // const title = useMemo(() => <BlueprintDataNodeTitle
-  //   blueprint={blueprint}
-  //   blueprintSetting={blueprintSetting}
-  //   selected={selected}
-  // />, [
-  //   blueprint,blueprintSetting,selected,
-  // ]);
+): DataNode => {
+  const selected = selectedKeys.findIndex((k) => k === blueprint.id) >= 0;
+
   const title = (
     <BlueprintDataNodeTitle
       blueprint={blueprint}
@@ -114,8 +112,7 @@ const blueprint2DataNode = (
 
   return {
     title,
-    key: blueprint.name,
-    blueprint,
+    key: blueprint.id,
   };
 };
 
@@ -125,27 +122,28 @@ const blueprintGroup2DataNode = (
   searchKeyword: string,
   level: number
 ) => {
+  const { name, subgroups, blueprints, formulas} = blueprintGroup;
   let expandedKeys: (string | number)[] = [];
-  let children: BlueprintDataNodeType[] = [];
+  let children: DataNode[] = [];
 
-  if (level <= 2) {
-    expandedKeys.push(blueprintGroup.name);
+  if (level <= EXPAND_LEVEL) {
+    expandedKeys.push(name);
   }
 
   // Work through sub groups
-  if (blueprintGroup.subgroups) {
-    const refineSearchKeyword =
+  if (subgroups) {
+    const refinedSearchKeyword =
       searchKeyword === ""
         ? ""
-        : blueprintGroup.name.indexOf(searchKeyword) >= 0
+        : name.indexOf(searchKeyword) >= 0
         ? ""
         : searchKeyword;
-    const subnodes = blueprintGroup.subgroups
+    const subnodes = subgroups
       .map((subgroup) =>
         blueprintGroup2DataNode(
           subgroup,
           selectedKeys,
-          refineSearchKeyword,
+          refinedSearchKeyword,
           level + 1
         )
       )
@@ -154,7 +152,7 @@ const blueprintGroup2DataNode = (
           subgroup.dataNode.children && subgroup.dataNode.children.length > 0
       );
     children = children.concat(subnodes.map((node) => node.dataNode));
-    if (level <= 2) {
+    if (level <= EXPAND_LEVEL) {
       expandedKeys = expandedKeys.concat(
         subnodes.flatMap((node) => node.expandedKeys)
       );
@@ -162,9 +160,9 @@ const blueprintGroup2DataNode = (
   }
 
   // Work through blueprints or formulas
-  let subitems = blueprintGroup.blueprints;
-  if (blueprintGroup.formulas) {
-    subitems = blueprintGroup.formulas;
+  let subitems = blueprints;
+  if (formulas) {
+    subitems = formulas;
   }
   if (subitems) {
     const nodes = subitems
@@ -182,8 +180,8 @@ const blueprintGroup2DataNode = (
 
   return {
     dataNode: {
-      title: blueprintGroup.name,
-      key: blueprintGroup.name,
+      title: name,
+      key: name,
       children: children,
       blueprint: null,
     },
@@ -226,7 +224,6 @@ const BlueprintSettingWidget: React.FC = () => {
         setSelectedKeys(selectedKeys);
       });
     }
-    // const blueprint: Blueprint | null = info.node.blueprint;
   };
 
   // console.time('getBlueprintSettingNodes');

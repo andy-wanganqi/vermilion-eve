@@ -10,7 +10,7 @@
           {
             "name": "Large Structure Combat Rigs",
             "cn": "大型建筑战斗改装件",
-            "subgroups": [
+            "items": [
               {
                 "name": "Standup L-Set Bomb Aimer I",
                 "cn": "屹立大型炸弹瞄准装置 I",
@@ -204,7 +204,7 @@
           {
             "name": "Large Structure Engineering Rigs",
             "cn": "大型建筑工程改装件",
-            "subgroups": [
+            "items": [
               {
                 "name": "Standup L-Set Advanced Component Manufacturing Efficiency I",
                 "cn": "屹立大型高级组件制造效率 I",
@@ -390,7 +390,7 @@
           {
             "name": "Medium Structure Engineering Rigs",
             "cn": "中型建筑工程改装件",
-            "subgroups": [
+            "items": [
               {
                 "name": "Standup M-Set Advanced Component Manufacturing Material Efficiency I",
                 "cn": "屹立中型高级组件制造材料效率 I",
@@ -726,7 +726,7 @@
           {
             "name": "X-Large Structure Engineering Rigs",
             "cn": "超大型建筑工程改装件",
-            "subgroups": [
+            "items": [
               {
                 "name": "Standup XL-Set Equipment and Consumable Manufacturing Efficiency I",
                 "cn": "屹立超大型设备和消费品制造效率 I",
@@ -783,7 +783,7 @@
           {
             "name": "Large Structure Resource Processing Rigs",
             "cn": "大型建筑资源提炼改装件",
-            "subgroups": [
+            "items": [
               {
                 "name": "Standup L-Set Moon Drilling Proficiency I",
                 "cn": "屹立大型卫星钻探精通 I",
@@ -819,7 +819,7 @@
           {
             "name": "Medium Structure Resource Processing Rigs",
             "cn": "中型建筑资源提炼改装件",
-            "subgroups": [
+            "items": [
               {
                 "name": "Standup M-Set Asteroid Ore Grading Processor I",
                 "cn": "屹立中型小行星矿石分级处理器 I",
@@ -935,7 +935,7 @@
           {
             "name": "X-Large Structure Resource Processing Rigs",
             "cn": "超大型建筑资源提炼改装件",
-            "subgroups": [
+            "items": [
               {
                 "name": "Standup XL-Set Reprocessing Monitor I",
                 "cn": "屹立超大型提炼监控 I",

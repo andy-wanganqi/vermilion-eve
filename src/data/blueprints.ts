@@ -37,11 +37,6 @@ interface RawBlueprintGroup {
   formulas?: RawBlueprint[];
 }
 
-const rawGroups = [
-  blueprints as RawBlueprintGroup,
-  formulas as RawBlueprintGroup,
-];
-
 export interface Material {
   item: Item;
   quantity: number;
@@ -157,7 +152,7 @@ const putBlueprintGroupToMap = (
   }
 };
 export const loadBlueprints = () => {
-  if (blueprintMap.size > 0) {
+  if (blueprintTreeRoots.length > 0) {
     return;
   }
 
