@@ -62,6 +62,16 @@ const ModificationTitle = () => (
       fallback={fallbackImage}
     />
     <span>Structure Modification Setting</span>
+    <Button
+      type="primary"
+      size="small"
+      onClick={() => {
+        db.saveCachedStructureModificationSettings();
+        message.success(`Successfully saved structure modification settings`);
+      }}
+    >
+      Save All
+    </Button>
   </Space>
 );
 
