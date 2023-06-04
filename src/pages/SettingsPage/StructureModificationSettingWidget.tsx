@@ -10,7 +10,6 @@ import {
 import { DataNode } from "antd/es/tree";
 import { Item } from "../../data/items";
 import db, { SMS } from "../../db";
-import { CheckboxChangeEvent } from "antd/es/checkbox";
 const { Search } = Input;
 
 interface StructureModificationDataNodeTitleProps {
