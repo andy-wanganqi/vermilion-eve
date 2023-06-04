@@ -22,75 +22,67 @@ interface BlueprintDataNodeTitleProps {
   blueprint: Blueprint;
   blueprintSetting: BS;
   selected: boolean;
-};
+}
 const BlueprintDataNodeTitle = (props: BlueprintDataNodeTitleProps) => {
   const { blueprint, blueprintSetting, selected } = props;
   const materiaEfficiencyDisabled = !blueprint?.manufacturing;
   const [bs, setBS] = useState(blueprintSetting);
 
-  return (
+  return selected ? (
     <Space>
       <span>{blueprint.name}</span>
-      {selected ? (
-        <InputNumber
-          size="small"
-          style={{ width: "120px" }}
-          autoFocus
-          disabled={materiaEfficiencyDisabled}
-          addonBefore={<PercentageOutlined />}
-          min={0}
-          max={10}
-          value={bs.M}
-          onChange={(value: number | null) => {
-            if (value) {
-              const updateBS = { ...bs, M: value };
-              db.cacheBlueprintSetting(updateBS);
-              setBS(updateBS);
-            }
-          }}
-        />
-      ) : (
-        <>
-          <PercentageOutlined />
-          <span>{bs.M}</span>
-        </>
-      )}
-      {selected ? (
-        <InputNumber
-          size="small"
-          style={{ width: "160px" }}
-          addonBefore={<RightCircleOutlined />}
-          min={1}
-          max={9999999}
-          value={bs.D}
-          onChange={(value: number | null) => {
-            if (value) {
-              const updateBS = { ...bs, D: value };
-              db.cacheBlueprintSetting(updateBS);
-              setBS(updateBS);
-            }
-          }}
-        />
-      ) : (
-        <>
-          <RightCircleOutlined />
-          <span>{bs.D}</span>
-        </>
-      )}
-      {selected && (
-        <Button
-          type="primary"
-          size="small"
-          onClick={() => {
-            db.setBlueprintSetting(bs);
-            message.success(
-              `Successfully saved blueprint setting of ${blueprint.name}`
-            );
-          }}
-        >
-          Save
-        </Button>
-      )}
+      <InputNumber
+        size="small"
+        style={{ width: "120px" }}
+        autoFocus
+        disabled={materiaEfficiencyDisabled}
+        addonBefore={<PercentageOutlined />}
+        min={0}
+        max={10}
+        value={bs.M}
+        onChange={(value: number | null) => {
+          if (value) {
+            const updateBS = { ...bs, M: value };
+            db.cacheBlueprintSetting(updateBS);
+            setBS(updateBS);
+          }
+        }}
+      />
+      <InputNumber
+        size="small"
+        style={{ width: "160px" }}
+        addonBefore={<RightCircleOutlined />}
+        min={1}
+        max={9999999}
+        value={bs.D}
+        onChange={(value: number | null) => {
+          if (value) {
+            const updateBS = { ...bs, D: value };
+            db.cacheBlueprintSetting(updateBS);
+            setBS(updateBS);
+          }
+        }}
+      />
+      <Button
+        type="primary"
+        size="small"
+        onClick={() => {
+          db.setBlueprintSetting(bs);
+          message.success(
+            `Successfully saved blueprint setting of ${blueprint.name}`
+          );
+        }}
+      >
+        Save
+      </Button>
+    </Space>
+  ) : (
+    <Space>
+      <span>{blueprint.name}</span>
+      <PercentageOutlined />
+      <span>{bs.M}</span>
+      <RightCircleOutlined />
+      <span>{bs.D}</span>
     </Space>
   );
 };
@@ -122,7 +114,7 @@ const blueprintGroup2DataNode = (
   searchKeyword: string,
   level: number
 ) => {
-  const { name, subgroups, blueprints, formulas} = blueprintGroup;
+  const { name, subgroups, blueprints, formulas } = blueprintGroup;
   let expandedKeys: (string | number)[] = [];
   let children: DataNode[] = [];
 
@@ -218,11 +210,16 @@ const BlueprintSettingWidget: React.FC = () => {
   const initSelectedKeys: React.Key[] = [];
   const [selectedKeys, setSelectedKeys] = useState(initSelectedKeys);
 
-  const onSelect = (selectedKeys: React.Key[], info: any) => {
+  const onSelect = (selectedKeys: React.Key[], e: {selected: boolean, selectedNodes: DataNode[], node: DataNode, event: string}) => {
     if (selectedKeys.length > 0) {
       startTransition(() => {
         setSelectedKeys(selectedKeys);
       });
+    }
+    else {
+      setTimeout(() => {
+        setSelectedKeys([e.node.key]);
+      }, 200);
     }
   };
 

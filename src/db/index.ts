@@ -12,17 +12,32 @@ export interface BS {
   //Default Runs
   D: number;
 }
-export const defaultBS = {
+export const defaultBS: BS = {
   K: 0,
   M: 0,
   D: 1,
 };
+
 //Structure Modification Setting
 export interface SMS {
-  //Key
+  //Structure Modification Key
+  K: number;
+  H: boolean; //1.0
+  M: boolean; //0.4
+  L: boolean; //0.0
+}
+//Structure Modification Setting
+export interface SS {
+  //Structure Key
   K: number;
   //Modifications
-  Ms: number[];
+  Ms: SMS[];
+};
+export const defaultSMS: SMS = {
+  K: 0,
+  H: false,
+  M: false,
+  L: false,
 };
 
 const db = {
@@ -37,6 +52,8 @@ const db = {
   setStructureModificationSettings: local.setStructureModificationSettings,
   getStructureModificationSetting: local.getStructureModificationSetting,
   setStructureModificationSetting: local.setStructureModificationSetting,
+  cacheStructureModificationSetting: local.cacheStructureModificationSetting,
+  saveCachedStructureModificationSettings: local.saveCachedStructureModificationSettings,
 };
 
 export const preloadStaticData = () => {

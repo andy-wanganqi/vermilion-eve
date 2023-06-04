@@ -1,11 +1,6 @@
 import React, { useMemo, useState, useTransition } from "react";
-import {
-  DownOutlined,
-  FileOutlined,
-  PercentageOutlined,
-  RightCircleOutlined,
-} from "@ant-design/icons";
-import { Space, Tree, Input } from "antd";
+import { DownOutlined, FileOutlined } from "@ant-design/icons";
+import { Space, Tree, Input, Checkbox, message, Button } from "antd";
 
 import {
   Structure,
@@ -15,20 +10,72 @@ import {
 import { DataNode } from "antd/es/tree";
 import { Item } from "../../data/items";
 import db, { SMS } from "../../db";
+import { CheckboxChangeEvent } from "antd/es/checkbox";
 const { Search } = Input;
 
-interface ReactorDataNodeTitleProps {
+interface StructureModificationDataNodeTitleProps {
   structureModification: Item;
   sms: SMS;
   selected: boolean;
 }
-const ReactorDataNodeTitle = (props: ReactorDataNodeTitleProps) => {
+const StructureModificationDataNodeTitle = (
+  props: StructureModificationDataNodeTitleProps
+) => {
   const { structureModification, selected } = props;
   const [sms, setSMS] = useState(props.sms);
 
-  return (
+  return selected ? (
     <Space>
       <span>{structureModification.name}</span>
+      <Checkbox
+        checked={sms.H}
+        onChange={(e) => {
+          const updateSMS = { ...sms, H: !sms.H };
+          db.cacheStructureModificationSetting(updateSMS);
+          setSMS(updateSMS);
+        }}
+      >
+        <span style={{ color: "#2C74E0" }}>∎ 1.0</span>
+      </Checkbox>
+      <Checkbox
+        checked={sms.M}
+        onChange={(e) => {
+          const updateSMS = { ...sms, M: !sms.M };
+          db.cacheStructureModificationSetting(updateSMS);
+          setSMS(updateSMS);
+        }}
+      >
+        <span style={{ color: "#DA6C07" }}>∎ 0.4</span>
+      </Checkbox>
+      <Checkbox
+        checked={sms.L}
+        onChange={(e) => {
+          const updateSMS = { ...sms, L: !sms.L };
+          db.cacheStructureModificationSetting(updateSMS);
+          setSMS(updateSMS);
+        }}
+      >
+        <span style={{ color: "#8C3263" }}>∎ 0.0</span>
+      </Checkbox>
+      <Button
+        type="primary"
+        size="small"
+        onClick={() => {
+          db.setStructureModificationSetting(sms);
+          message.success(
+            `Successfully saved structure modification setting of ${structureModification.name}`
+          );
+        }}
+      >
+        Save
+      </Button>
+    </Space>
+  ) : (
+    <Space>
+      <span>{structureModification.name}</span>
+      {sms.H && <span style={{ color: "#2C74E0" }}>∎ 1.0</span>}
+      {sms.M && <span style={{ color: "#DA6C07" }}>∎ 0.4</span>}
+      {sms.L && <span style={{ color: "#8C3263" }}>∎ 0.0</span>}
     </Space>
   );
 };
@@ -41,7 +88,7 @@ const structureModification2DataNode = (
   const selected =
     selectedKeys.findIndex((k) => k === structureModification.id) >= 0;
   const title = (
-    <ReactorDataNodeTitle
+    <StructureModificationDataNodeTitle
       structureModification={structureModification}
       sms={sms}
       selected={selected}
@@ -61,21 +108,21 @@ const structure2DataNode = (
 ) => {
   let children: DataNode[] = [];
 
-  let subitems = structure.reactors;
+  let modifications = structure.reactors;
   if (structure.manufacturings && structure.manufacturings.length > 0) {
-    subitems = structure.manufacturings;
+    modifications = structure.manufacturings;
   }
 
-  if (subitems) {
-    children = subitems
+  if (modifications) {
+    children = modifications
       .filter(
         (blueprint) =>
           searchKeyword.trim() === "" ||
           blueprint.name.indexOf(searchKeyword) >= 0
       )
-      .map((sm) => {
-        const sms = db.getStructureModificationSetting(structure.structure.id);
-        return structureModification2DataNode(sm, sms, selectedKeys);
+      .map((modifications) => {
+        const sms = db.getStructureModificationSetting(modifications.id);
+        return structureModification2DataNode(modifications, sms, selectedKeys);
       });
   }
 
@@ -147,11 +194,23 @@ const StructureModificationSettingWidget: React.FC = () => {
   const initSelectedKeys: React.Key[] = [];
   const [selectedKeys, setSelectedKeys] = useState(initSelectedKeys);
 
-  const onSelect = (selectedKeys: React.Key[], info: any) => {
+  const onSelect = (
+    selectedKeys: React.Key[],
+    e: {
+      selected: boolean;
+      selectedNodes: DataNode[];
+      node: DataNode;
+      event: string;
+    }
+  ) => {
     if (selectedKeys.length > 0) {
       startTransition(() => {
         setSelectedKeys(selectedKeys);
       });
+    } else {
+      setTimeout(() => {
+        setSelectedKeys([e.node.key]);
+      }, 200);
     }
   };
 
