@@ -26,13 +26,6 @@ export interface SMS {
   M: boolean; //0.4
   L: boolean; //0.0
 }
-//Structure Modification Setting
-export interface SS {
-  //Structure Key
-  K: number;
-  //Modifications
-  Ms: SMS[];
-};
 export const defaultSMS: SMS = {
   K: 0,
   H: false,
