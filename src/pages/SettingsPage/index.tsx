@@ -1,83 +1,126 @@
-import React, { useState } from "react";
-import { EyeOutlined, EyeInvisibleOutlined } from "@ant-design/icons";
-import { Collapse, Col, Row, Space } from "antd";
+import React from "react";
+import { Col, Row, Anchor, Card, Space, Image, Button, message } from "antd";
 
-import BlueprintTree from "./BlueprintTree";
-import { Outlet } from "react-router-dom";
-import { Blueprint } from "../../data";
+import BlueprintSettingWidget from "./BlueprintSettingWidget";
+import StructureModificationSettingWidget from "./StructureModificationSettingWidget";
+import { fallbackImage } from "../../assets/strings";
+import blueprintImage from "../../assets/images/blueprint.png";
+import modificationImage from "../../assets/images/modification.png";
+import db from "../../db";
 
-const { Panel } = Collapse;
+interface SettingsPageContextType {}
 
-interface SettingsPageContextType {
-  blueprintSettingsVisibility: boolean;
-  handleBlueprintSelect: (blueprint: Blueprint) => void;
-}
-
-const SettingsPageContextState: SettingsPageContextType = {
-  blueprintSettingsVisibility: false,
-  handleBlueprintSelect: (blueprint: Blueprint) => {},
-};
+const SettingsPageContextState: SettingsPageContextType = {};
 
 export const SettingsPageContext = React.createContext<SettingsPageContextType>(
   SettingsPageContextState
 );
 
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
+const BlueprintTitle = () => (
+  <Space>
+    <Image
+      preview={false}
+      width={32}
+      height={32}
+      src={blueprintImage}
+      fallback={fallbackImage}
+    />
+    <span>Blueprint Setting</span>
+    <Button
+      type="primary"
+      size="small"
+      onClick={() => {
+        db.saveCachedBlueprintSettings();
+        message.success(`Successfully saved blueprint settings`);
+      }}
+    >
+      Save All
+    </Button>
+  </Space>
+);
+
+const BlueprintAnchor = () => (
+  <Space>
+    <Image
+      preview={false}
+      width={24}
+      height={24}
+      src={blueprintImage}
+      fallback={fallbackImage}
+    />
+    <span>Blueprint Setting</span>
+  </Space>
+);
+
+const ModificationTitle = () => (
+  <Space>
+    <Image
+      preview={false}
+      width={32}
+      height={32}
+      src={modificationImage}
+      fallback={fallbackImage}
+    />
+    <span>Structure Modification Setting</span>
+    <Button
+      type="primary"
+      size="small"
+      onClick={() => {
+        db.saveCachedStructureModificationSettings();
+        message.success(`Successfully saved structure modification settings`);
+      }}
+    >
+      Save All
+    </Button>
+  </Space>
+);
+
+const ModificationAnchor = () => (
+  <Space>
+    <Image
+      preview={false}
+      width={24}
+      height={24}
+      src={modificationImage}
+      fallback={fallbackImage}
+    />
+    <span>Structure Modification Setting</span>
+  </Space>
+);
 
 const SettingsPage: React.FC = () => {
-  const [pageContext, setPageContext] = useState({
-    ...SettingsPageContextState,
-  });
-
-  const handleBlueprintSettingsExtraClick = (
-    event:
-      | React.MouseEvent<HTMLAnchorElement, MouseEvent>
-      | React.MouseEvent<HTMLButtonElement, MouseEvent>
-  ) => {
-    // If you don't want click extra trigger collapse, you can prevent this:
-    event.stopPropagation();
-    setPageContext({
-      ...pageContext,
-      blueprintSettingsVisibility: !blueprintSettingsVisibility,
-    });
-  };
-  const blueprintSettingsExtra = () =>
-    blueprintSettingsVisibility ? (
-      <Space>
-        <span>Click to hide settings</span>
-        <EyeOutlined onClick={handleBlueprintSettingsExtraClick} />
-      </Space>
-    ) : (
-      <Space>
-        <span>Click to show settings</span>
-        <EyeInvisibleOutlined onClick={handleBlueprintSettingsExtraClick} />
-      </Space>
-    );
-
-  const { blueprintSettingsVisibility } = pageContext;
   return (
-    <SettingsPageContext.Provider value={pageContext}>
+    <SettingsPageContext.Provider value={SettingsPageContextState}>
       <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-        <Col className="gutter-row" span={12}>
-          <Collapse defaultActiveKey={["blueprints"]}>
-            <Panel
-              header="Blueprint Settings"
-              key="blueprints"
-              extra={blueprintSettingsExtra()}
-            >
-              <BlueprintTree />
-            </Panel>
-            <Panel header="Structure Settings" key="structures">
-              <p>{text}</p>
-            </Panel>
-          </Collapse>
+        <Col className="gutter-row" span={18}>
+          <Space direction="vertical" style={{ width: "100%" }}>
+            <div id="blueprint">
+              <Card title={<BlueprintTitle />}>
+                <BlueprintSettingWidget />
+              </Card>
+            </div>
+            <div id="structure_modification">
+              <Card title={<ModificationTitle/>}>
+                <StructureModificationSettingWidget />
+              </Card>
+            </div>
+          </Space>
         </Col>
-        <Col className="gutter-row" span={12}>
-          <Outlet />
+        <Col className="gutter-row" span={6}>
+          <Anchor
+            items={[
+              {
+                key: "blueprint",
+                href: "#blueprint",
+                title: <BlueprintAnchor />,
+              },
+              {
+                key: "structure_modification",
+                href: "#structure_modification",
+                title: <ModificationAnchor />,
+              },
+            ]}
+          />
         </Col>
       </Row>
     </SettingsPageContext.Provider>

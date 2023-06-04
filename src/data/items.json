@@ -1,0 +1,1525 @@
+[
+  {
+    "name": "Structure Modifications",
+    "cn": "建筑改装件",
+    "subgroups": [
+      {
+        "name": "Structure Combat Rigs",
+        "cn": "建筑战斗改装件",
+        "subgroups": [
+          {
+            "name": "Large Structure Combat Rigs",
+            "cn": "大型建筑战斗改装件",
+            "items": [
+              {
+                "name": "Standup L-Set Bomb Aimer I",
+                "cn": "屹立大型炸弹瞄准装置 I",
+                "id": 37256
+              },
+              {
+                "name": "Standup L-Set Energy Neutralizer Feedback Control I",
+                "cn": "屹立大型能量中和器反馈控制 I",
+                "id": 37250
+              },
+              {
+                "name": "Standup L-Set EW Command System I",
+                "cn": "屹立大型电子战指挥系统 I",
+                "id": 37254
+              },
+              {
+                "name": "Standup L-Set Missile Flight Processor I",
+                "cn": "屹立大型导弹飞行处理器 I",
+                "id": 37248
+              },
+              {
+                "name": "Standup L-Set Point Defense Battery Control I",
+                "cn": "屹立大型定点防御炮塔控制 I",
+                "id": 37258
+              },
+              {
+                "name": "Standup L-Set Target Acquisition Array I",
+                "cn": "屹立大型目标锁定阵列 I",
+                "id": 37260
+              },
+              {
+                "name": "Standup L-Set Bomb Aimer II",
+                "cn": "屹立大型炸弹瞄准装置 II",
+                "id": 37257
+              },
+              {
+                "name": "Standup L-Set Energy Neutralizer Feedback Control II",
+                "cn": "屹立大型能量中和器反馈控制 II",
+                "id": 37251
+              },
+              {
+                "name": "Standup L-Set EW Command System II",
+                "cn": "屹立大型电子战指挥系统 II",
+                "id": 37255
+              },
+              {
+                "name": "Standup L-Set Missile Flight Processor II",
+                "cn": "屹立大型导弹飞行处理器 II",
+                "id": 37249
+              },
+              {
+                "name": "Standup L-Set Point Defense Battery Control II",
+                "cn": "屹立大型定点防御炮塔控制 II",
+                "id": 37259
+              },
+              {
+                "name": "Standup L-Set Target Acquisition Array II",
+                "cn": "屹立大型目标锁定阵列 II",
+                "id": 37261
+              }
+            ]
+          },
+          {
+            "name": "Medium Structure Combat Rigs",
+            "cn": "中型建筑战斗改装件",
+            "subgroups": [
+              {
+                "name": "Standup M-Set Electronic Warfare Economy I",
+                "cn": "屹立中型电子战节能 I",
+                "id": 37230
+              },
+              {
+                "name": "Standup M-Set Electronic Warfare Projection I",
+                "cn": "屹立中型电子战投射 I",
+                "id": 37228
+              },
+              {
+                "name": "Standup M-Set Energy Neutralizer Economy I",
+                "cn": "屹立中型能量中和器节能 I",
+                "id": 37222
+              },
+              {
+                "name": "Standup M-Set Energy Neutralizer Projection I",
+                "cn": "屹立中型能量中和器投射 I",
+                "id": 37218
+              },
+              {
+                "name": "Standup M-Set Enhanced Targeting System I",
+                "cn": "屹立中型锁定增强系统 I",
+                "id": 37234
+              },
+              {
+                "name": "Standup M-Set Missile Precision I",
+                "cn": "屹立中型导弹精度 I",
+                "id": 37216
+              },
+              {
+                "name": "Standup M-Set Missile Projection I",
+                "cn": "屹立中型导弹投射 I",
+                "id": 37220
+              },
+              {
+                "name": "Standup M-Set Structure Target Multiplexing I",
+                "cn": "屹立中型建筑多重锁定装置 I",
+                "id": 37232
+              },
+              {
+                "name": "Standup M-Set Electronic Warfare Economy II",
+                "cn": "屹立中型电子战节能 II",
+                "id": 37231
+              },
+              {
+                "name": "Standup M-Set Electronic Warfare Projection II",
+                "cn": "屹立中型电子战投射 II",
+                "id": 37229
+              },
+              {
+                "name": "Standup M-Set Energy Neutralizer Economy II",
+                "cn": "屹立中型能量中和器节能 II",
+                "id": 37223
+              },
+              {
+                "name": "Standup M-Set Energy Neutralizer Projection II",
+                "cn": "屹立中型能量中和器投射 II",
+                "id": 37219
+              },
+              {
+                "name": "Standup M-Set Enhanced Targeting System II",
+                "cn": "屹立中型锁定增强系统 II",
+                "id": 37235
+              },
+              {
+                "name": "Standup M-Set Missile Precision II",
+                "cn": "屹立中型导弹精度 II",
+                "id": 37217
+              },
+              {
+                "name": "Standup M-Set Missile Projection II",
+                "cn": "屹立中型导弹投射 II",
+                "id": 37221
+              },
+              {
+                "name": "Standup M-Set Structure Target Multiplexing II",
+                "cn": "屹立中型建筑多重锁定装置 II",
+                "id": 37233
+              }
+            ]
+          },
+          {
+            "name": "X-Large Structure Combat Rigs",
+            "cn": "超大型建筑战斗改装件",
+            "subgroups": [
+              {
+                "name": "Standup XL-Set EW and Emissions Co-ordinator I",
+                "cn": "屹立超大型电子战和散热协调器 I",
+                "id": 37272
+              },
+              {
+                "name": "Standup XL-Set Extinction Level Weapons Suite I",
+                "cn": "屹立超大型毁灭级武器套装 I",
+                "id": 37274
+              },
+              {
+                "name": "Standup XL-Set Missile Fire Control Computer I",
+                "cn": "屹立超大型导弹火力控制计算机 I",
+                "id": 37268
+              },
+              {
+                "name": "Standup XL-Set EW and Emissions Co-ordinator II",
+                "cn": "屹立超大型电子战和散热协调器 II",
+                "id": 37273
+              },
+              {
+                "name": "Standup XL-Set Extinction Level Weapons Suite II",
+                "cn": "屹立超大型毁灭级武器套装 II",
+                "id": 37275
+              },
+              {
+                "name": "Standup XL-Set Missile Fire Control Computer II",
+                "cn": "屹立超大型导弹火力控制计算机 II",
+                "id": 37269
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Structure Engineering Rigs",
+        "cn": "建筑工程改装件",
+        "subgroups": [
+          {
+            "name": "Large Structure Engineering Rigs",
+            "cn": "大型建筑工程改装件",
+            "items": [
+              {
+                "name": "Standup L-Set Advanced Component Manufacturing Efficiency I",
+                "cn": "屹立大型高级组件制造效率 I",
+                "id": 37174
+              },
+              {
+                "name": "Standup L-Set Advanced Large Ship Manufacturing Efficiency I",
+                "cn": "屹立大型高级大型舰船制造效率 I",
+                "id": 37168
+              },
+              {
+                "name": "Standup L-Set Advanced Medium Ship Manufacturing Efficiency I",
+                "cn": "屹立大型高级中型舰船制造效率 I",
+                "id": 43709
+              },
+              {
+                "name": "Standup L-Set Advanced Small Ship Manufacturing Efficiency I",
+                "cn": "屹立大型高级小型舰船制造效率 I",
+                "id": 43707
+              },
+              {
+                "name": "Standup L-Set Ammunition Manufacturing Efficiency I",
+                "cn": "屹立大型弹药制造效率 I",
+                "id": 37164
+              },
+              {
+                "name": "Standup L-Set Basic Capital Component Manufacturing Efficiency I",
+                "cn": "屹立大型基础旗舰组件制造效率 I",
+                "id": 43718
+              },
+              {
+                "name": "Standup L-Set Basic Large Ship Manufacturing Efficiency I",
+                "cn": "屹立大型基础大型舰船制造效率 I",
+                "id": 37166
+              },
+              {
+                "name": "Standup L-Set Basic Medium Ship Manufacturing Efficiency I",
+                "cn": "屹立大型基础中型舰船制造效率 I",
+                "id": 43716
+              },
+              {
+                "name": "Standup L-Set Basic Small Ship Manufacturing Efficiency I",
+                "cn": "屹立大型基础小型舰船制造效率 I",
+                "id": 43714
+              },
+              {
+                "name": "Standup L-Set Blueprint Copy Optimization I",
+                "cn": "屹立大型蓝图拷贝优化 I",
+                "id": 43729
+              },
+              {
+                "name": "Standup L-Set Capital Ship Manufacturing Efficiency I",
+                "cn": "屹立大型旗舰制造效率 I",
+                "id": 37173
+              },
+              {
+                "name": "Standup L-Set Drone and Fighter Manufacturing Efficiency I",
+                "cn": "屹立大型无人机和铁骑舰载机制造效率 I",
+                "id": 43712
+              },
+              {
+                "name": "Standup L-Set Equipment Manufacturing Efficiency I",
+                "cn": "屹立大型设备制造效率 I",
+                "id": 37170
+              },
+              {
+                "name": "Standup L-Set Invention Optimization I",
+                "cn": "屹立大型发明优化 I",
+                "id": 43722
+              },
+              {
+                "name": "Standup L-Set ME Research Optimization I",
+                "cn": "屹立大型材料效率研究优化 I",
+                "id": 43724
+              },
+              {
+                "name": "Standup L-Set Structure Manufacturing Efficiency I",
+                "cn": "屹立大型建筑制造效率 I",
+                "id": 43720
+              },
+              {
+                "name": "Standup L-Set TE Research Optimization I",
+                "cn": "屹立大型时间效率研究优化 I",
+                "id": 43726
+              },
+              {
+                "name": "Standup L-Set Thukker Advanced Component Manufacturing Efficiency",
+                "cn": "屹立大型图克尔高级组件制造效率",
+                "id": 45641
+              },
+              {
+                "name": "Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency",
+                "cn": "屹立大型图克尔基础旗舰组件制造效率",
+                "id": 45546
+              },
+              {
+                "name": "Standup L-Set Advanced Component Manufacturing Efficiency II",
+                "cn": "屹立大型高级组件制造效率 II",
+                "id": 37175
+              },
+              {
+                "name": "Standup L-Set Advanced Large Ship Manufacturing Efficiency II",
+                "cn": "屹立大型高级大型舰船制造效率 II",
+                "id": 37169
+              },
+              {
+                "name": "Standup L-Set Advanced Medium Ship Manufacturing Efficiency II",
+                "cn": "屹立大型高级中型舰船制造效率 II",
+                "id": 43711
+              },
+              {
+                "name": "Standup L-Set Advanced Small Ship Manufacturing Efficiency II",
+                "cn": "屹立大型高级小型舰船制造效率 II",
+                "id": 43708
+              },
+              {
+                "name": "Standup L-Set Ammunition Manufacturing Efficiency II",
+                "cn": "屹立大型弹药制造效率 II",
+                "id": 37165
+              },
+              {
+                "name": "Standup L-Set Basic Capital Component Manufacturing Efficiency II",
+                "cn": "屹立大型基础旗舰组件制造效率 II",
+                "id": 43719
+              },
+              {
+                "name": "Standup L-Set Basic Large Ship Manufacturing Efficiency II",
+                "cn": "屹立大型基础大型舰船制造效率 II",
+                "id": 37167
+              },
+              {
+                "name": "Standup L-Set Basic Medium Ship Manufacturing Efficiency II",
+                "cn": "屹立大型基础中型舰船制造效率 II",
+                "id": 43717
+              },
+              {
+                "name": "Standup L-Set Basic Small Ship Manufacturing Efficiency II",
+                "cn": "屹立大型基础小型舰船制造效率 II",
+                "id": 43715
+              },
+              {
+                "name": "Standup L-Set Blueprint Copy Optimization II",
+                "cn": "屹立大型蓝图拷贝优化 II",
+                "id": 43730
+              },
+              {
+                "name": "Standup L-Set Capital Ship Manufacturing Efficiency II",
+                "cn": "屹立大型旗舰制造效率 II",
+                "id": 37172
+              },
+              {
+                "name": "Standup L-Set Drone and Fighter Manufacturing Efficiency II",
+                "cn": "屹立大型无人机和铁骑舰载机制造效率 II",
+                "id": 43713
+              },
+              {
+                "name": "Standup L-Set Equipment Manufacturing Efficiency II",
+                "cn": "屹立大型设备制造效率 II",
+                "id": 37171
+              },
+              {
+                "name": "Standup L-Set Invention Optimization II",
+                "cn": "屹立大型发明优化 II",
+                "id": 43723
+              },
+              {
+                "name": "Standup L-Set ME Research Optimization II",
+                "cn": "屹立大型材料效率研究优化 II",
+                "id": 43725
+              },
+              {
+                "name": "Standup L-Set Structure Manufacturing Efficiency II",
+                "cn": "屹立大型建筑制造效率 II",
+                "id": 43721
+              },
+              {
+                "name": "Standup L-Set TE Research Optimization II",
+                "cn": "屹立大型时间效率研究优化 II",
+                "id": 43727
+              }
+            ]
+          },
+          {
+            "name": "Medium Structure Engineering Rigs",
+            "cn": "中型建筑工程改装件",
+            "items": [
+              {
+                "name": "Standup M-Set Advanced Component Manufacturing Material Efficiency I",
+                "cn": "屹立中型高级组件制造材料效率 I",
+                "id": 43867
+              },
+              {
+                "name": "Standup M-Set Advanced Component Manufacturing Time Efficiency I",
+                "cn": "屹立中型高级组件制造时间效率 I",
+                "id": 43869
+              },
+              {
+                "name": "Standup M-Set Advanced Large Ship Manufacturing Material Efficiency I",
+                "cn": "屹立中型高级大型舰船制造材料效率 I",
+                "id": 43862
+              },
+              {
+                "name": "Standup M-Set Advanced Large Ship Manufacturing Time Efficiency I",
+                "cn": "屹立中型高级大型舰船制造时间效率 I",
+                "id": 43865
+              },
+              {
+                "name": "Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency I",
+                "cn": "屹立中型高级中型舰船制造材料效率 I",
+                "id": 43858
+              },
+              {
+                "name": "Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency I",
+                "cn": "屹立中型高级中型舰船制造时间效率 I",
+                "id": 43860
+              },
+              {
+                "name": "Standup M-Set Advanced Small Ship Manufacturing Material Efficiency I",
+                "cn": "屹立中型高级小型舰船制造材料效率 I",
+                "id": 43855
+              },
+              {
+                "name": "Standup M-Set Advanced Small Ship Manufacturing Time Efficiency I",
+                "cn": "屹立中型高级小型舰船制造时间效率 I",
+                "id": 43856
+              },
+              {
+                "name": "Standup M-Set Ammunition Manufacturing Material Efficiency I",
+                "cn": "屹立中型弹药制造材料效率 I",
+                "id": 37158
+              },
+              {
+                "name": "Standup M-Set Ammunition Manufacturing Time Efficiency I",
+                "cn": "屹立中型弹药制造时间效率 I",
+                "id": 37150
+              },
+              {
+                "name": "Standup M-Set Basic Capital Component Manufacturing Material Efficiency I",
+                "cn": "屹立中型基础旗舰组件制造材料效率 I",
+                "id": 43870
+              },
+              {
+                "name": "Standup M-Set Basic Capital Component Manufacturing Time Efficiency I",
+                "cn": "屹立中型基础旗舰组件制造时间效率 I",
+                "id": 43872
+              },
+              {
+                "name": "Standup M-Set Basic Large Ship Manufacturing Material Efficiency I",
+                "cn": "屹立中型基础大型舰船制造材料效率 I",
+                "id": 43732
+              },
+              {
+                "name": "Standup M-Set Basic Large Ship Manufacturing Time Efficiency I",
+                "cn": "屹立中型基础大型舰船制造时间效率 I",
+                "id": 43733
+              },
+              {
+                "name": "Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I",
+                "cn": "屹立中型基础中型舰船制造材料效率 I",
+                "id": 37146
+              },
+              {
+                "name": "Standup M-Set Basic Medium Ship Manufacturing Time Efficiency I",
+                "cn": "屹立中型基础中型舰船制造时间效率 I",
+                "id": 43919
+              },
+              {
+                "name": "Standup M-Set Basic Small Ship Manufacturing Material Efficiency I",
+                "cn": "屹立中型基础小型舰船制造材料效率 I",
+                "id": 37154
+              },
+              {
+                "name": "Standup M-Set Basic Small Ship Manufacturing Time Efficiency I",
+                "cn": "屹立中型基础小型舰船制造时间效率 I",
+                "id": 37162
+              },
+              {
+                "name": "Standup M-Set Blueprint Copy Accelerator I",
+                "cn": "屹立中型蓝图拷贝加速 I",
+                "id": 43893
+              },
+              {
+                "name": "Standup M-Set Blueprint Copy Cost Optimization I",
+                "cn": "屹立中型蓝图拷贝成本优化 I",
+                "id": 43891
+              },
+              {
+                "name": "Standup M-Set Drone and Fighter Manufacturing Material Efficiency I",
+                "cn": "屹立中型无人机和铁骑舰载机制造材料效率 I",
+                "id": 37156
+              },
+              {
+                "name": "Standup M-Set Drone and Fighter Manufacturing Time Efficiency I",
+                "cn": "屹立中型无人机和铁骑舰载机制造时间效率 I",
+                "id": 37148
+              },
+              {
+                "name": "Standup M-Set Equipment Manufacturing Material Efficiency I",
+                "cn": "屹立中型设备制造材料效率 I",
+                "id": 43920
+              },
+              {
+                "name": "Standup M-Set Equipment Manufacturing Time Efficiency I",
+                "cn": "屹立中型设备制造时间效率 I",
+                "id": 37160
+              },
+              {
+                "name": "Standup M-Set Invention Accelerator I",
+                "cn": "屹立中型发明加速 I",
+                "id": 43880
+              },
+              {
+                "name": "Standup M-Set Invention Cost Optimization I",
+                "cn": "屹立中型发明成本优化 I",
+                "id": 43879
+              },
+              {
+                "name": "Standup M-Set ME Research Accelerator I",
+                "cn": "屹立中型材料效率研究加速 I",
+                "id": 43883
+              },
+              {
+                "name": "Standup M-Set ME Research Cost Optimization I",
+                "cn": "屹立中型材料效率研究成本优化 I",
+                "id": 43885
+              },
+              {
+                "name": "Standup M-Set Structure Manufacturing Material Efficiency I",
+                "cn": "屹立中型建筑制造材料效率 I",
+                "id": 43875
+              },
+              {
+                "name": "Standup M-Set Structure Manufacturing Time Efficiency I",
+                "cn": "屹立中型建筑制造时间效率 I",
+                "id": 43876
+              },
+              {
+                "name": "Standup M-Set TE Research Accelerator I",
+                "cn": "屹立中型时间效率研究加速器 I",
+                "id": 43889
+              },
+              {
+                "name": "Standup M-Set TE Research Cost Optimization I",
+                "cn": "屹立中型时间效率研究成本优化 I",
+                "id": 43887
+              },
+              {
+                "name": "Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency",
+                "cn": "屹立中型图克尔高级组件制造材料效率",
+                "id": 45640
+              },
+              {
+                "name": "Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency",
+                "cn": "屹立中型图克尔基础旗舰组件制造材料效率",
+                "id": 45544
+              },
+              {
+                "name": "Standup M-Set Advanced Component Manufacturing Material Efficiency II",
+                "cn": "屹立中型高级组件制造材料效率 II",
+                "id": 43866
+              },
+              {
+                "name": "Standup M-Set Advanced Component Manufacturing Time Efficiency II",
+                "cn": "屹立中型高级组件制造时间效率 II",
+                "id": 43868
+              },
+              {
+                "name": "Standup M-Set Advanced Large Ship Manufacturing Material Efficiency II",
+                "cn": "屹立中型高级大型舰船制造材料效率 II",
+                "id": 43863
+              },
+              {
+                "name": "Standup M-Set Advanced Large Ship Manufacturing Time Efficiency II",
+                "cn": "屹立中型高级大型舰船制造时间效率 II",
+                "id": 43864
+              },
+              {
+                "name": "Standup M-Set Advanced Medium Ship Manufacturing Material Efficiency II",
+                "cn": "屹立中型高级中型舰船制造材料效率 II",
+                "id": 43859
+              },
+              {
+                "name": "Standup M-Set Advanced Medium Ship Manufacturing Time Efficiency II",
+                "cn": "屹立中型高级中型舰船制造时间效率 II",
+                "id": 43861
+              },
+              {
+                "name": "Standup M-Set Advanced Small Ship Manufacturing Material Efficiency II",
+                "cn": "屹立中型高级小型舰船制造材料效率 II",
+                "id": 43854
+              },
+              {
+                "name": "Standup M-Set Advanced Small Ship Manufacturing Time Efficiency II",
+                "cn": "屹立中型高级小型舰船制造时间效率 II",
+                "id": 43857
+              },
+              {
+                "name": "Standup M-Set Ammunition Manufacturing Material Efficiency II",
+                "cn": "屹立中型弹药制造效率 II",
+                "id": 37159
+              },
+              {
+                "name": "Standup M-Set Ammunition Manufacturing Time Efficiency II",
+                "cn": "屹立中型弹药制造时间效率 II",
+                "id": 37151
+              },
+              {
+                "name": "Standup M-Set Basic Capital Component Manufacturing Material Efficiency II",
+                "cn": "屹立中型基础旗舰组件制造材料效率 II",
+                "id": 43871
+              },
+              {
+                "name": "Standup M-Set Basic Capital Component Manufacturing Time Efficiency II",
+                "cn": "屹立中型基础旗舰组件制造时间效率 II",
+                "id": 43873
+              },
+              {
+                "name": "Standup M-Set Basic Large Ship Manufacturing Material Efficiency II",
+                "cn": "屹立中型基础大型舰船制造材料效率 II",
+                "id": 37152
+              },
+              {
+                "name": "Standup M-Set Basic Large Ship Manufacturing Time Efficiency II",
+                "cn": "屹立中型基础大型舰船制造时间效率 II",
+                "id": 43734
+              },
+              {
+                "name": "Standup M-Set Basic Medium Ship Manufacturing Material Efficiency II",
+                "cn": "屹立中型基础中型舰船制造材料效率 II",
+                "id": 37147
+              },
+              {
+                "name": "Standup M-Set Basic Medium Ship Manufacturing Time Efficiency II",
+                "cn": "屹立中型基础中型舰船制造时间效率 II",
+                "id": 37153
+              },
+              {
+                "name": "Standup M-Set Basic Small Ship Manufacturing Material Efficiency II",
+                "cn": "屹立中型基础小型舰船制造材料效率 II",
+                "id": 37155
+              },
+              {
+                "name": "Standup M-Set Basic Small Ship Manufacturing Time Efficiency II",
+                "cn": "屹立中型基础小型舰船制造时间效率 II",
+                "id": 37163
+              },
+              {
+                "name": "Standup M-Set Blueprint Copy Accelerator II",
+                "cn": "屹立中型蓝图拷贝加速器 II",
+                "id": 43892
+              },
+              {
+                "name": "Standup M-Set Blueprint Copy Cost Optimization II",
+                "cn": "屹立中型蓝图拷贝成本优化 II",
+                "id": 43890
+              },
+              {
+                "name": "Standup M-Set Drone and Fighter Manufacturing Material Efficiency II",
+                "cn": "屹立中型无人机和铁骑舰载机制造材料效率 II",
+                "id": 37157
+              },
+              {
+                "name": "Standup M-Set Drone and Fighter Manufacturing Time Efficiency II",
+                "cn": "屹立中型无人机和铁骑舰载机制造时间效率 II",
+                "id": 37149
+              },
+              {
+                "name": "Standup M-Set Equipment Manufacturing Material Efficiency II",
+                "cn": "屹立中型设备制造材料效率 II",
+                "id": 43921
+              },
+              {
+                "name": "Standup M-Set Equipment Manufacturing Time Efficiency II",
+                "cn": "屹立中型设备制造时间效率 II",
+                "id": 37161
+              },
+              {
+                "name": "Standup M-Set Invention Accelerator II",
+                "cn": "屹立中型发明加速 II",
+                "id": 43881
+              },
+              {
+                "name": "Standup M-Set Invention Cost Optimization II",
+                "cn": "屹立中型发明成本优化 II",
+                "id": 43878
+              },
+              {
+                "name": "Standup M-Set ME Research Accelerator II",
+                "cn": "屹立中型材料效率研究加速 II",
+                "id": 43882
+              },
+              {
+                "name": "Standup M-Set ME Research Cost Optimization II",
+                "cn": "屹立中型材料效率研究成本优化 II",
+                "id": 43884
+              },
+              {
+                "name": "Standup M-Set Structure Manufacturing Material Efficiency II",
+                "cn": "屹立中型建筑制造材料效率 II",
+                "id": 43874
+              },
+              {
+                "name": "Standup M-Set Structure Manufacturing Time Efficiency II",
+                "cn": "屹立中型建筑制造时间效率 II",
+                "id": 43877
+              },
+              {
+                "name": "Standup M-Set TE Research Accelerator II",
+                "cn": "屹立中型时间效率研究加速 II",
+                "id": 43888
+              },
+              {
+                "name": "Standup M-Set TE Research Cost Optimization II",
+                "cn": "屹立中型时间效率研究成本优化 II",
+                "id": 43886
+              }
+            ]
+          },
+          {
+            "name": "X-Large Structure Engineering Rigs",
+            "cn": "超大型建筑工程改装件",
+            "items": [
+              {
+                "name": "Standup XL-Set Equipment and Consumable Manufacturing Efficiency I",
+                "cn": "屹立超大型设备和消费品制造效率 I",
+                "id": 37178
+              },
+              {
+                "name": "Standup XL-Set Laboratory Optimization I",
+                "cn": "屹立超大型实验室优化 I",
+                "id": 37183
+              },
+              {
+                "name": "Standup XL-Set Ship Manufacturing Efficiency I",
+                "cn": "屹立超大型舰船制造效率 I",
+                "id": 37180
+              },
+              {
+                "name": "Standup XL-Set Structure and Component Manufacturing Efficiency I",
+                "cn": "屹立超大型建筑和组件制造效率 I",
+                "id": 43704
+              },
+              {
+                "name": "Standup XL-Set Thukker Structure and Component Manufacturing Efficiency",
+                "cn": "屹立超大型图克尔建筑和组件制造效率",
+                "id": 45548
+              },
+              {
+                "name": "Standup XL-Set Equipment and Consumable Manufacturing Efficiency II",
+                "cn": "屹立超大型设备和消费品制造效率 II",
+                "id": 37179
+              },
+              {
+                "name": "Standup XL-Set Laboratory Optimization II",
+                "cn": "屹立超大型实验室优化 II",
+                "id": 37182
+              },
+              {
+                "name": "Standup XL-Set Ship Manufacturing Efficiency II",
+                "cn": "屹立超大型舰船制造效率 II",
+                "id": 37181
+              },
+              {
+                "name": "Standup XL-Set Structure and Component Manufacturing Efficiency II",
+                "cn": "屹立超大型建筑和组件制造效率 II",
+                "id": 43705
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Structure Resource Processing Rigs",
+        "cn": "建筑资源提炼改装件",
+        "subgroups": [
+          {
+            "name": "Large Structure Resource Processing Rigs",
+            "cn": "大型建筑资源提炼改装件",
+            "items": [
+              {
+                "name": "Standup L-Set Moon Drilling Proficiency I",
+                "cn": "屹立大型卫星钻探精通 I",
+                "id": 46327
+              },
+              {
+                "name": "Standup L-Set Reactor Efficiency I",
+                "cn": "屹立大型反应堆效率 I",
+                "id": 46496
+              },
+              {
+                "name": "Standup L-Set Reprocessing Monitor I",
+                "cn": "屹立大型提炼监控 I",
+                "id": 46639
+              },
+              {
+                "name": "Standup L-Set Moon Drilling Proficiency II",
+                "cn": "屹立大型卫星钻探精通 II",
+                "id": 46328
+              },
+              {
+                "name": "Standup L-Set Reactor Efficiency II",
+                "cn": "屹立大型反应堆效率 II",
+                "id": 46497
+              },
+              {
+                "name": "Standup L-Set Reprocessing Monitor II",
+                "cn": "屹立大型提炼监控 II",
+                "id": 46640
+              }
+            ]
+          },
+          {
+            "name": "Medium Structure Resource Processing Rigs",
+            "cn": "中型建筑资源提炼改装件",
+            "items": [
+              {
+                "name": "Standup M-Set Asteroid Ore Grading Processor I",
+                "cn": "屹立中型小行星矿石分级处理器 I",
+                "id": 46633
+              },
+              {
+                "name": "Standup M-Set Biochemical Reactor Material Efficiency I",
+                "cn": "屹立中型生化反应堆材料效率 I",
+                "id": 46494
+              },
+              {
+                "name": "Standup M-Set Biochemical Reactor Time Efficiency I",
+                "cn": "屹立中型生化反应堆时间效率 I",
+                "id": 46492
+              },
+              {
+                "name": "Standup M-Set Composite Reactor Material Efficiency I",
+                "cn": "屹立中型复合反应堆材料效率 I",
+                "id": 46486
+              },
+              {
+                "name": "Standup M-Set Composite Reactor Time Efficiency I",
+                "cn": "屹立中型复合反应堆时间效率 I",
+                "id": 46484
+              },
+              {
+                "name": "Standup M-Set Hybrid Reactor Material Efficiency I",
+                "cn": "屹立中型混合反应堆材料效率 I",
+                "id": 46490
+              },
+              {
+                "name": "Standup M-Set Hybrid Reactor Time Efficiency I",
+                "cn": "屹立中型混合反应堆时间效率 I",
+                "id": 46488
+              },
+              {
+                "name": "Standup M-Set Ice Grading Processor I",
+                "cn": "屹立中型冰矿分级处理器 I",
+                "id": 46635
+              },
+              {
+                "name": "Standup M-Set Moon Drilling Efficiency I",
+                "cn": "屹立中型卫星钻探效率 I",
+                "id": 46323
+              },
+              {
+                "name": "Standup M-Set Moon Drilling Stability I",
+                "cn": "屹立中型卫星钻探稳定 I",
+                "id": 46325
+              },
+              {
+                "name": "Standup M-Set Moon Ore Grading Processor I",
+                "cn": "屹立中型卫星矿石分级处理器 I",
+                "id": 46637
+              },
+              {
+                "name": "Standup M-Set Asteroid Ore Grading Processor II",
+                "cn": "屹立中型小行星矿石分级处理器 II",
+                "id": 46634
+              },
+              {
+                "name": "Standup M-Set Biochemical Reactor Material Efficiency II",
+                "cn": "屹立中型生化反应堆材料效率 II",
+                "id": 46495
+              },
+              {
+                "name": "Standup M-Set Biochemical Reactor Time Efficiency II",
+                "cn": "屹立中型生化反应堆时间效率 II",
+                "id": 46493
+              },
+              {
+                "name": "Standup M-Set Composite Reactor Material Efficiency II",
+                "cn": "屹立中型复合反应堆材料效率 II",
+                "id": 46487
+              },
+              {
+                "name": "Standup M-Set Composite Reactor Time Efficiency II",
+                "cn": "屹立中型复合反应堆时间效率 II",
+                "id": 46485
+              },
+              {
+                "name": "Standup M-Set Hybrid Reactor Material Efficiency II",
+                "cn": "屹立中型混合反应堆材料效率 II",
+                "id": 46491
+              },
+              {
+                "name": "Standup M-Set Hybrid Reactor Time Efficiency II",
+                "cn": "屹立中型混合反应堆时间效率 II",
+                "id": 46489
+              },
+              {
+                "name": "Standup M-Set Ice Grading Processor II",
+                "cn": "屹立中型冰矿分级处理器 II",
+                "id": 46636
+              },
+              {
+                "name": "Standup M-Set Moon Drilling Efficiency II",
+                "cn": "屹立中型卫星钻探效率 II",
+                "id": 46324
+              },
+              {
+                "name": "Standup M-Set Moon Drilling Stability II",
+                "cn": "屹立中型卫星钻探稳定 II",
+                "id": 46326
+              },
+              {
+                "name": "Standup M-Set Moon Ore Grading Processor II",
+                "cn": "屹立中型卫星矿石分级处理器 II",
+                "id": 46638
+              }
+            ]
+          },
+          {
+            "name": "X-Large Structure Resource Processing Rigs",
+            "cn": "超大型建筑资源提炼改装件",
+            "items": [
+              {
+                "name": "Standup XL-Set Reprocessing Monitor I",
+                "cn": "屹立超大型提炼监控 I",
+                "id": 46641
+              },
+              {
+                "name": "Standup XL-Set Reprocessing Monitor II",
+                "cn": "屹立超大型提炼监控 II",
+                "id": 46642
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Structures",
+    "cn": "建筑",
+    "subgroups": [
+      {
+        "name": "Citadels",
+        "cn": "堡垒",
+        "subgroups": [
+          {
+            "name": "Standard Citadels",
+            "cn": "标准堡垒",
+            "items": [
+              {
+                "name": "Astrahus",
+                "cn": "空堡",
+                "id": 35832
+              },
+              {
+                "name": "Fortizar",
+                "cn": "铁壁",
+                "id": 35833
+              },
+              {
+                "name": "Starkeep",
+                "cn": "星城",
+                "id": 35834
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Navigation Structures",
+        "cn": "导航建筑",
+        "items": [
+          {
+            "name": "Ansiblex Jump Gate",
+            "cn": "安塞波跳跃星门",
+            "id": 35841
+          },
+          {
+            "name": "Pharolux Cyno Beacon",
+            "cn": "明灯诱导信标",
+            "id": 35840
+          },
+          {
+            "name": "Tenebrex Cyno Jammer",
+            "cn": "暗影诱导干扰塔",
+            "id": 37534
+          }
+        ]
+      },
+      {
+        "name": "Engineering Complexes",
+        "cn": "工程复合体",
+        "items": [
+          {
+            "name": "Raitaru",
+            "cn": "莱塔卢",
+            "id": 35825
+          },
+          {
+            "name": "Azbel",
+            "cn": "阿兹贝尔",
+            "id": 35826
+          },
+          {
+            "name": "Sotiyo",
+            "cn": "索迪约",
+            "id": 35827
+          }
+        ]
+      },
+      {
+        "name": "Refineries",
+        "cn": "精炼厂",
+        "items": [
+          {
+            "name": "Athanor",
+            "cn": "阿塔诺",
+            "id": 35835
+          },
+          {
+            "name": "Tatara",
+            "cn": "塔塔拉",
+            "id": 35836
+          }
+        ]
+      },
+      {
+        "name": "Sovereignty Structures",
+        "cn": "主权设施",
+        "subgroups": [
+          {
+            "name": "Territorial Claim Units",
+            "cn": "主权宣布设施",
+            "items": [
+              {
+                "name": "Territorial Claim Unit",
+                "cn": "主权宣布设施",
+                "id": 32226
+              }
+            ]
+          },
+          {
+            "name": "Infrastructure Hubs",
+            "cn": "基础设施中心",
+            "items": [
+              {
+                "name": "Infrastructure Hub",
+                "cn": "基础设施中心",
+                "id": 32458
+              }
+            ]
+          },
+          {
+            "name": "Infrastructure Upgrades",
+            "cn": "基础设施升级",
+            "subgroups": [
+              {
+                "name": "Industrial Upgrades",
+                "cn": "工业升级",
+                "items": [
+                  {
+                    "name": "Ore Prospecting Array 1",
+                    "cn": "矿石勘探阵列 1",
+                    "id": 2040
+                  },
+                  {
+                    "name": "Ore Prospecting Array 2",
+                    "cn": "矿石勘探阵列 2",
+                    "id": 2041
+                  },
+                  {
+                    "name": "Ore Prospecting Array 3",
+                    "cn": "矿石勘探阵列 3",
+                    "id": 2042
+                  },
+                  {
+                    "name": "Ore Prospecting Array 4",
+                    "cn": "矿石勘探阵列 4",
+                    "id": 2043
+                  },
+                  {
+                    "name": "Ore Prospecting Array 5",
+                    "cn": "矿石勘探阵列 5",
+                    "id": 2044
+                  },
+                  {
+                    "name": "Survey Networks 1",
+                    "cn": "勘探网络 1",
+                    "id": 2053
+                  },
+                  {
+                    "name": "Survey Networks 2",
+                    "cn": "勘探网络 2",
+                    "id": 2054
+                  },
+                  {
+                    "name": "Survey Networks 3",
+                    "cn": "勘探网络 3",
+                    "id": 2055
+                  },
+                  {
+                    "name": "Survey Networks 4",
+                    "cn": "勘探网络 4",
+                    "id": 2056
+                  },
+                  {
+                    "name": "Survey Networks 5",
+                    "cn": "勘探网络 5",
+                    "id": 2057
+                  }
+                ]
+              },
+              {
+                "name": "Military Upgrades",
+                "cn": "军事升级",
+                "items": [
+                  {
+                    "name": "Entrapment Array 1",
+                    "cn": "诱捕阵列 1",
+                    "id": 2031
+                  },
+                  {
+                    "name": "Entrapment Array 2",
+                    "cn": "诱捕阵列 2",
+                    "id": 2034
+                  },
+                  {
+                    "name": "Entrapment Array 3",
+                    "cn": "诱捕阵列 3",
+                    "id": 2035
+                  },
+                  {
+                    "name": "Entrapment Array 4",
+                    "cn": "诱捕阵列 4",
+                    "id": 2036
+                  },
+                  {
+                    "name": "Entrapment Array 5",
+                    "cn": "诱捕阵列 5",
+                    "id": 2037
+                  },
+                  {
+                    "name": "Pirate Detection Array 1",
+                    "cn": "游寇监测阵列 1",
+                    "id": 2026
+                  },
+                  {
+                    "name": "Pirate Detection Array 2",
+                    "cn": "游寇监测阵列 2",
+                    "id": 2027
+                  },
+                  {
+                    "name": "Pirate Detection Array 3",
+                    "cn": "游寇监测阵列 3",
+                    "id": 2028
+                  },
+                  {
+                    "name": "Pirate Detection Array 4",
+                    "cn": "游寇监测阵列 4",
+                    "id": 2029
+                  },
+                  {
+                    "name": "Pirate Detection Array 5",
+                    "cn": "游寇监测阵列 5",
+                    "id": 2030
+                  },
+                  {
+                    "name": "Quantum Flux Generator 1",
+                    "cn": "量子通量发生器 1",
+                    "id": 2058
+                  },
+                  {
+                    "name": "Quantum Flux Generator 2",
+                    "cn": "量子通量发生器 2",
+                    "id": 2059
+                  },
+                  {
+                    "name": "Quantum Flux Generator 3",
+                    "cn": "量子通量发生器 3",
+                    "id": 2060
+                  },
+                  {
+                    "name": "Quantum Flux Generator 4",
+                    "cn": "量子通量发生器 4",
+                    "id": 2061
+                  },
+                  {
+                    "name": "Quantum Flux Generator 5",
+                    "cn": "量子通量发生器 5",
+                    "id": 2062
+                  }
+                ]
+              },
+              {
+                "name": "Strategic Upgrades",
+                "cn": "战略升级",
+                "items": [
+                  {
+                    "name": "Advanced Logicstics Network",
+                    "cn": "高级后勤网络",
+                    "id": 32422
+                  },
+                  {
+                    "name": "Cynosual Navigation",
+                    "cn": "诱导力场导航系统",
+                    "id": 2008
+                  },
+                  {
+                    "name": "Cynosual Suppression",
+                    "cn": "诱导力场压制",
+                    "id": 2001
+                  },
+                  {
+                    "name": "Supercapital Construction Facilities",
+                    "cn": "超级旗舰建造设施",
+                    "id": 2009
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manufacture & Research",
+    "cn": "制造和研究",
+    "subgroups": [
+      {
+        "name": "Components",
+        "cn": "组件",
+        "subgroups": [
+          {
+            "name": "FuelBlocks",
+            "cn": "燃料块",
+            "items": [
+              {
+                "name": "Helium Fuel Block",
+                "cn": "氦燃料块",
+                "id": 4247
+              },
+              {
+                "name": "Hydrogen Fuel Block",
+                "cn": "氢燃料块",
+                "id": 4246
+              },
+              {
+                "name": "Nitrogen Fuel Block",
+                "cn": "氮燃料块",
+                "id": 4051
+              },
+              {
+                "name": "Oxygen Fuel Block",
+                "cn": "氧燃料块",
+                "id": 4312
+              }
+            ]
+          },
+          {
+            "name": "StructureComponents",
+            "cn": "建筑组件",
+            "items": [
+              {
+                "name": "Structure Acceleration Coils",
+                "cn": "建筑加速线圈",
+                "id": 36957
+              },
+              {
+                "name": "Structure Advertisement Nexus",
+                "cn": "建筑宣传节点",
+                "id": 36958
+              },
+              {
+                "name": "Structure Construction Parts",
+                "cn": "建筑建造组件",
+                "id": 21947
+              },
+              {
+                "name": "Structure Docking Bay",
+                "cn": "建筑停泊港",
+                "id": 21961
+              },
+              {
+                "name": "Structure Electromagnetic Sensor",
+                "cn": "建筑磁力感应器",
+                "id": 36956
+              },
+              {
+                "name": "Structure EXERT Conduit Coupler",
+                "cn": "建筑导管联结器",
+                "id": 49720
+              },
+              {
+                "name": "Structure Factory",
+                "cn": "建筑工厂",
+                "id": 21955
+              },
+              {
+                "name": "Structure Hangar Array",
+                "cn": "建筑机库阵列",
+                "id": 21949
+              },
+              {
+                "name": "Structure Laboratory",
+                "cn": "建筑实验室",
+                "id": 21953
+              },
+              {
+                "name": "Structure Market Network",
+                "cn": "建筑市场网络",
+                "id": 21963
+              },
+              {
+                "name": "Structure Medical Center",
+                "cn": "建筑医疗中心",
+                "id": 21965
+              },
+              {
+                "name": "Structure Mission Network",
+                "cn": "建筑任务网络",
+                "id": 21969
+              },
+              {
+                "name": "Structure Office Center",
+                "cn": "建筑办公室中心",
+                "id": 21967
+              },
+              {
+                "name": "Structure Repair Facility",
+                "cn": "建筑维修设施",
+                "id": 21957
+              },
+              {
+                "name": "Structure Reprocessing Plant",
+                "cn": "建筑提炼工厂",
+                "id": 21959
+              },
+              {
+                "name": "Structure Storage Bay",
+                "cn": "建筑贮藏舱",
+                "id": 21951
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Materials",
+        "cn": "材料",
+        "subgroups": [
+          {
+            "name": "Minerals",
+            "cn": "矿物",
+            "items": [
+              {
+                "name": "Tritanium",
+                "cn": "三钛合金",
+                "id": 34
+              },
+              {
+                "name": "Pyerite",
+                "cn": "类晶体胶矿",
+                "id": 35
+              },
+              {
+                "name": "Mexallon",
+                "cn": "类银超金属",
+                "id": 36
+              },
+              {
+                "name": "Isogen",
+                "cn": "同位聚合体",
+                "id": 37
+              },
+              {
+                "name": "Nocxium",
+                "cn": "超新星诺克石",
+                "id": 38
+              },
+              {
+                "name": "Zydrine",
+                "cn": "晶状石英核岩",
+                "id": 39
+              },
+              {
+                "name": "Megacyte",
+                "cn": "超噬矿",
+                "id": 40
+              }
+            ]
+          },
+          {
+            "name": "Planetary Minerals",
+            "cn": "行星材料",
+            "subgroups": [
+              {
+                "name": "Advanced Planetary Minerals",
+                "cn": "高级行星材料",
+                "items": [
+                  {
+                    "name": "Broadcast Node",
+                    "cn": "广播节点",
+                    "id": 2867
+                  },
+                  {
+                    "name": "Integrity Response Drones",
+                    "cn": "反破损快速反应无人机",
+                    "id": 2868
+                  },
+                  {
+                    "name": "Nano-Factory",
+                    "cn": "纳米-工厂",
+                    "id": 2869
+                  },
+                  {
+                    "name": "Organic Mortar Applicators",
+                    "cn": "有机砂浆喷注器",
+                    "id": 2870
+                  },
+                  {
+                    "name": "Recursive Computing Module",
+                    "cn": "递推计算模块",
+                    "id": 2871
+                  },
+                  {
+                    "name": "Self-Harmonizing Power Core",
+                    "cn": "自协调能源核心",
+                    "id": 2872
+                  },
+                  {
+                    "name": "Sterile Conduits",
+                    "cn": "无菌管道",
+                    "id": 2875
+                  },
+                  {
+                    "name": "Wetware Mainframe",
+                    "cn": "湿件主机",
+                    "id": 2876
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Reaction Materials",
+            "cn": "反应材料",
+            "subgroups": [
+              {
+                "name": "Processed Moon Materials",
+                "cn": "加工过的卫星材料",
+                "items": [
+                  {
+                    "name": "Caesarium Cadmide",
+                    "cn": "镉化铯",
+                    "id": 16663
+                  }
+                ]
+              },
+              {
+                "name": "Raw Moon Materials",
+                "cn": "卫星原材料",
+                "items": [
+                  {
+                    "name": "Cadmium",
+                    "cn": "镉",
+                    "id": 16643
+                  },
+                  {
+                    "name": "Caesium",
+                    "cn": "铯",
+                    "id": 16647
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "R.A.M.",
+        "cn": "R.A.M."
+      }
+    ]
+  },
+  {
+    "name": "Trade Goods",
+    "cn": "贸易货物",
+    "subgroups": [
+      {
+        "name": "Passengers",
+        "cn": "乘客",
+        "items": [
+          {
+            "name": "Marines",
+            "cn": "海军陆战队员",
+            "id": 3810
+          },
+          {
+            "name": "Janitor",
+            "cn": "看门人",
+            "id": 13267
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "name": "Reaction Formulas",
+  "cn": "反应公式",
+  "subgroups": [
+    {
+      "name": "Composite Formulas",
+      "cn": "复合反应",
+      "formulas": [
+        {
+          "id": 46166,
+          "name": "Caesarium Cadmide Reaction Formula",
+          "cn": "镉化铯反应配方",
+          "reaction": {
+            "materials": [
+              {
+                "id": 16643,
+                "quantity": 100
+              },
+              {
+                "id": 16647,
+                "quantity": 100
+              },
+              {
+                "id": 4312,
+                "quantity": 5
+              }
+            ],
+            "outcome": {
+              "id": 16663,
+              "quantity": 200
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

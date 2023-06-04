@@ -1,16 +1,16 @@
 import React from "react";
 import { Collapse, Space, Image, Row, Col, Typography  } from "antd";
 
-import { Blueprint } from "../../data";
 import { fallbackImage } from "../../assets/strings";
 import { formatMaterial, formatMaterialWithSetting } from "../../utils/formaters";
-import { BlueprintSetting } from "../../db";
+import { Blueprint } from "../../data/blueprints";
+import { BS } from "../../db";
 
 const { Title } = Typography;
 
 export interface BlueprintIndustryFlowViewProps {
   blueprint: Blueprint | null;
-  setting: BlueprintSetting;
+  setting: BS;
 }
 
 const { Panel } = Collapse;

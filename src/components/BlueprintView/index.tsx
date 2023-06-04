@@ -4,13 +4,13 @@ import { Tabs } from "antd";
 import type { TabsProps } from "antd";
 
 import BlueprintIndustryFlowView from "./BlueprintIndustryFlowView";
-import { Blueprint } from "../../data";
-import { BlueprintSetting } from "../../db";
+import { Blueprint } from "../../data/blueprints";
+import { BS } from "../../db";
 
 
 export interface BlueprintViewProps {
   blueprint: Blueprint | null;
-  setting: BlueprintSetting;
+  setting: BS;
 };
 
 const BlueprintView: React.FC<BlueprintViewProps> = (
