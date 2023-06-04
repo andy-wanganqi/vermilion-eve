@@ -16,7 +16,7 @@ export const SettingsPageContext = React.createContext<SettingsPageContextType>(
   SettingsPageContextState
 );
 
-const BlueprintTitle = (showSaveButton: boolean) => (
+const BlueprintTitle = () => (
   <Space>
     <Image
       preview={false}
@@ -26,7 +26,7 @@ const BlueprintTitle = (showSaveButton: boolean) => (
       fallback={fallbackImage}
     />
     <span>Blueprint Setting</span>
-    { showSaveButton && <Button
+    <Button
       type="primary"
       size="small"
       onClick={() => {
@@ -35,16 +35,52 @@ const BlueprintTitle = (showSaveButton: boolean) => (
       }}
     >
       Save All
-    </Button>}
+    </Button>
   </Space>
 );
 
-const ModificationTitle = (
+const BlueprintAnchor = () => (
+  <Space>
+    <Image
+      preview={false}
+      width={24}
+      height={24}
+      src={blueprintImage}
+      fallback={fallbackImage}
+    />
+    <span>Blueprint Setting</span>
+  </Space>
+);
+
+const ModificationTitle = () => (
   <Space>
     <Image
       preview={false}
       width={32}
       height={32}
+      src={modificationImage}
+      fallback={fallbackImage}
+    />
+    <span>Structure Modification Setting</span>
+    <Button
+      type="primary"
+      size="small"
+      onClick={() => {
+        db.saveCachedStructureModificationSettings();
+        message.success(`Successfully saved structure modification settings`);
+      }}
+    >
+      Save All
+    </Button>
+  </Space>
+);
+
+const ModificationAnchor = () => (
+  <Space>
+    <Image
+      preview={false}
+      width={24}
+      height={24}
       src={modificationImage}
       fallback={fallbackImage}
     />
@@ -59,12 +95,12 @@ const SettingsPage: React.FC = () => {
         <Col className="gutter-row" span={18}>
           <Space direction="vertical" style={{ width: "100%" }}>
             <div id="blueprint">
-              <Card title={BlueprintTitle(true)}>
+              <Card title={<BlueprintTitle />}>
                 <BlueprintSettingWidget />
               </Card>
             </div>
             <div id="structure_modification">
-              <Card title={ModificationTitle}>
+              <Card title={<ModificationTitle/>}>
                 <StructureModificationSettingWidget />
               </Card>
             </div>
@@ -76,12 +112,12 @@ const SettingsPage: React.FC = () => {
               {
                 key: "blueprint",
                 href: "#blueprint",
-                title: BlueprintTitle(false),
+                title: <BlueprintAnchor />,
               },
               {
                 key: "structure_modification",
                 href: "#structure_modification",
-                title: ModificationTitle,
+                title: <ModificationAnchor />,
               },
             ]}
           />

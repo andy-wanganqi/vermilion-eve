@@ -13,11 +13,12 @@ import {
 
 import BlueprintView from "../../components/BlueprintView";
 import { fallbackImage } from "../../assets/strings";
-import { Blueprint, BlueprintSetting, defaultBlueprintSetting, findBlueprint } from "../../data";
+import { Blueprint, findBlueprint } from "../../data/blueprints";
+import { BS, defaultBS } from "../../db";
 const { Title } = Typography;
 
-export const blueprintLoader: LoaderFunction = ({params}) => {
-  const blueprint = findBlueprint(parseInt(params.id ?? '-1'));
+export const blueprintLoader: LoaderFunction = ({ params }) => {
+  const blueprint = findBlueprint(parseInt(params.id ?? "-1"));
   if (!blueprint) {
     throw new Response("", {
       status: 404,
@@ -29,7 +30,7 @@ export const blueprintLoader: LoaderFunction = ({params}) => {
 
 const BlueprintPreview: React.FC = () => {
   const blueprint = useLoaderData() as Blueprint;
-  
+
   const handleSave = (
     e:
       | React.MouseEvent<HTMLAnchorElement, MouseEvent>
@@ -42,8 +43,7 @@ const BlueprintPreview: React.FC = () => {
     }
   };
 
-  const [setting, setSetting] = useState<BlueprintSetting>(defaultBlueprintSetting
-  );
+  const [setting, setSetting] = useState<BS>(defaultBS);
 
   const materiaEfficiencyDisabled = !blueprint?.manufacturing;
   const defaultRunsDisabled = !blueprint;
@@ -73,12 +73,12 @@ const BlueprintPreview: React.FC = () => {
           addonBefore="Material Efficiency"
           min={0}
           max={10}
-          defaultValue={setting.materialEfficiency}
-          value={setting.materialEfficiency}
+          defaultValue={setting.M}
+          value={setting.M}
           onChange={(value: number | null) => {
             setSetting({
               ...setting,
-              materialEfficiency: value || 0,
+              M: value || 0,
             });
           }}
         />
@@ -86,12 +86,12 @@ const BlueprintPreview: React.FC = () => {
           disabled={defaultRunsDisabled}
           addonBefore="Default Runs"
           min={1}
-          defaultValue={setting.defaultRuns}
-          value={setting.defaultRuns}
+          defaultValue={setting.D}
+          value={setting.D}
           onChange={(value: number | null) => {
             setSetting({
               ...setting,
-              defaultRuns: value || 1,
+              D: value || 1,
             });
           }}
         />

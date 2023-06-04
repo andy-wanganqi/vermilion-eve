@@ -4,6 +4,9 @@ import { RouterProvider } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import router from './routes/router';
 import './index.css';
+import { preloadStaticData } from "./db";
+
+preloadStaticData();
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
