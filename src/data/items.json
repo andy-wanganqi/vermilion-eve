@@ -79,83 +79,67 @@
             "subgroups": [
               {
                 "name": "Standup M-Set Electronic Warfare Economy I",
-                "cn": "屹立中型电子战节能 I",
-                "id": 37230
+                "cn": "屹立中型电子战节能 I"
               },
               {
                 "name": "Standup M-Set Electronic Warfare Projection I",
-                "cn": "屹立中型电子战投射 I",
-                "id": 37228
+                "cn": "屹立中型电子战投射 I"
               },
               {
                 "name": "Standup M-Set Energy Neutralizer Economy I",
-                "cn": "屹立中型能量中和器节能 I",
-                "id": 37222
+                "cn": "屹立中型能量中和器节能 I"
               },
               {
                 "name": "Standup M-Set Energy Neutralizer Projection I",
-                "cn": "屹立中型能量中和器投射 I",
-                "id": 37218
+                "cn": "屹立中型能量中和器投射 I"
               },
               {
                 "name": "Standup M-Set Enhanced Targeting System I",
-                "cn": "屹立中型锁定增强系统 I",
-                "id": 37234
+                "cn": "屹立中型锁定增强系统 I"
               },
               {
                 "name": "Standup M-Set Missile Precision I",
-                "cn": "屹立中型导弹精度 I",
-                "id": 37216
+                "cn": "屹立中型导弹精度 I"
               },
               {
                 "name": "Standup M-Set Missile Projection I",
-                "cn": "屹立中型导弹投射 I",
-                "id": 37220
+                "cn": "屹立中型导弹投射 I"
               },
               {
                 "name": "Standup M-Set Structure Target Multiplexing I",
-                "cn": "屹立中型建筑多重锁定装置 I",
-                "id": 37232
+                "cn": "屹立中型建筑多重锁定装置 I"
               },
               {
                 "name": "Standup M-Set Electronic Warfare Economy II",
-                "cn": "屹立中型电子战节能 II",
-                "id": 37231
+                "cn": "屹立中型电子战节能 II"
               },
               {
                 "name": "Standup M-Set Electronic Warfare Projection II",
-                "cn": "屹立中型电子战投射 II",
-                "id": 37229
+                "cn": "屹立中型电子战投射 II"
               },
               {
                 "name": "Standup M-Set Energy Neutralizer Economy II",
-                "cn": "屹立中型能量中和器节能 II",
-                "id": 37223
+                "cn": "屹立中型能量中和器节能 II"
               },
               {
                 "name": "Standup M-Set Energy Neutralizer Projection II",
-                "cn": "屹立中型能量中和器投射 II",
-                "id": 37219
+                "cn": "屹立中型能量中和器投射 II"
               },
               {
                 "name": "Standup M-Set Enhanced Targeting System II",
-                "cn": "屹立中型锁定增强系统 II",
-                "id": 37235
+                "cn": "屹立中型锁定增强系统 II"
               },
               {
                 "name": "Standup M-Set Missile Precision II",
-                "cn": "屹立中型导弹精度 II",
-                "id": 37217
+                "cn": "屹立中型导弹精度 II"
               },
               {
                 "name": "Standup M-Set Missile Projection II",
-                "cn": "屹立中型导弹投射 II",
-                "id": 37221
+                "cn": "屹立中型导弹投射 II"
               },
               {
                 "name": "Standup M-Set Structure Target Multiplexing II",
-                "cn": "屹立中型建筑多重锁定装置 II",
-                "id": 37233
+                "cn": "屹立中型建筑多重锁定装置 II"
               }
             ]
           },
@@ -165,33 +149,27 @@
             "subgroups": [
               {
                 "name": "Standup XL-Set EW and Emissions Co-ordinator I",
-                "cn": "屹立超大型电子战和散热协调器 I",
-                "id": 37272
+                "cn": "屹立超大型电子战和散热协调器 I"
               },
               {
                 "name": "Standup XL-Set Extinction Level Weapons Suite I",
-                "cn": "屹立超大型毁灭级武器套装 I",
-                "id": 37274
+                "cn": "屹立超大型毁灭级武器套装 I"
               },
               {
                 "name": "Standup XL-Set Missile Fire Control Computer I",
-                "cn": "屹立超大型导弹火力控制计算机 I",
-                "id": 37268
+                "cn": "屹立超大型导弹火力控制计算机 I"
               },
               {
                 "name": "Standup XL-Set EW and Emissions Co-ordinator II",
-                "cn": "屹立超大型电子战和散热协调器 II",
-                "id": 37273
+                "cn": "屹立超大型电子战和散热协调器 II"
               },
               {
                 "name": "Standup XL-Set Extinction Level Weapons Suite II",
-                "cn": "屹立超大型毁灭级武器套装 II",
-                "id": 37275
+                "cn": "屹立超大型毁灭级武器套装 II"
               },
               {
                 "name": "Standup XL-Set Missile Fire Control Computer II",
-                "cn": "屹立超大型导弹火力控制计算机 II",
-                "id": 37269
+                "cn": "屹立超大型导弹火力控制计算机 II"
               }
             ]
           }
@@ -1275,7 +1253,108 @@
             ]
           },
           {
-            "name": "StructureComponents",
+            "name": "Standard Capital Ship Components",
+            "cn": "标准旗舰组件",
+            "items": [
+              {
+                "name": "Capital Armor Plates",
+                "cn": "旗舰附甲",
+                "id": 21017
+              },
+              {
+                "name": "Capital Capacitor Battery",
+                "cn": "旗舰电容器电池",
+                "id": 21019
+              },
+              {
+                "name": "Capital Cargo Bay",
+                "cn": "旗舰货柜舱",
+                "id": 21027
+              },
+              {
+                "name": "Capital Clone Vat Bay",
+                "cn": "旗舰克隆舱",
+                "id": 24547
+              },
+              {
+                "name": "Capital Computer System",
+                "cn": "旗舰计算机系统",
+                "id": 21035
+              },
+              {
+                "name": "Capital Construction Parts",
+                "cn": "旗舰建设构件",
+                "id": 21037
+              },
+              {
+                "name": "Capital Corporate Hangar Bay",
+                "cn": "旗舰联合机库舱",
+                "id": 24560
+              },
+              {
+                "name": "Capital Doomsday Weapon Mount",
+                "cn": "旗舰末日武器安装位",
+                "id": 24556
+              },
+              {
+                "name": "Capital Drone Bay",
+                "cn": "旗舰无人机挂舱",
+                "id": 21029
+              },
+              {
+                "name": "Capital Jump Bridge Array",
+                "cn": "旗舰跳跃桥接阵列",
+                "id": 24545
+              },
+              {
+                "name": "Capital Jump Drive",
+                "cn": "旗舰跳跃引擎",
+                "id": 21025
+              },
+              {
+                "name": "Capital Launcher Hardpoint",
+                "cn": "旗舰发射器安装座",
+                "id": 21041
+              },
+              {
+                "name": "Capital Power Generator",
+                "cn": "旗舰发电机组",
+                "id": 21021
+              },
+              {
+                "name": "Capital Propulsion Engine",
+                "cn": "旗舰推进引擎",
+                "id": 21009
+              },
+              {
+                "name": "Capital Sensor Cluster",
+                "cn": "旗舰感应器组",
+                "id": 21013
+              },
+              {
+                "name": "Capital Shield Emitter",
+                "cn": "旗舰护盾发射器",
+                "id": 21023
+              },
+              {
+                "name": "Capital Ship Maintenance Bay",
+                "cn": "旗舰船只维护舱",
+                "id": 24558
+              },
+              {
+                "name": "Capital Siege Array",
+                "cn": "旗舰会战能源阵列",
+                "id": 21039
+              },
+              {
+                "name": "Capital Turret Hardpoint",
+                "cn": "旗舰炮台挂点",
+                "id": 21011
+              }
+            ]
+          },
+          {
+            "name": "Structure Components",
             "cn": "建筑组件",
             "items": [
               {
@@ -1366,6 +1445,47 @@
         "name": "Materials",
         "cn": "材料",
         "subgroups": [
+          {
+            "name": "Ice Products",
+            "cn": "冰矿产物",
+            "items": [
+              {
+                "name": "Heavy Water",
+                "cn": "重水",
+                "id": 16272
+              },
+              {
+                "name": "Liquid Ozone",
+                "cn": "液化臭氧",
+                "id": 16273
+              },
+              {
+                "name": "Strontium Clathrates",
+                "cn": "锶包合物",
+                "id": 16275
+              },
+              {
+                "name": "Helium Isotopes",
+                "cn": "氢同位素",
+                "id": 17889
+              },
+              {
+                "name": "Hydrogen Isotopes",
+                "cn": "氦同位素",
+                "id": 16274
+              },
+              {
+                "name": "Nitrogen Isotopes",
+                "cn": "氮同位素",
+                "id": 17888
+              },
+              {
+                "name": "Oxygen Isotopes",
+                "cn": "氧同位素",
+                "id": 17887
+              }
+            ]
+          },
           {
             "name": "Minerals",
             "cn": "矿物",
@@ -1463,6 +1583,68 @@
             "name": "Reaction Materials",
             "cn": "反应材料",
             "subgroups": [
+              {
+                "name": "Advanced Moon Materials",
+                "cn": "高级卫星材料",
+                "items": [
+                  {
+                    "name": "Reinforced Carbon Fiber",
+                    "cn": "强化碳纤维",
+                    "id": 57457
+                  }
+                ]
+              },
+              {
+                "name": "Polymer Materials",
+                "cn": "聚合物材料",
+                "items": [
+                  {
+                    "name": "C3-FTM Acid",
+                    "cn": "C3-FTM酸",
+                    "id": 30311
+                  },
+                  {
+                    "name": "Carbon-86 Epoxy Resin",
+                    "cn": "碳86环氧树脂",
+                    "id": 30310
+                  },
+                  {
+                    "name": "Fullerene Intercalated Graphite",
+                    "cn": "富勒烯层间石墨",
+                    "id": 30305
+                  },
+                  {
+                    "name": "Fulleroferrocene",
+                    "cn": "富勒二茂铁",
+                    "id": 30303
+                  },
+                  {
+                    "name": "Graphene Nanoribbons",
+                    "cn": "石墨烯纳米带",
+                    "id": 30309
+                  },
+                  {
+                    "name": "Lanthanum Metallofullerene",
+                    "cn": "金属富勒烯镧",
+                    "id": 30307
+                  },
+                  {
+                    "name": "Methanofullerene",
+                    "cn": "亚甲基富勒烯",
+                    "id": 30306
+                  },
+                  {
+                    "name": "PPD Fullerene Fibers",
+                    "cn": "PPD富勒烯纤维",
+                    "id": 30304
+                  },
+                  {
+                    "name": "Scandium Metallofullerene",
+                    "cn": "金属富勒烯钪",
+                    "id": 30308
+                  }
+                ]
+              },
               {
                 "name": "Processed Moon Materials",
                 "cn": "加工过的卫星材料",

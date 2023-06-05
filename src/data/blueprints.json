@@ -3,6 +3,1411 @@
   "cn": "蓝图",
   "subgroups": [
     {
+      "name": "Manufacture & Research",
+      "cn": "制造和研究",
+      "subgroups": [
+        {
+          "name": "Components",
+          "cn": "组件",
+          "subgroups": [
+            {
+              "name": "Standard Capital Ship Components",
+              "cn": "标准旗舰组件",
+              "blueprints": [
+                {
+                  "id": 21018,
+                  "name": "Capital Armor Plates Blueprint",
+                  "cn": "旗舰附甲蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21017,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 60000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 210000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 60000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 16000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1600
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 820
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 410
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21020,
+                  "name": "Capital Capacitor Battery Blueprint",
+                  "cn": "旗舰电容器电池蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21019,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 52000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 190000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 52000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 15000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1500
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 730
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 370
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21028,
+                  "name": "Capital Cargo Bay Blueprint",
+                  "cn": "旗舰货柜舱蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21027,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 34,
+                        "quantity": 54000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 195000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 54000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 15000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1500
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 760
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 380
+                      },
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 24548,
+                  "name": "Capital Clone Vat Bay Blueprint",
+                  "cn": "旗舰克隆舱蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 24547,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 90000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 325000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 90000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 25000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 2500
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 1275
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 650
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 2
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21036,
+                  "name": "Capital Computer System Blueprint",
+                  "cn": "旗舰计算机系统蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21035,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 54000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 195000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 54000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 15000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1500
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 760
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 380
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21038,
+                  "name": "Capital Construction Parts Blueprint",
+                  "cn": "旗舰建设构件蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21037,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 34,
+                        "quantity": 40000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 140000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 40000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 12000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1000
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 550
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 280
+                      },
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 24561,
+                  "name": "Capital Corporate Hangar Bay Blueprint",
+                  "cn": "旗舰联合机库舱蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 24560,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 34,
+                        "quantity": 75000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 270000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 75000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 22000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 2200
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 1050
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 530
+                      },
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 24557,
+                  "name": "Capital Doomsday Weapon Mount Blueprint",
+                  "cn": "旗舰末日武器安装位蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 24556,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 135000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 500000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 135000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 40000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 4000
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 2000
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 1000
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21030,
+                  "name": "Capital Drone Bay Blueprint",
+                  "cn": "旗舰无人机挂舱蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21029,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 32500
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 120000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 32500
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 9000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 900
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 450
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 230
+                      },
+                      {
+                        "id": 2867,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 24546,
+                  "name": "Capital Jump Bridge Array Blueprint",
+                  "cn": "旗舰跳跃桥接阵列蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 24545,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 200000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 660000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 200000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 55000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 6000
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 3000
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 1500
+                      },
+                      {
+                        "id": 2867,
+                        "quantity": 2
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21026,
+                  "name": "Capital Jump Drive Blueprint",
+                  "cn": "旗舰跳跃引擎蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21025,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 80000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 288000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 80000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 22500
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 2250
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 1200
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 560
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21042,
+                  "name": "Capital Launcher Hardpoint Blueprint",
+                  "cn": "旗舰发射器安装座蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21041,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 37000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 135000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 38000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 10000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1000
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 520
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 250
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21022,
+                  "name": "Capital Power Generator Blueprint",
+                  "cn": "旗舰发电机组蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21021,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 63000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 225000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 63000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 18000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1800
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 880
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 440
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21010,
+                  "name": "Capital Propulsion Engine Blueprint",
+                  "cn": "旗舰推进引擎蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21009,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 54000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 195000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 54000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 15000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1500
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 760
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 380
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21014,
+                  "name": "Capital Sensor Cluster Blueprint",
+                  "cn": "旗舰感应器组蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21013,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 54000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 195000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 54000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 15000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1500
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 760
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 380
+                      },
+                      {
+                        "id": 2867,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21024,
+                  "name": "Capital Shield Emitter Blueprint",
+                  "cn": "旗舰护盾发射器蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21023,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 60000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 210000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 60000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 16000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1600
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 820
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 410
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 24559,
+                  "name": "Capital Ship Maintenance Bay Blueprint",
+                  "cn": "旗舰船只维护舱蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 24558,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 72000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 256000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 72000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 20000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 2000
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 1000
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 500
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21040,
+                  "name": "Capital Siege Array Blueprint",
+                  "cn": "旗舰会战能源阵列蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21039,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 37000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 135000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 38000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 10000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1000
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 520
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 250
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 21012,
+                  "name": "Capital Turret Hardpoint Blueprint",
+                  "cn": "旗舰炮台挂点蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 21011,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 30303,
+                        "quantity": 25
+                      },
+                      {
+                        "id": 30304,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30305,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 30306,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30307,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 30308,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 57457,
+                        "quantity": 100
+                      },
+                      {
+                        "id": 34,
+                        "quantity": 37000
+                      },
+                      {
+                        "id": 35,
+                        "quantity": 135000
+                      },
+                      {
+                        "id": 36,
+                        "quantity": 38000
+                      },
+                      {
+                        "id": 37,
+                        "quantity": 10000
+                      },
+                      {
+                        "id": 38,
+                        "quantity": 1000
+                      },
+                      {
+                        "id": 39,
+                        "quantity": 520
+                      },
+                      {
+                        "id": 40,
+                        "quantity": 250
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Structures",
       "cn": "建筑",
       "subgroups": [
@@ -385,11 +1790,136 @@
                   },
                   {
                     "id": 3810,
-                    "quantity": 25
+                    "quantity": 250
                   },
                   {
                     "id": 13267,
-                    "quantity": 50
+                    "quantity": 500
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Navigation Structures",
+          "cn": "导航建筑",
+          "blueprints": [
+            {
+              "id": 36961,
+              "name": "Ansiblex Jump Gate Blueprint",
+              "cn": "安塞波跳跃星门蓝图",
+              "manufacturing": {
+                "outcome": {
+                  "id": 35841,
+                  "quantity": 1
+                },
+                "materials": [
+                  {
+                    "id": 35841,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21947,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21951,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36956,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36957,
+                    "quantity": 3
+                  },
+                  {
+                    "id": 36958,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 49720,
+                    "quantity": 2
+                  }
+                ]
+              }
+            },
+            {
+              "id": 36960,
+              "name": "Pharolux Cyno Beacon Blueprint",
+              "cn": "明灯诱导信标蓝图",
+              "manufacturing": {
+                "outcome": {
+                  "id": 35840,
+                  "quantity": 1
+                },
+                "materials": [
+                  {
+                    "id": 35840,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21947,
+                    "quantity": 2
+                  },
+                  {
+                    "id": 21949,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21951,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36956,
+                    "quantity": 2
+                  },
+                  {
+                    "id": 36957,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 16273,
+                    "quantity": 500000
+                  }
+                ]
+              }
+            },
+            {
+              "id": 37538,
+              "name": "Tenebrex Cyno Jammer Blueprint",
+              "cn": "暗影诱导干扰塔蓝图",
+              "manufacturing": {
+                "outcome": {
+                  "id": 37534,
+                  "quantity": 1
+                },
+                "materials": [
+                  {
+                    "id": 37534,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 21947,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 21951,
+                    "quantity": 1
+                  },
+                  {
+                    "id": 36956,
+                    "quantity": 4
+                  },
+                  {
+                    "id": 36957,
+                    "quantity": 3
+                  },
+                  {
+                    "id": 36958,
+                    "quantity": 1
                   }
                 ]
               }
@@ -513,6 +2043,1555 @@
                   }
                 ]
               }
+            }
+          ]
+        },
+        {
+          "name": "Sovereignty and Infrastructure",
+          "cn": "主权和建筑",
+          "subgroups": [
+            {
+              "name": "Industrial Upgrades",
+              "cn": "工业升级",
+              "blueprints": [
+                {
+                  "id": 34855,
+                  "name": "Ore Prospecting Array 1 Blueprint",
+                  "cn": "矿石勘探阵列1 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2040,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 3
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 3
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34856,
+                  "name": "Ore Prospecting Array 2 Blueprint",
+                  "cn": "矿石勘探阵列2 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2041,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34857,
+                  "name": "Ore Prospecting Array 3 Blueprint",
+                  "cn": "矿石勘探阵列3 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2042,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34858,
+                  "name": "Ore Prospecting Array 4 Blueprint",
+                  "cn": "矿石勘探阵列4 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2043,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34859,
+                  "name": "Ore Prospecting Array 5 Blueprint",
+                  "cn": "矿石勘探阵列5 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2044,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 8
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34860,
+                  "name": "Survey Networks 1 Blueprint",
+                  "cn": "勘探网络1 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2053,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 3
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 3
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34861,
+                  "name": "Survey Networks 2 Blueprint",
+                  "cn": "勘探网络2 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2054,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34862,
+                  "name": "Survey Networks 3 Blueprint",
+                  "cn": "勘探网络3 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2055,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 17
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 17
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 17
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34863,
+                  "name": "Survey Networks 4 Blueprint",
+                  "cn": "勘探网络4 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2056,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34864,
+                  "name": "Survey Networks 5 Blueprint",
+                  "cn": "勘探网络5 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2057,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 8
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Military Upgrades",
+              "cn": "军事升级",
+              "blueprints": [
+                {
+                  "id": 34869,
+                  "name": "Entrapment Array 1 Blueprint",
+                  "cn": "诱捕阵列1 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2031,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34841,
+                  "name": "Entrapment Array 2 Blueprint",
+                  "cn": "诱捕阵列2 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2034,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34842,
+                  "name": "Entrapment Array 3 Blueprint",
+                  "cn": "诱捕阵列3 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2035,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 16
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 33
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 33
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 33
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 16
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 9
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34843,
+                  "name": "Entrapment Array 4 Blueprint",
+                  "cn": "诱捕阵列4 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2036,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 30
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 44
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 44
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 30
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 30
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 44
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 13
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34844,
+                  "name": "Entrapment Array 5 Blueprint",
+                  "cn": "诱捕阵列5 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2037,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 37
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 55
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 55
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 37
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 37
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 55
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 16
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34845,
+                  "name": "Pirate Detection Array 1 Blueprint",
+                  "cn": "游寇监测阵列1 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2026,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34846,
+                  "name": "Pirate Detection Array 2 Blueprint",
+                  "cn": "游寇监测阵列2 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2027,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34847,
+                  "name": "Pirate Detection Array 3 Blueprint",
+                  "cn": "游寇监测阵列3 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2028,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34848,
+                  "name": "Pirate Detection Array 4 Blueprint",
+                  "cn": "游寇监测阵列4 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2029,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 8
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34849,
+                  "name": "Pirate Detection Array 5 Blueprint",
+                  "cn": "游寇监测阵列5 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2030,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 16
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 33
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 33
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 33
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 16
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34850,
+                  "name": "Quantum Flux Generator 1 Blueprint",
+                  "cn": "量子通量发生器1 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2058,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 3
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 3
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34851,
+                  "name": "Quantum Flux Generator 2 Blueprint",
+                  "cn": "量子通量发生器2 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2059,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 7
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34852,
+                  "name": "Quantum Flux Generator 3 Blueprint",
+                  "cn": "量子通量发生器3 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2060,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 17
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 17
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 17
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 4
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34853,
+                  "name": "Quantum Flux Generator 4 Blueprint",
+                  "cn": "量子通量发生器4 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2061,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34854,
+                  "name": "Quantum Flux Generator 5 Blueprint",
+                  "cn": "量子通量发生器5 蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2062,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 18
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 27
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 13
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 8
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Sovereignty Structures",
+              "cn": "主权设施",
+              "blueprints": [
+                {
+                  "id": 2737,
+                  "name": "Territorial Claim Unit Blueprint",
+                  "cn": "主权宣布设施蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 32226,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 9
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 9
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 9
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 2735,
+                  "name": "Infrastructure Hub Blueprint",
+                  "cn": "基础设施中心蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 32458,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 28
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 20
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 42
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 42
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 28
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 28
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 42
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 20
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 11
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Strategic Upgrades",
+              "cn": "战略升级",
+              "blueprints": [
+                {
+                  "id": 34865,
+                  "name": "Advanced Logicstics Network Blueprint",
+                  "cn": "高级后勤网络蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 32422,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 14
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 21
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 10
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 6
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34866,
+                  "name": "Cynosual Navigation Blueprint",
+                  "cn": "诱导力场导航系统蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2008,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 8
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34867,
+                  "name": "Cynosual Suppression Blueprint",
+                  "cn": "诱导力场压制系统蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2001,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 15
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 22
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 11
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 7
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 34868,
+                  "name": "Supercapital Construction Facilities Blueprint",
+                  "cn": "超级旗舰建造设施蓝图",
+                  "manufacturing": {
+                    "outcome": {
+                      "id": 2009,
+                      "quantity": 1
+                    },
+                    "materials": [
+                      {
+                        "id": 2867,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2868,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 2869,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2870,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2871,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2872,
+                        "quantity": 5
+                      },
+                      {
+                        "id": 2875,
+                        "quantity": 6
+                      },
+                      {
+                        "id": 2876,
+                        "quantity": 4
+                      },
+                      {
+                        "id": 21037,
+                        "quantity": 1
+                      }
+                    ]
+                  }
+                }
+              ]
             }
           ]
         }
