@@ -3,7 +3,6 @@ import { Outlet, useNavigate } from "react-router-dom";
 import type { MenuProps } from "antd";
 import { Layout, Menu, theme, ConfigProvider } from "antd";
 import { BlockOutlined, SettingOutlined } from "@ant-design/icons";
-import en_GB from "antd/es/locale/en_GB";
 import "antd/dist/reset.css";
 import HeaderContent from "./HeaderContent";
 
@@ -35,7 +34,7 @@ const Workspace: React.FC = () => {
   ];
 
   return (
-    <ConfigProvider locale={en_GB}>
+    <ConfigProvider>
       <Layout hasSider>
         <Sider
           style={{
@@ -51,7 +50,6 @@ const Workspace: React.FC = () => {
           <Menu
             theme="dark"
             mode="inline"
-            defaultSelectedKeys={["4"]}
             items={items}
           />
         </Sider>

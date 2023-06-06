@@ -1,12 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-// import userReducer from './slices/userSlice.js';
+import exampleReducer from './slices/exampleSlice';
 // import filtersReducer from './slices/filtersSlice.js';
 // import expensesReducer from './slices/expensesSlice.js';
 
 const createStore = (preloadedState: any) => {
   const store = configureStore({
     reducer: {
-      // user: userReducer,
+      example: exampleReducer,
       // filters: filtersReducer,
       // expenses: expensesReducer,
     },
