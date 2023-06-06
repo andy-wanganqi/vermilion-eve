@@ -25,7 +25,7 @@ const BlueprintTitle = () => (
       src={blueprintImage}
       fallback={fallbackImage}
     />
-    <span>Blueprint Setting</span>
+    <span data-testid="blueprint-setting-widget-title">Blueprint Setting</span>
     <Button
       type="primary"
       size="small"
@@ -61,7 +61,7 @@ const ModificationTitle = () => (
       src={modificationImage}
       fallback={fallbackImage}
     />
-    <span>Structure Modification Setting</span>
+    <span data-testid="structure-modification-setting-widget-title">Structure Modification Setting</span>
     <Button
       type="primary"
       size="small"

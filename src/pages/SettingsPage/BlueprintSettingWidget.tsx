@@ -127,7 +127,7 @@ const blueprintGroup2DataNode = (
     const refinedSearchKeyword =
       searchKeyword === ""
         ? ""
-        : name.indexOf(searchKeyword) >= 0
+        : name.toLowerCase().indexOf(searchKeyword) >= 0
         ? ""
         : searchKeyword;
     const subnodes = subgroups
@@ -161,7 +161,7 @@ const blueprintGroup2DataNode = (
       .filter(
         (blueprint) =>
           searchKeyword.trim() === "" ||
-          blueprint.name.indexOf(searchKeyword) >= 0
+          blueprint.name.toLowerCase().indexOf(searchKeyword) >= 0
       )
       .map((blueprint) => {
         const blueprintSetting = db.getBlueprintSetting(blueprint.id);
@@ -181,15 +181,16 @@ const blueprintGroup2DataNode = (
   };
 };
 
-const getBlueprintSettingNodes = (
+export const getBlueprintSettingNodes = (
   searchKeyword: string,
   selectedKeys: React.Key[]
 ) => {
+  const lowerCaseSearchKeyword = searchKeyword.toLowerCase();
   let expandedKeys: (string | number)[] = [];
   const treeRoots = getBlueprintTreeRoots();
   const dataNodes = treeRoots
     .map((group) =>
-      blueprintGroup2DataNode(group, selectedKeys, searchKeyword, 0)
+      blueprintGroup2DataNode(group, selectedKeys, lowerCaseSearchKeyword, 0)
     )
     .filter(
       (node) => node.dataNode.children && node.dataNode.children.length > 0

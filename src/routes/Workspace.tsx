@@ -9,9 +9,7 @@ import HeaderContent from "./HeaderContent";
 
 const { Header, Content, Footer, Sider } = Layout;
 
-const Workspace: React.FC<React.PropsWithChildren> = (
-  props: React.PropsWithChildren
-) => {
+const Workspace: React.FC = () => {
   const navigate = useNavigate();
   const {
     token: { colorBgContainer },
