@@ -1,37 +1,16 @@
 import React from "react";
-import { Outlet, useNavigate } from "react-router-dom";
-import type { MenuProps } from "antd";
-import { Layout, Menu, theme, ConfigProvider } from "antd";
-import { BlockOutlined, SettingOutlined } from "@ant-design/icons";
+import { Outlet } from "react-router-dom";
+import { Layout, theme, ConfigProvider } from "antd";
 import "antd/dist/reset.css";
 import HeaderContent from "./HeaderContent";
+import SideMenu from "./SideMenu";
 
 const { Header, Content, Footer, Sider } = Layout;
 
 const Workspace: React.FC = () => {
-  const navigate = useNavigate();
   const {
     token: { colorBgContainer },
   } = theme.useToken();
-
-  const items: MenuProps["items"] = [
-    {
-      key: "settings",
-      icon: <SettingOutlined />,
-      label: "Settings",
-      onClick: () => {
-        navigate("/settings");
-      },
-    },
-    {
-      key: "location-manager",
-      icon: <BlockOutlined />,
-      label: "Location Manager",
-      onClick: () => {
-        navigate("/location");
-      },
-    },
-  ];
 
   return (
     <ConfigProvider>
@@ -46,12 +25,7 @@ const Workspace: React.FC = () => {
             bottom: 0,
           }}
         >
-          <div className="demo-logo-vertical" />
-          <Menu
-            theme="dark"
-            mode="inline"
-            items={items}
-          />
+          <SideMenu />
         </Sider>
         <Layout className="site-layout" style={{ marginLeft: 200 }}>
           <Header style={{ padding: 0, background: colorBgContainer }}>
