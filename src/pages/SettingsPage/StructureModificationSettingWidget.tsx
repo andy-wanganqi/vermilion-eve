@@ -117,7 +117,7 @@ const structure2DataNode = (
       .filter(
         (blueprint) =>
           searchKeyword.trim() === "" ||
-          blueprint.name.indexOf(searchKeyword) >= 0
+          blueprint.name.toLowerCase().indexOf(searchKeyword) >= 0
       )
       .map((modifications) => {
         const sms = db.getStructureModificationSetting(modifications.id);
@@ -145,7 +145,7 @@ const structureGroup2DataNode = (
   const refinedSearchKeyword =
     searchKeyword === ""
       ? ""
-      : name.indexOf(searchKeyword) >= 0
+      : name.toLowerCase().indexOf(searchKeyword) >= 0
       ? ""
       : searchKeyword;
   const subnodes = structures
@@ -164,14 +164,15 @@ const structureGroup2DataNode = (
   };
 };
 
-const getStructureModificationSettingNodes = (
+export const getStructureModificationSettingNodes = (
   searchKeyword: string,
   selectedKeys: React.Key[]
 ) => {
+  const lowerCaseSearchKeyword = searchKeyword.toLowerCase();
   let expandedKeys: (string | number)[] = [];
   const treeRoots = getStructureModificationTreeRoots();
   const dataNodes = treeRoots
-    .map((sm) => structureGroup2DataNode(sm, selectedKeys, searchKeyword))
+    .map((sm) => structureGroup2DataNode(sm, selectedKeys, lowerCaseSearchKeyword))
     .filter(
       (node) => node.dataNode.children && node.dataNode.children.length > 0
     );

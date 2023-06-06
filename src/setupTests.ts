@@ -2,4 +2,9 @@
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
+
 import '@testing-library/jest-dom';
+import './tests/matchMedia.mock';
+import './tests/localStorage.mock';
+import { preloadStaticData } from './db';
+preloadStaticData();
