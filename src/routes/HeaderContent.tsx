@@ -44,7 +44,7 @@ const HeaderContent: React.FC = () => {
           <Dropdown menu={{ items }} arrow={false}>
             <Space>
               <Avatar icon={<UserOutlined />}/>
-              <span>Beauty</span>
+              <span data-testid="user-actions">User Action</span>
             </Space>
           </Dropdown>
         </div>
