@@ -1,8 +1,8 @@
 > [VE-000]
 
-> Status: [Not Started] （Not Started, In Progress, Done, Cancelled, Incomplete）
+> Status: Not Started （Not Started, In Progress, Done, Cancelled, Incomplete）
 
-> Type: [Story]
+> Type: Story
 
 # 描述（Description）
 作为**一个角色**，我需要**一个模块/功能/数据**，这样我可以**一个需求**
