@@ -1219,6 +1219,559 @@
     ]
   },
   {
+    "name": "Structure Equipment",
+    "cn": "建筑装备",
+    "subgroups": [
+      {
+        "name": "Electronic Warfare",
+        "cn": "电子战",
+        "subgroups": [
+          {
+            "name": "Electronic Counter Measures",
+            "cn": "ECM",
+            "items": [
+              {
+                "name": "Dread Guristas Standup Variable Spectrum ECM",
+                "cn": "恐惧古斯塔斯屹立可变光谱ECM",
+                "id": 46577
+              },
+              {
+                "name": "Standup Variable Spectrum ECM I",
+                "cn": "屹立可变光谱ECM I",
+                "id": 35940
+              },
+              {
+                "name": "Standup Variable Spectrum ECM II",
+                "cn": "屹立可变光谱ECM II",
+                "id": 47338
+              }
+            ]
+          },
+          {
+            "name": "Remote Sensor Dampeners",
+            "cn": "远程感应抑阻器",
+            "items": [
+              {
+                "name": "Standup Remote Sensor Dampener I",
+                "cn": "屹立远程感应抑阻器 I",
+                "id": 35941
+              },
+              {
+                "name": "Standup Remote Sensor Dampener II",
+                "cn": "屹立远程感应抑阻器 II",
+                "id": 47368
+              }
+            ]
+          },
+          {
+            "name": "Stasis Webifiers",
+            "cn": "停滞缠绕光束",
+            "items": [
+              {
+                "name": "Standup Stasis Webifier I",
+                "cn": "屹立停滞缠绕光束 I",
+                "id": 35943
+              },
+              {
+                "name": "Standup Stasis Webifier II",
+                "cn": "屹立停滞缠绕光束 II",
+                "id": 47351
+              }
+            ]
+          },
+          {
+            "name": "Structure Burst Projectors",
+            "cn": "建筑脉冲波投射器",
+            "items": [
+              {
+                "name": "Standup ECM Jammer Burst Projector",
+                "cn": "屹立ECM干扰脉冲波投射器",
+                "id": 47069
+              },
+              {
+                "name": "Standup Energy Neutralization Burst Projector",
+                "cn": "屹立能量中和脉冲波投射器",
+                "id": 35944
+              },
+              {
+                "name": "Standup Sensor Dampening Burst Projector",
+                "cn": "屹立感应抑阻脉冲波投射器",
+                "id": 47070
+              },
+              {
+                "name": "Standup Stasis Webification Burst Projector",
+                "cn": "屹立停滞缠绕脉冲波投射器",
+                "id": 47071
+              },
+              {
+                "name": "Standup Target Illumination Burst Projector",
+                "cn": "屹立目标照明脉冲波投射器",
+                "id": 47072
+              },
+              {
+                "name": "Standup Warp Disruption Burst Projector",
+                "cn": "屹立跃迁扰断脉冲波投射器",
+                "id": 47073
+              },
+              {
+                "name": "Standup Weapon Disruption Burst Projector",
+                "cn": "屹立武器扰断脉冲波投射器",
+                "id": 47074
+              }
+            ]
+          },
+          {
+            "name": "Target Painters",
+            "cn": "目标标记装置",
+            "items": [
+              {
+                "name": "Standup Target Painter I",
+                "cn": "屹立目标标记装置 I",
+                "id": 35947
+              },
+              {
+                "name": "Standup Target Painter II",
+                "cn": "屹立目标标记装置 II",
+                "id": 47366
+              }
+            ]
+          },
+          {
+            "name": "Warp Disruptors",
+            "cn": "跃迁扰断器",
+            "items": [
+              {
+                "name": "Standup Focused Warp Disruptor I",
+                "cn": "屹立聚焦跃迁扰断器 I",
+                "id": 35949
+              },
+              {
+                "name": "Standup Focused Warp Disruptor II",
+                "cn": "屹立聚焦跃迁扰断器 II",
+                "id": 47334
+              }
+            ]
+          },
+          {
+            "name": "Weapon Disruptors",
+            "cn": "武器扰断器",
+            "items": [
+              {
+                "name": "Standup Weapon Disruptor I",
+                "cn": "屹立武器扰断器 I",
+                "id": 35945
+              },
+              {
+                "name": "Standup Weapon Disruptor II",
+                "cn": "屹立武器扰断器 II",
+                "id": 47364
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electronics and Sensor Upgrades",
+        "cn": "电子学和感应器升级件",
+        "subgroups": [
+          {
+            "name": "CPU Upgrades",
+            "cn": "CPU升级件",
+            "items": [
+              {
+                "name": "Standup Co-Processor Array I",
+                "cn": "屹立协处理器阵列 I",
+                "id": 35963
+              },
+              {
+                "name": "Standup Co-Processor Array II",
+                "cn": "屹立协处理器阵列 II",
+                "id": 47344
+              }
+            ]
+          },
+          {
+            "name": "Signal Amplifiers",
+            "cn": "信号放大器",
+            "items": [
+              {
+                "name": "Standup Signal Amplifier I",
+                "cn": "屹立信号放大器 I",
+                "id": 37532
+              },
+              {
+                "name": "Standup Signal Amplifier II",
+                "cn": "屹立信号放大器 II",
+                "id": 47348
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Engineering Equipment",
+        "cn": "工程装备",
+        "subgroups": [
+          {
+            "name": "Armor Reinforcers",
+            "cn": "装甲强化",
+            "items": [
+              {
+                "name": "Standup Layered Armor Plating I",
+                "cn": "屹立覆层装甲附甲 I",
+                "id": 47360
+              },
+              {
+                "name": "Standup Layered Armor Plating II",
+                "cn": "屹立覆层装甲附甲 II",
+                "id": 47362
+              }
+            ]
+          },
+          {
+            "name": "Capacitor Batteries",
+            "cn": "电容电池",
+            "items": [
+              {
+                "name": "Standup Cap Battery I",
+                "cn": "屹立电容器电池 I",
+                "id": 47352
+              },
+              {
+                "name": "Standup Cap Battery II",
+                "cn": "屹立电容器电池 II",
+                "id": 47353
+              }
+            ]
+          },
+          {
+            "name": "Capacitor Power Relays",
+            "cn": "电容能源继电器",
+            "items": [
+              {
+                "name": "Standup Capacitor Power Relay I",
+                "cn": "屹立电容能源继电器 I",
+                "id": 47356
+              },
+              {
+                "name": "Standup Capacitor Power Relay II",
+                "cn": "屹立电容能源继电器 II",
+                "id": 47358
+              }
+            ]
+          },
+          {
+            "name": "Energy Neutralizers",
+            "cn": "能量中和器",
+            "items": [
+              {
+                "name": "Dark Blood Standup Heavy Energy Neutralizer",
+                "cn": "黑暗血袭者屹立重型能量中和器",
+                "id": 46575
+              },
+              {
+                "name": "Standup Heavy Energy Neutralizer I",
+                "cn": "屹立重型能量中和器 I",
+                "id": 35925
+              },
+              {
+                "name": "Standup Heavy Energy Neutralizer II",
+                "cn": "屹立重型能量中和器 II",
+                "id": 47332
+              },
+              {
+                "name": "Standup XL Energy Neutralizer I",
+                "cn": "屹立超大型能量中和器 I",
+                "id": 35924
+              },
+              {
+                "name": "Standup XL Energy Neutralizer II",
+                "cn": "屹立超大型能量中和器 II",
+                "id": 47330
+              }
+            ]
+          },
+          {
+            "name": "Point Defense Batteries",
+            "cn": "定点防卫炮塔",
+            "items": [
+              {
+                "name": "Standup Point Defense Battery I",
+                "cn": "屹立定点防御炮塔 I",
+                "id": 35926
+              },
+              {
+                "name": "Standup Point Defense Battery II",
+                "cn": "屹立定点防御炮塔 II",
+                "id": 47327
+              }
+            ]
+          },
+          {
+            "name": "Reactor Control Units",
+            "cn": "反应堆控制单元",
+            "items": [
+              {
+                "name": "Standup Reactor Control Unit I",
+                "cn": "屹立反应堆控制组件 I",
+                "id": 35965
+              },
+              {
+                "name": "Standup Reactor Control Unit II",
+                "cn": "屹立反应堆控制组件 II",
+                "id": 47347
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quantum Cores",
+        "cn": "量子芯",
+        "items": [
+          {
+            "name": "Astrahus Upwell Quantum Core",
+            "cn": "空堡昇威量子芯",
+            "id": 56201
+          },
+          {
+            "name": "Athanor Upwell Quantum Core",
+            "cn": "阿塔诺昇威量子芯",
+            "id": 56202
+          },
+          {
+            "name": "Azbel Upwell Quantum Core",
+            "cn": "阿兹贝尔昇威量子芯",
+            "id": 56206
+          },
+          {
+            "name": "Fortizar Upwell Quantum Core",
+            "cn": "铁壁昇威量子芯",
+            "id": 56204
+          },
+          {
+            "name": "Keepstar Upwell Quantum Core",
+            "cn": "星城昇威量子芯",
+            "id": 56207
+          },
+          {
+            "name": "Raitaru Upwell Quantum Core",
+            "cn": "莱塔卢昇威量子芯",
+            "id": 56203
+          },
+          {
+            "name": "Sotiyo Upwell Quantum Core",
+            "cn": "索迪约昇威量子芯",
+            "id": 56208
+          },
+          {
+            "name": "Tatara Upwell Quantum Core",
+            "cn": "塔塔拉昇威量子芯",
+            "id": 56205
+          }
+        ]
+      },
+      {
+        "name": "Service Modules",
+        "cn": "服务装备",
+        "subgroups": [
+          {
+            "name": "Citadel Service Modules",
+            "cn": "堡垒服务装备",
+            "items": [
+              {
+                "name": "Standup Cloning Center I",
+                "cn": "屹立克隆中心 I",
+                "id": 35894
+              },
+              {
+                "name": "Standup Market Hub I",
+                "cn": "屹立市场中心 I",
+                "id": 35892
+              }
+            ]
+          },
+          {
+            "name": "Engineering Service Modules",
+            "cn": "工程服务装备",
+            "items": [
+              {
+                "name": "Standup Capital Shipyard I",
+                "cn": "屹立旗舰级船坞 I",
+                "id": 35881
+              },
+              {
+                "name": "Standup Hyasyoda Research Lab",
+                "cn": "屹立三岛研究实验室",
+                "id": 45550
+              },
+              {
+                "name": "Standup Invention Lab I",
+                "cn": "屹立发明实验室 I",
+                "id": 35886
+              },
+              {
+                "name": "Standup Manufacturing Plant I",
+                "cn": "屹立制造厂 I",
+                "id": 35878
+              },
+              {
+                "name": "Standup Research Lab I",
+                "cn": "屹立研究实验室 I",
+                "id": 35891
+              },
+              {
+                "name": "Standup Supercapital Shipyard I",
+                "cn": "屹立超级旗舰级船坞 I",
+                "id": 35877
+              }
+            ]
+          },
+          {
+            "name": "Resource Processing Service Modules",
+            "cn": "资源提炼服务装备",
+            "items": [
+              {
+                "name": "Standup Biochemical Reactor I",
+                "cn": "屹立生化反应堆 I",
+                "id": 45539
+              },
+              {
+                "name": "Standup Composite Reactor I",
+                "cn": "屹立复合反应堆 I",
+                "id": 45537
+              },
+              {
+                "name": "Standup Hybrid Reactor I",
+                "cn": "屹立混合反应堆 I",
+                "id": 45538
+              },
+              {
+                "name": "Standup Moon Drill I",
+                "cn": "屹立卫星钻探 I",
+                "id": 45009
+              },
+              {
+                "name": "Standup Reprocessing Facility I",
+                "cn": "屹立提炼设施 I",
+                "id": 35899
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Structure Weapons",
+        "cn": "建筑武器",
+        "subgroups": [
+          {
+            "name": "Doomsday Devices",
+            "cn": "末日武器装置",
+            "items": [
+              {
+                "name": "Standup Arcing Norton Projector I",
+                "cn": "屹立电弧弦投射器 I",
+                "id": 35928
+              }
+            ]
+          },
+          {
+            "name": "Guided Bomb Launchers",
+            "cn": "制导炸弹发射器",
+            "items": [
+              {
+                "name": "Standup Guided Bomb Launcher I",
+                "cn": "屹立制导炸弹发射器 I",
+                "id": 35923
+              },
+              {
+                "name": "Standup Guided Bomb Launcher II",
+                "cn": "屹立制导炸弹发射器 II",
+                "id": 47325
+              }
+            ]
+          },
+          {
+            "name": "Missile Launchers",
+            "cn": "导弹发射器",
+            "subgroups": [
+              {
+                "name": "Structure Anticapital Launcher",
+                "cn": "建筑反旗舰发射器",
+                "items": [
+                  {
+                    "name": "Standup Anticapital Missile Launcher I",
+                    "cn": "屹立反旗舰导弹发射器 I",
+                    "id": 35921
+                  },
+                  {
+                    "name": "Standup Anticapital Missile Launcher II",
+                    "cn": "屹立反旗舰导弹发射器 II",
+                    "id": 47323
+                  }
+                ]
+              },
+              {
+                "name": "Structure Antisubcapital Launcher",
+                "cn": "建筑反非旗舰发射器",
+                "items": [
+                  {
+                    "name": "Standup Multirole Missile Launcher I",
+                    "cn": "屹立多功能导弹发射器 I",
+                    "id": 35922
+                  },
+                  {
+                    "name": "Standup Multirole Missile Launcher II",
+                    "cn": "屹立多功能导弹发射器 II",
+                    "id": 47298
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Weapon Upgrades",
+            "cn": "武器升级件",
+            "subgroups": [
+              {
+                "name": "Ballistic Control System",
+                "cn": "弹道控制系统",
+                "items": [
+                  {
+                    "name": "Standup Ballistic Control System I",
+                    "cn": "屹立弹道控制系统 I",
+                    "id": 35959
+                  },
+                  {
+                    "name": "Standup Ballistic Control System II",
+                    "cn": "屹立弹道控制系统 II",
+                    "id": 47342
+                  }
+                ]
+              },
+              {
+                "name": "Missile Guidance Enhancers",
+                "cn": "导弹制导增强器",
+                "items": [
+                  {
+                    "name": "Standup Missile Guidance Enhancer I",
+                    "cn": "屹立导弹制导增强器 I",
+                    "id": 35962
+                  },
+                  {
+                    "name": "Standup Missile Guidance Enhancer II",
+                    "cn": "屹立导弹制导增强器 II",
+                    "id": 47340
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Manufacture & Research",
     "cn": "制造和研究",
     "subgroups": [
