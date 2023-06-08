@@ -1772,6 +1772,2396 @@
     ]
   },
   {
+    "name": "Ships",
+    "cn": "舰船",
+    "subgroups": [
+      {
+        "name": "Battlecruisers",
+        "cn": "战列巡洋舰",
+        "subgroups": [
+          {
+            "name": "Advanced Battlecruisers",
+            "cn": "高级战列巡洋舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Absolution",
+                    "cn": "救赎级",
+                    "id": 22448
+                  },
+                  {
+                    "name": "Damnation",
+                    "cn": "永灭级",
+                    "id": 22474
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Nighthawk",
+                    "cn": "夜鹰级",
+                    "id": 22470
+                  },
+                  {
+                    "name": "Vulture",
+                    "cn": "兀鹫级",
+                    "id": 22446
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Astarte",
+                    "cn": "阿施塔特级",
+                    "id": 22466
+                  },
+                  {
+                    "name": "Eos",
+                    "cn": "曙光女神级",
+                    "id": 22442
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Claymore",
+                    "cn": "月刃级",
+                    "id": 22468
+                  },
+                  {
+                    "name": "Sleipnir",
+                    "cn": "斯雷普尼级",
+                    "id": 22444
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Faction Battlecruisers",
+            "cn": "势力战列巡洋舰",
+            "items": [
+              {
+                "name": "Brutix Navi Issue",
+                "cn": "布鲁提克斯级海军型",
+                "id": 33151
+              },
+              {
+                "name": "Cyclone Fleet Issue",
+                "cn": "飓风级舰队型",
+                "id": 72811
+              },
+              {
+                "name": "Drake Navy Issue",
+                "cn": "幼龙级海军型",
+                "id": 33153
+              },
+              {
+                "name": "Ferox Navy Issue",
+                "cn": "猛鲑级海军型",
+                "id": 72812
+              },
+              {
+                "name": "Harbinger Navy Issue",
+                "cn": "先驱者级海军型",
+                "id": 33155
+              },
+              {
+                "name": "Hurricane Fleet Issue",
+                "cn": "暴风级舰队型",
+                "id": 33157
+              },
+              {
+                "name": "Myrmidon Navy Issue",
+                "cn": "弥洱米顿级海军型",
+                "id": 72869
+              },
+              {
+                "name": "Prophecy Navy Issue",
+                "cn": "先知级海军型",
+                "id": 72872
+              }
+            ]
+          },
+          {
+            "name": "Precursor Battlecruisers",
+            "cn": "先驱者战列巡洋舰",
+            "items": [
+              {
+                "name": "Drekavac",
+                "cn": "德雷卡瓦级",
+                "id": 49711
+              }
+            ]
+          },
+          {
+            "name": "Standard Battlecruisers",
+            "cn": "标准战列巡洋舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Harbinger",
+                    "cn": "先驱者级",
+                    "id": 24696
+                  },
+                  {
+                    "name": "Oracle",
+                    "cn": "预言级",
+                    "id": 4302
+                  },
+                  {
+                    "name": "Prophecy",
+                    "cn": "先知级",
+                    "id": 16233
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Drake",
+                    "cn": "幼龙级",
+                    "id": 24698
+                  },
+                  {
+                    "name": "Ferox",
+                    "cn": "猛鲑级",
+                    "id": 16227
+                  },
+                  {
+                    "name": "Naga",
+                    "cn": "娜迦级",
+                    "id": 4306
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Brutix",
+                    "cn": "布鲁提克斯级",
+                    "id": 16229
+                  },
+                  {
+                    "name": "Myrmidon",
+                    "cn": "弥洱米顿级",
+                    "id": 24700
+                  },
+                  {
+                    "name": "Talos",
+                    "cn": "塔洛斯级",
+                    "id": 4308
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Cyclone",
+                    "cn": "飓风级",
+                    "id": 16231
+                  },
+                  {
+                    "name": "Hurricane",
+                    "cn": "暴风级",
+                    "id": 24702
+                  },
+                  {
+                    "name": "Tornado",
+                    "cn": "龙卷风级",
+                    "id": 4310
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Battleships",
+        "cn": "战列舰",
+        "subgroups": [
+          {
+            "name": "Advanced Battleships",
+            "cn": "高级战列舰",
+            "subgroups": [
+              {
+                "name": "Black Ops",
+                "cn": "黑隐特勤舰",
+                "items": [
+                  {
+                    "name": "Redeemer",
+                    "cn": "救世级",
+                    "id": 22428
+                  },
+                  {
+                    "name": "Widow",
+                    "cn": "寡妇级",
+                    "id": 22436
+                  },
+                  {
+                    "name": "Sin",
+                    "cn": "罪恶级",
+                    "id": 22430
+                  },
+                  {
+                    "name": "Panther",
+                    "cn": "黑豹级",
+                    "id": 22440
+                  }
+                ]
+              },
+              {
+                "name": "Marauders",
+                "cn": "掠夺舰",
+                "items": [
+                  {
+                    "name": "Paladin",
+                    "cn": "帕拉丁级",
+                    "id": 28659
+                  },
+                  {
+                    "name": "Golem",
+                    "cn": "魔像级",
+                    "id": 28710
+                  },
+                  {
+                    "name": "Kronos",
+                    "cn": "克洛诺斯级",
+                    "id": 28661
+                  },
+                  {
+                    "name": "Vargur",
+                    "cn": "恶狼级",
+                    "id": 28665
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Faction Battleships",
+            "cn": "势力战列舰",
+            "subgroups": [
+              {
+                "name": "Navy Faction",
+                "cn": "海军势力舰船",
+                "items": [
+                  {
+                    "name": "Thunderchild",
+                    "cn": "雷裔级",
+                    "id": 54733
+                  },
+                  {
+                    "name": "Apocalypse Navy Issue",
+                    "cn": "灾难级海军型",
+                    "id": 17726
+                  },
+                  {
+                    "name": "Armageddon Navy Issue",
+                    "cn": "末日沙场级海军型",
+                    "id": 32305
+                  },
+                  {
+                    "name": "Dominix Navy Issue",
+                    "cn": "多米尼克斯级海军型",
+                    "id": 32307
+                  },
+                  {
+                    "name": "Megathron Navy Issue",
+                    "cn": "万王宝座级海军型",
+                    "id": 17728
+                  },
+                  {
+                    "name": "Raven Navy Issue",
+                    "cn": "乌鸦级海军型",
+                    "id": 17636
+                  },
+                  {
+                    "name": "Scorpion Navy Issue",
+                    "cn": "毒蝎级海军型",
+                    "id": 32309
+                  },
+                  {
+                    "name": "Tempest Fleet Issue",
+                    "cn": "狂暴级舰队型",
+                    "id": 17732
+                  },
+                  {
+                    "name": "Typhoon Fleet Issue",
+                    "cn": "台风级舰队型",
+                    "id": 32311
+                  }
+                ]
+              },
+              {
+                "name": "Pirate Faction",
+                "cn": "非帝国势力舰船",
+                "items": [
+                  {
+                    "name": "Barghest",
+                    "cn": "巴盖斯级",
+                    "id": 33820
+                  },
+                  {
+                    "name": "Machariel",
+                    "cn": "马克瑞级",
+                    "id": 17738
+                  },
+                  {
+                    "name": "Nestor",
+                    "cn": "涅斯托级",
+                    "id": 33472
+                  },
+                  {
+                    "name": "Nightmare",
+                    "cn": "噩梦级",
+                    "id": 17736
+                  },
+                  {
+                    "name": "Bhaalgorn",
+                    "cn": "巴戈龙级",
+                    "id": 17920
+                  },
+                  {
+                    "name": "Rattlesnake",
+                    "cn": "响尾蛇级",
+                    "id": 17918
+                  },
+                  {
+                    "name": "Vindicator",
+                    "cn": "惩戒者级",
+                    "id": 17740
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Precursor Battleships",
+            "cn": "先驱者战列舰",
+            "items": [
+              {
+                "name": "Leshak",
+                "cn": "勒沙克级",
+                "id": 47271
+              }
+            ]
+          },
+          {
+            "name": "Standard Battleships",
+            "cn": "标准战列舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Abaddon",
+                    "cn": "地狱天使级",
+                    "id": 24692
+                  },
+                  {
+                    "name": "Apocalypse",
+                    "cn": "灾难级",
+                    "id": 642
+                  },
+                  {
+                    "name": "Armageddon",
+                    "cn": "末日沙场级",
+                    "id": 643
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Raven",
+                    "cn": "乌鸦级",
+                    "id": 638
+                  },
+                  {
+                    "name": "Rokh",
+                    "cn": "鹏鲲级",
+                    "id": 24688
+                  },
+                  {
+                    "name": "Scorpion",
+                    "cn": "毒蝎级",
+                    "id": 640
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Dominix",
+                    "cn": "多米尼克斯级",
+                    "id": 645
+                  },
+                  {
+                    "name": "Hyperion",
+                    "cn": "亥伯龙神级",
+                    "id": 24690
+                  },
+                  {
+                    "name": "Megathron",
+                    "cn": "万王宝座级",
+                    "id": 641
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Maelstrom",
+                    "cn": "死亡漩涡级",
+                    "id": 24694
+                  },
+                  {
+                    "name": "Tempest",
+                    "cn": "狂暴级",
+                    "id": 639
+                  },
+                  {
+                    "name": "Typhoon",
+                    "cn": "台风级",
+                    "id": 644
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Capital Ships",
+        "cn": "旗舰",
+        "subgroups": [
+          {
+            "name": "Capital Industrial Ships",
+            "cn": "旗舰级工业舰",
+            "items": [
+              {
+                "name": "Rorqual",
+                "cn": "长须鲸级",
+                "id": 28352
+              }
+            ]
+          },
+          {
+            "name": "Carriers",
+            "cn": "航空母舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Aeon",
+                    "cn": "万古级",
+                    "id": 23919
+                  },
+                  {
+                    "name": "Archon",
+                    "cn": "执政官级",
+                    "id": 23757
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Chimera",
+                    "cn": "奇美拉级",
+                    "id": 23915
+                  },
+                  {
+                    "name": "Wyvern",
+                    "cn": "飞龙级",
+                    "id": 23917
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Nyx",
+                    "cn": "夜神级",
+                    "id": 23913
+                  },
+                  {
+                    "name": "Thanatos",
+                    "cn": "绝念级",
+                    "id": 23911
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Hel",
+                    "cn": "冥府级",
+                    "id": 22852
+                  },
+                  {
+                    "name": "Nidhoggur",
+                    "cn": "尼铎格尔级",
+                    "id": 24483
+                  }
+                ]
+              },
+              {
+                "name": "Faction Carrier",
+                "cn": "势力航母",
+                "items": [
+                  {
+                    "name": "Revenant",
+                    "cn": "归魂者级",
+                    "id": 3514
+                  },
+                  {
+                    "name": "Vendetta",
+                    "cn": "仇恨级",
+                    "id": 42125
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dreadnoughts",
+            "cn": "无畏舰",
+            "subgroups": [
+              {
+                "name": "Standard Dreadnoughts",
+                "cn": "标准无畏舰",
+                "items": [
+                  {
+                    "name": "Revelation",
+                    "cn": "神示级",
+                    "id": 19720
+                  },
+                  {
+                    "name": "Phoenix",
+                    "cn": "凤凰级",
+                    "id": 19726
+                  },
+                  {
+                    "name": "Moros",
+                    "cn": "莫洛级",
+                    "id": 19724
+                  },
+                  {
+                    "name": "Naglfar",
+                    "cn": "纳迦法级",
+                    "id": 19722
+                  },
+                  {
+                    "name": "Zirnitra",
+                    "cn": "泽尼塔级",
+                    "id": 52907
+                  }
+                ]
+              },
+              {
+                "name": "Navy Dreadnoughts",
+                "cn": "海军无畏舰",
+                "items": [
+                  {
+                    "name": "Revelation Navy Issue",
+                    "cn": "神示级海军型",
+                    "id": 73790
+                  },
+                  {
+                    "name": "Phoenix Navy Issue",
+                    "cn": "凤凰级海军型",
+                    "id": 73793
+                  },
+                  {
+                    "name": "Moros Navy Issue",
+                    "cn": "莫洛级海军型",
+                    "id": 73792
+                  },
+                  {
+                    "name": "Naglfar Navy Issue",
+                    "cn": "纳迦法级舰队型",
+                    "id": 73787
+                  }
+                ]
+              },
+              {
+                "name": "Pirate Dreadnoughts",
+                "cn": "游寇势力",
+                "items": [
+                  {
+                    "name": "Caiman",
+                    "cn": "基抹级",
+                    "id": 42243
+                  },
+                  {
+                    "name": "Chemosh",
+                    "cn": "凯门鳄级",
+                    "id": 45647
+                  },
+                  {
+                    "name": "Vehement",
+                    "cn": "猛烈级",
+                    "id": 42124
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Force Auxiliaries",
+            "cn": "战力辅助舰",
+            "items": [
+              {
+                "name": "Apostle",
+                "cn": "使徒级",
+                "id": 37604
+              },
+              {
+                "name": "Minokawa",
+                "cn": "龙鸟级",
+                "id": 37605
+              },
+              {
+                "name": "Ninazu",
+                "cn": "尼纳苏级",
+                "id": 37607
+              },
+              {
+                "name": "Lif",
+                "cn": "利夫级",
+                "id": 37606
+              },
+              {
+                "name": "Dagon",
+                "cn": "大衮级",
+                "id": 42242
+              },
+              {
+                "name": "Loggerhead",
+                "cn": "赤龟级",
+                "id": 45645
+              }
+            ]
+          },
+          {
+            "name": "Freighters",
+            "cn": "货舰",
+            "items": [
+              {
+                "name": "Providence",
+                "cn": "普罗维登斯级",
+                "id": 20183
+              },
+              {
+                "name": "Charon",
+                "cn": "渡神级",
+                "id": 20185
+              },
+              {
+                "name": "Obelisk",
+                "cn": "方尖塔级",
+                "id": 20187
+              },
+              {
+                "name": "Fenrir",
+                "cn": "芬利厄级",
+                "id": 20189
+              },
+              {
+                "name": "Bowhead",
+                "cn": "弓头鲸级",
+                "id": 34328
+              }
+            ]
+          },
+          {
+            "name": "Jump Freighters",
+            "cn": "战略货舰",
+            "items": [
+              {
+                "name": "Ark",
+                "cn": "方舟级",
+                "id": 28850
+              },
+              {
+                "name": "Rhea",
+                "cn": "奥鸟级",
+                "id": 28844
+              },
+              {
+                "name": "Anshar",
+                "cn": "安莎尔级",
+                "id": 28848
+              },
+              {
+                "name": "Nomad",
+                "cn": "游牧者级",
+                "id": 28846
+              }
+            ]
+          },
+          {
+            "name": "Titans",
+            "cn": "泰坦",
+            "items": [
+              {
+                "name": "Avatar",
+                "cn": "神使级",
+                "id": 11567
+              },
+              {
+                "name": "Leviathan",
+                "cn": "勒维亚坦级",
+                "id": 3764
+              },
+              {
+                "name": "Erebus",
+                "cn": "俄洛巴斯级",
+                "id": 671
+              },
+              {
+                "name": "Ragnarok",
+                "cn": "拉格纳洛克级",
+                "id": 23773
+              },
+              {
+                "name": "Komodo",
+                "cn": "科莫多级",
+                "id": 45649
+              },
+              {
+                "name": "Molok",
+                "cn": "摩洛克级",
+                "id": 42241
+              },
+              {
+                "name": "Vanquisher",
+                "cn": "征服者级",
+                "id": 42126
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Corvettes",
+        "cn": "轻型护卫舰",
+        "items": [
+          {
+            "name": "Impariror",
+            "cn": "帝国号",
+            "id": 596
+          },
+          {
+            "name": "Ibis",
+            "cn": "伊毕斯号",
+            "id": 601
+          },
+          {
+            "name": "Velator",
+            "cn": "维拉托尔号",
+            "id": 606
+          },
+          {
+            "name": "Reaper",
+            "cn": "死神号",
+            "id": 588
+          }
+        ]
+      },
+      {
+        "name": "Cruisers",
+        "cn": "巡洋舰",
+        "subgroups": [
+          {
+            "name": "Advanced Cruisers",
+            "cn": "高级巡洋舰",
+            "subgroups": [
+              {
+                "name": "Flag Cruisers",
+                "cn": "战地巡洋舰",
+                "items": [
+                  {
+                    "name": "Monitor",
+                    "cn": "监视者级",
+                    "id": 45534
+                  }
+                ]
+              },
+              {
+                "name": "Heavy Assault Cruisers",
+                "cn": "重型突击巡洋舰",
+                "subgroups": [
+                  {
+                    "name": "Armarr",
+                    "cn": "艾玛",
+                    "items": [
+                      {
+                        "name": "Sacrilege",
+                        "cn": "渎圣级",
+                        "id": 12019
+                      },
+                      {
+                        "name": "Zealot",
+                        "cn": "狂热级",
+                        "id": 12003
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Caldari",
+                    "cn": "加达里",
+                    "items": [
+                      {
+                        "name": "Cerberus",
+                        "cn": "希尔博拉斯级",
+                        "id": 11993
+                      },
+                      {
+                        "name": "Eagle",
+                        "cn": "银鹰级",
+                        "id": 12011
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gellente",
+                    "cn": "盖伦特",
+                    "items": [
+                      {
+                        "name": "Deimos",
+                        "cn": "戴默斯级",
+                        "id": 12023
+                      },
+                      {
+                        "name": "Ishtar",
+                        "cn": "伊什塔级",
+                        "id": 12005
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Minmatar",
+                    "cn": "米玛塔尔",
+                    "items": [
+                      {
+                        "name": "Muninn",
+                        "cn": "缪宁级",
+                        "id": 12015
+                      },
+                      {
+                        "name": "Vagahond",
+                        "cn": "流浪级",
+                        "id": 11999
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Triglavian",
+                    "cn": "三神裔",
+                    "items": [
+                      {
+                        "name": "Ikitursa",
+                        "cn": "伊基图萨级",
+                        "id": 52252
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Heavy Interdiction Cruisers",
+                "cn": "重型拦截巡洋舰",
+                "items": [
+                  {
+                    "name": "Devoter",
+                    "cn": "奉献级",
+                    "id": 12017
+                  },
+                  {
+                    "name": "Onyx",
+                    "cn": "奥尼克斯级",
+                    "id": 11995
+                  },
+                  {
+                    "name": "Phobos",
+                    "cn": "伏波斯级",
+                    "id": 12021
+                  },
+                  {
+                    "name": "Broadsword",
+                    "cn": "阔刀级",
+                    "id": 12013
+                  }
+                ]
+              },
+              {
+                "name": "Logistics",
+                "cn": "后勤舰",
+                "items": [
+                  {
+                    "name": "Guardian",
+                    "cn": "守卫级",
+                    "id": 11987
+                  },
+                  {
+                    "name": "Basilisk",
+                    "cn": "皇冠蜥级",
+                    "id": 11985
+                  },
+                  {
+                    "name": "Oneiros",
+                    "cn": "奥内罗斯级",
+                    "id": 11989
+                  },
+                  {
+                    "name": "Scimitar",
+                    "cn": "曲剑级",
+                    "id": 11978
+                  },
+                  {
+                    "name": "Zarmazd",
+                    "cn": "扎玛德级",
+                    "id": 49713
+                  }
+                ]
+              },
+              {
+                "name": "Recon Ships",
+                "cn": "侦察舰",
+                "subgroups": [
+                  {
+                    "name": "Armarr",
+                    "cn": "艾玛",
+                    "items": [
+                      {
+                        "name": "Curse",
+                        "cn": "诅咒级",
+                        "id": 20125
+                      },
+                      {
+                        "name": "Pilgrim",
+                        "cn": "皮尔格里姆级",
+                        "id": 11965
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Caldari",
+                    "cn": "加达里",
+                    "items": [
+                      {
+                        "name": "Falcon",
+                        "cn": "战隼级",
+                        "id": 11957
+                      },
+                      {
+                        "name": "Rook",
+                        "cn": "白嘴鸦级",
+                        "id": 11959
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gellente",
+                    "cn": "盖伦特",
+                    "items": [
+                      {
+                        "name": "Arazu",
+                        "cn": "埃拉兹级",
+                        "id": 11969
+                      },
+                      {
+                        "name": "Lachesis",
+                        "cn": "拉克希斯级",
+                        "id": 11971
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Minmatar",
+                    "cn": "米玛塔尔",
+                    "items": [
+                      {
+                        "name": "Huginn",
+                        "cn": "休津级",
+                        "id": 11961
+                      },
+                      {
+                        "name": "Rapier",
+                        "cn": "长剑级",
+                        "id": 11963
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Strategic Cruisers",
+                "cn": "战略巡洋舰",
+                "items": [
+                  {
+                    "name": "Legion",
+                    "cn": "圣卒级",
+                    "id": 29986
+                  },
+                  {
+                    "name": "Tengu",
+                    "cn": "金鹏级",
+                    "id": 29984
+                  },
+                  {
+                    "name": "Proteus",
+                    "cn": "海神级",
+                    "id": 29988
+                  },
+                  {
+                    "name": "Loki",
+                    "cn": "洛基级",
+                    "id": 29990
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Faction Cruisers",
+            "cn": "势力巡洋舰",
+            "subgroups": [
+              {
+                "name": "Navy Faction",
+                "cn": "海军势力舰船",
+                "items": [
+                  {
+                    "name": "Stormbringer",
+                    "cn": "唤风级",
+                    "id": 54732
+                  },
+                  {
+                    "name": "Augoror Navy Issue",
+                    "cn": "奥格诺级海军型",
+                    "id": 29337
+                  },
+                  {
+                    "name": "Caracal Navy Issue",
+                    "cn": "狞獾级海军型",
+                    "id": 17634
+                  },
+                  {
+                    "name": "Exequror Navy Issue",
+                    "cn": "送葬者级海军型",
+                    "id": 29344
+                  },
+                  {
+                    "name": "Omen Navy Issue",
+                    "cn": "启示级海军型",
+                    "id": 17709
+                  },
+                  {
+                    "name": "Osprey Navy Issue",
+                    "cn": "鱼鹰级海军型",
+                    "id": 29340
+                  },
+                  {
+                    "name": "Scythe Fleet Issue",
+                    "cn": "镰刀级舰队型",
+                    "id": 29336
+                  },
+                  {
+                    "name": "Stabber Fleet Issue",
+                    "cn": "刺刀级舰队型",
+                    "id": 17713
+                  },
+                  {
+                    "name": "Vexor Navy Issue",
+                    "cn": "狂怒者级海军型",
+                    "id": 17843
+                  }
+                ]
+              },
+              {
+                "name": "Pirate Faction",
+                "cn": "非帝国势力舰船",
+                "items": [
+                  {
+                    "name": "Ashimmu",
+                    "cn": "阿什姆级",
+                    "id": 17922
+                  },
+                  {
+                    "name": "Cynabal",
+                    "cn": "塞纳波级",
+                    "id": 17720
+                  },
+                  {
+                    "name": "Orthrus",
+                    "cn": "奥苏斯级",
+                    "id": 33818
+                  },
+                  {
+                    "name": "Phantasm",
+                    "cn": "幽灵级",
+                    "id": 17718
+                  },
+                  {
+                    "name": "Stratios",
+                    "cn": "斯特修斯级",
+                    "id": 33470
+                  },
+                  {
+                    "name": "Gila",
+                    "cn": "毒蜥级",
+                    "id": 17715
+                  },
+                  {
+                    "name": "Vigilant",
+                    "cn": "警惕级",
+                    "id": 17722
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Precursor Cruisers",
+            "cn": "先驱者巡洋舰",
+            "items": [
+              {
+                "name": "Rodiva",
+                "cn": "洛迪瓦级",
+                "id": 49712
+              },
+              {
+                "name": "Vedmak",
+                "cn": "维德马克级",
+                "id": 47270
+              }
+            ]
+          },
+          {
+            "name": "Standard Cruisers",
+            "cn": "标准巡洋舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Arbitrator",
+                    "cn": "主宰级",
+                    "id": 628
+                  },
+                  {
+                    "name": "Augoror",
+                    "cn": "奥格诺级",
+                    "id": 625
+                  },
+                  {
+                    "name": "Maller",
+                    "cn": "暴君级",
+                    "id": 624
+                  },
+                  {
+                    "name": "Omen",
+                    "cn": "启示级",
+                    "id": 2006
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Blackbird",
+                    "cn": "黑鸟级",
+                    "id": 632
+                  },
+                  {
+                    "name": "Caracal",
+                    "cn": "狞獾级",
+                    "id": 621
+                  },
+                  {
+                    "name": "Moa",
+                    "cn": "巨鸟级",
+                    "id": 623
+                  },
+                  {
+                    "name": "Osprey",
+                    "cn": "鱼鹰级",
+                    "id": 620
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Celestis",
+                    "cn": "星空级",
+                    "id": 633
+                  },
+                  {
+                    "name": "Exequror",
+                    "cn": "送葬者级",
+                    "id": 634
+                  },
+                  {
+                    "name": "Thorax",
+                    "cn": "托勒克斯级",
+                    "id": 627
+                  },
+                  {
+                    "name": "Vexor",
+                    "cn": "狂怒者级",
+                    "id": 626
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Bellicose",
+                    "cn": "挑战级",
+                    "id": 630
+                  },
+                  {
+                    "name": "Rupture",
+                    "cn": "断崖级",
+                    "id": 629
+                  },
+                  {
+                    "name": "Scythe",
+                    "cn": "镰刀级",
+                    "id": 631
+                  },
+                  {
+                    "name": "Stabber",
+                    "cn": "刺刀级",
+                    "id": 622
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Destroyers",
+        "cn": "驱逐舰",
+        "subgroups": [
+          {
+            "name": "Advanced Destroyers",
+            "cn": "高级驱逐舰",
+            "subgroups": [
+              {
+                "name": "Command Destroyers",
+                "cn": "指挥驱逐舰",
+                "items": [
+                  {
+                    "name": "Pontifex",
+                    "cn": "庞蒂菲斯级",
+                    "id": 37481
+                  },
+                  {
+                    "name": "Stork",
+                    "cn": "鹳鸟级",
+                    "id": 37482
+                  },
+                  {
+                    "name": "Magus",
+                    "cn": "占星级",
+                    "id": 37483
+                  },
+                  {
+                    "name": "Bifrost",
+                    "cn": "天梯级",
+                    "id": 37480
+                  },
+                  {
+                    "name": "Draugur",
+                    "cn": "德拉古级",
+                    "id": 52254
+                  }
+                ]
+              },
+              {
+                "name": "Interdictors",
+                "cn": "拦截舰",
+                "items": [
+                  {
+                    "name": "Heretic",
+                    "cn": "异端级",
+                    "id": 22452
+                  },
+                  {
+                    "name": "Flycatcher",
+                    "cn": "飞燕级",
+                    "id": 22464
+                  },
+                  {
+                    "name": "Eris",
+                    "cn": "厄里斯级",
+                    "id": 22460
+                  },
+                  {
+                    "name": "Sabre",
+                    "cn": "剑齿虎级",
+                    "id": 22456
+                  }
+                ]
+              },
+              {
+                "name": "Tactical Destroyers",
+                "cn": "战术驱逐舰",
+                "items": [
+                  {
+                    "name": "Confessor",
+                    "cn": "忏悔者级",
+                    "id": 34317
+                  },
+                  {
+                    "name": "Jackdaw",
+                    "cn": "寒鸦级",
+                    "id": 34828
+                  },
+                  {
+                    "name": "Hecate",
+                    "cn": "赫卡特级",
+                    "id": 35683
+                  },
+                  {
+                    "name": "Svipul",
+                    "cn": "斯威普级",
+                    "id": 34562
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Faction Destroyers",
+            "cn": "势力驱逐舰",
+            "items": [
+              {
+                "name": "Catalyst Navy Issue",
+                "cn": "促进级海军型",
+                "id": 73796
+              },
+              {
+                "name": "Coercer Navy Issue",
+                "cn": "强制者级海军型",
+                "id": 73789
+              },
+              {
+                "name": "Cormorant Navy Issue",
+                "cn": "海燕级海军型",
+                "id": 73795
+              },
+              {
+                "name": "Thrasher Fleet Issue",
+                "cn": "长尾鲛级舰队型",
+                "id": 73794
+              }
+            ]
+          },
+          {
+            "name": "Precursor Destroyers",
+            "cn": "先驱者驱逐舰",
+            "items": [
+              {
+                "name": "Kikimora",
+                "cn": "奇奇莫拉级",
+                "id": 49710
+              }
+            ]
+          },
+          {
+            "name": "Standard Destroyers",
+            "cn": "标准驱逐舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Coercer",
+                    "cn": "强制者级",
+                    "id": 16236
+                  },
+                  {
+                    "name": "Dragoon",
+                    "cn": "龙骑兵级",
+                    "id": 32874
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Corax",
+                    "cn": "渡鸦级",
+                    "id": 32876
+                  },
+                  {
+                    "name": "Cormorant",
+                    "cn": "海燕级",
+                    "id": 16238
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Algos",
+                    "cn": "阿尔格斯级",
+                    "id": 32872
+                  },
+                  {
+                    "name": "Catalyst",
+                    "cn": "促进级",
+                    "id": 16240
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Talwar",
+                    "cn": "弯刀级",
+                    "id": 32878
+                  },
+                  {
+                    "name": "Thrasher",
+                    "cn": "长尾鲛级",
+                    "id": 16242
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frigates",
+        "cn": "护卫舰",
+        "subgroups": [
+          {
+            "name": "Advanced Frigates",
+            "cn": "高级护卫舰",
+            "subgroups": [
+              {
+                "name": "Assault Frigates",
+                "cn": "突击护卫舰",
+                "subgroups": [
+                  {
+                    "name": "Armarr",
+                    "cn": "艾玛",
+                    "items": [
+                      {
+                        "name": "Retribution",
+                        "cn": "审判者级",
+                        "id": 11393
+                      },
+                      {
+                        "name": "Vengeance",
+                        "cn": "惩戒级",
+                        "id": 11365
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Caldari",
+                    "cn": "加达里",
+                    "items": [
+                      {
+                        "name": "Harpy",
+                        "cn": "女妖级",
+                        "id": 11381
+                      },
+                      {
+                        "name": "Hawk",
+                        "cn": "战鹰级",
+                        "id": 11379
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gellente",
+                    "cn": "盖伦特",
+                    "items": [
+                      {
+                        "name": "Enyo",
+                        "cn": "恩尤级",
+                        "id": 12044
+                      },
+                      {
+                        "name": "Ishkur",
+                        "cn": "伊什库尔级",
+                        "id": 12042
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Minmatar",
+                    "cn": "米玛塔尔",
+                    "items": [
+                      {
+                        "name": "Jaguar",
+                        "cn": "美洲虎级",
+                        "id": 11400
+                      },
+                      {
+                        "name": "Wolf",
+                        "cn": "猎狼级",
+                        "id": 11371
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Triglavian",
+                    "cn": "三神裔",
+                    "items": [
+                      {
+                        "name": "Nergal",
+                        "cn": "涅伽尔级",
+                        "id": 52250
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Covert Ops",
+                "cn": "隐形特勤舰",
+                "subgroups": [
+                  {
+                    "name": "Armarr",
+                    "cn": "艾玛",
+                    "items": [
+                      {
+                        "name": "Anathema",
+                        "cn": "咒逐级",
+                        "id": 11188
+                      },
+                      {
+                        "name": "Purifier",
+                        "cn": "净化级",
+                        "id": 12038
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Caldari",
+                    "cn": "加达里",
+                    "items": [
+                      {
+                        "name": "Buzzard",
+                        "cn": "秃鹰级",
+                        "id": 11192
+                      },
+                      {
+                        "name": "Manticore",
+                        "cn": "蝎尾怪级",
+                        "id": 12032
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gellente",
+                    "cn": "盖伦特",
+                    "items": [
+                      {
+                        "name": "Helios",
+                        "cn": "太阳神级",
+                        "id": 11172
+                      },
+                      {
+                        "name": "Nemesis",
+                        "cn": "纳美西斯级",
+                        "id": 11377
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Minmatar",
+                    "cn": "米玛塔尔",
+                    "items": [
+                      {
+                        "name": "Cheetah",
+                        "cn": "猎豹级",
+                        "id": 11182
+                      },
+                      {
+                        "name": "Hound",
+                        "cn": "猎犬级",
+                        "id": 12034
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Electronic Attack Frigates",
+                "cn": "电子攻击护卫舰",
+                "items": [
+                  {
+                    "name": "Sentinel",
+                    "cn": "哨兵级",
+                    "id": 11190
+                  },
+                  {
+                    "name": "Kitsune",
+                    "cn": "狐妖级",
+                    "id": 11194
+                  },
+                  {
+                    "name": "Keres",
+                    "cn": "克勒斯级",
+                    "id": 11174
+                  },
+                  {
+                    "name": "Hyena",
+                    "cn": "土狼级",
+                    "id": 11387
+                  }
+                ]
+              },
+              {
+                "name": "Expedition Frigates",
+                "cn": "勘探护卫舰",
+                "items": [
+                  {
+                    "name": "Endurance",
+                    "cn": "永恒者级",
+                    "id": 37135
+                  },
+                  {
+                    "name": "Prospect",
+                    "cn": "掘金者级",
+                    "id": 33697
+                  }
+                ]
+              },
+              {
+                "name": "Interceptors",
+                "cn": "截击舰",
+                "subgroups": [
+                  {
+                    "name": "Armarr",
+                    "cn": "艾玛",
+                    "items": [
+                      {
+                        "name": "Crusader",
+                        "cn": "科洛斯级",
+                        "id": 11184
+                      },
+                      {
+                        "name": "Malediction",
+                        "cn": "咒灭级",
+                        "id": 11186
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Caldari",
+                    "cn": "加达里",
+                    "items": [
+                      {
+                        "name": "Crow",
+                        "cn": "黑鸦级",
+                        "id": 11176
+                      },
+                      {
+                        "name": "Raptor",
+                        "cn": "猛禽级",
+                        "id": 11178
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gellente",
+                    "cn": "盖伦特",
+                    "items": [
+                      {
+                        "name": "Ares",
+                        "cn": "阿瑞斯级",
+                        "id": 11202
+                      },
+                      {
+                        "name": "Taranis",
+                        "cn": "塔纳尼斯级",
+                        "id": 11200
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Minmatar",
+                    "cn": "米玛塔尔",
+                    "items": [
+                      {
+                        "name": "Claw",
+                        "cn": "利爪级",
+                        "id": 11196
+                      },
+                      {
+                        "name": "Stiletto",
+                        "cn": "利爪级",
+                        "id": 11196
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Logistics Frigates",
+                "cn": "后勤护卫舰",
+                "items": [
+                  {
+                    "name": "Deacon",
+                    "cn": "执事级",
+                    "id": 37457
+                  },
+                  {
+                    "name": "Kirin",
+                    "cn": "麒麟级",
+                    "id": 37458
+                  },
+                  {
+                    "name": "Thalia",
+                    "cn": "塔利亚级",
+                    "id": 37459
+                  },
+                  {
+                    "name": "Scalpel",
+                    "cn": "手术刀级",
+                    "id": 37460
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Faction Frigates",
+            "cn": "势力护卫舰",
+            "subgroups": [
+              {
+                "name": "Navy Faction",
+                "cn": "海军势力舰船",
+                "items": [
+                  {
+                    "name": "Caldari Navy Hookbill",
+                    "cn": "加达里海军霍克比尔级",
+                    "id": 17619
+                  },
+                  {
+                    "name": "Federation Navy Comet",
+                    "cn": "联邦海军彗星级",
+                    "id": 17841
+                  },
+                  {
+                    "name": "Imperial Navy Slicer",
+                    "cn": "帝国海军切割机级",
+                    "id": 17703
+                  },
+                  {
+                    "name": "Republic Fleet Firetail",
+                    "cn": "共和舰队火尾鸡级",
+                    "id": 17812
+                  },
+                  {
+                    "name": "Skybreaker",
+                    "cn": "破天级",
+                    "id": 54731
+                  },
+                  {
+                    "name": "Crucifier Navy Issue",
+                    "cn": "磨难级海军型",
+                    "id": 37453
+                  },
+                  {
+                    "name": "Griffin Navy Issue",
+                    "cn": "狮鹫级海军型",
+                    "id": 37455
+                  },
+                  {
+                    "name": "Heron Navy Issue",
+                    "cn": "苍鹭级海军型",
+                    "id": 72904
+                  },
+                  {
+                    "name": "Imicus Navy Issue",
+                    "cn": "伊米卡斯级海军型",
+                    "id": 72913
+                  },
+                  {
+                    "name": "Magnate Navy Issue",
+                    "cn": "富豪级海军型",
+                    "id": 72907
+                  },
+                  {
+                    "name": "Maulus Navy Issue",
+                    "cn": "毛鲁斯级海军型",
+                    "id": 37456
+                  },
+                  {
+                    "name": "Probe Navy Issue",
+                    "cn": "探索级舰队型",
+                    "id": 72903
+                  },
+                  {
+                    "name": "Vigil Fleet Issue",
+                    "cn": "守夜者级舰队型",
+                    "id": 37454
+                  }
+                ]
+              },
+              {
+                "name": "Pirate Faction",
+                "cn": "非帝国势力舰船",
+                "items": [
+                  {
+                    "name": "Astero",
+                    "cn": "阿斯特罗级",
+                    "id": 33468
+                  },
+                  {
+                    "name": "Cruor",
+                    "cn": "凝血级",
+                    "id": 17926
+                  },
+                  {
+                    "name": "Daredevil",
+                    "cn": "夜魔侠级",
+                    "id": 17928
+                  },
+                  {
+                    "name": "Dramiel",
+                    "cn": "德拉米尔级",
+                    "id": 17932
+                  },
+                  {
+                    "name": "Garmur",
+                    "cn": "加姆级",
+                    "id": 33816
+                  },
+                  {
+                    "name": "Succubus",
+                    "cn": "魔女级",
+                    "id": 17924
+                  },
+                  {
+                    "name": "Worm",
+                    "cn": "潜龙级",
+                    "id": 17930
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Precursor Frigates",
+            "cn": "先驱者护卫舰",
+            "items": [
+              {
+                "name": "Damask",
+                "cn": "达玛维克级",
+                "id": 47269
+              }
+            ]
+          },
+          {
+            "name": "Standard Frigates",
+            "cn": "标准护卫舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Crucifier",
+                    "cn": "磨难级",
+                    "id": 2161
+                  },
+                  {
+                    "name": "Executioner",
+                    "cn": "刽子手级",
+                    "id": 589
+                  },
+                  {
+                    "name": "Inquisitor",
+                    "cn": "检察官级",
+                    "id": 590
+                  },
+                  {
+                    "name": "Magnate",
+                    "cn": "富豪级",
+                    "id": 29248
+                  },
+                  {
+                    "name": "Punisher",
+                    "cn": "惩罚者级",
+                    "id": 597
+                  },
+                  {
+                    "name": "Tormentor",
+                    "cn": "巨神兵级",
+                    "id": 591
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Bantam",
+                    "cn": "矮脚鸡级",
+                    "id": 582
+                  },
+                  {
+                    "name": "Condor",
+                    "cn": "秃鹫级",
+                    "id": 583
+                  },
+                  {
+                    "name": "Griffin",
+                    "cn": "狮鹫级",
+                    "id": 584
+                  },
+                  {
+                    "name": "Heron",
+                    "cn": "苍鹭级",
+                    "id": 605
+                  },
+                  {
+                    "name": "Kestrel",
+                    "cn": "茶隼级",
+                    "id": 602
+                  },
+                  {
+                    "name": "Merlin",
+                    "cn": "小鹰级",
+                    "id": 603
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Atron",
+                    "cn": "阿特龙级",
+                    "id": 608
+                  },
+                  {
+                    "name": "Imicus",
+                    "cn": "伊米卡斯级",
+                    "id": 607
+                  },
+                  {
+                    "name": "Incursus",
+                    "cn": "因卡萨斯级",
+                    "id": 594
+                  },
+                  {
+                    "name": "Maulus",
+                    "cn": "毛鲁斯级",
+                    "id": 609
+                  },
+                  {
+                    "name": "Navitas",
+                    "cn": "纳维达斯级",
+                    "id": 592
+                  },
+                  {
+                    "name": "Tristan",
+                    "cn": "特里斯坦级",
+                    "id": 593
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Breacher",
+                    "cn": "分裂者级",
+                    "id": 598
+                  },
+                  {
+                    "name": "Burst",
+                    "cn": "爆发级",
+                    "id": 599
+                  },
+                  {
+                    "name": "Probe",
+                    "cn": "探索级",
+                    "id": 586
+                  },
+                  {
+                    "name": "Rifter",
+                    "cn": "裂谷级",
+                    "id": 587
+                  },
+                  {
+                    "name": "Slasher",
+                    "cn": "伐木者级",
+                    "id": 585
+                  },
+                  {
+                    "name": "Vigil",
+                    "cn": "守夜者级",
+                    "id": 3766
+                  }
+                ]
+              },
+              {
+                "name": "ORE",
+                "cn": "联合矿业",
+                "items": [
+                  {
+                    "name": "Venture",
+                    "cn": "冲锋者级",
+                    "id": 32880
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Haulers and Industrial Ships",
+        "cn": "运载舰和工业舰",
+        "subgroups": [
+          {
+            "name": "Advanced Haulers",
+            "cn": "高级运载舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Impel",
+                    "cn": "激进级",
+                    "id": 12753
+                  },
+                  {
+                    "name": "Prorator",
+                    "cn": "分裂级",
+                    "id": 12733
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Bustard",
+                    "cn": "大鸨级",
+                    "id": 12731
+                  },
+                  {
+                    "name": "Crane",
+                    "cn": "天鹤级",
+                    "id": 12729
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Occator",
+                    "cn": "奥卡托级",
+                    "id": 12745
+                  },
+                  {
+                    "name": "Viator",
+                    "cn": "旅行者级",
+                    "id": 12743
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Mastodon",
+                    "cn": "巨象级",
+                    "id": 12747
+                  },
+                  {
+                    "name": "Prowler",
+                    "cn": "徘徊者级",
+                    "id": 12735
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Industrial Command Ships",
+            "cn": "工业指挥舰",
+            "items": [
+              {
+                "name": "Orca",
+                "cn": "逆戟鲸级",
+                "id": 28606
+              },
+              {
+                "name": "Porpoise",
+                "cn": "海豚级",
+                "id": 42244
+              }
+            ]
+          },
+          {
+            "name": "Standard Haulers",
+            "cn": "标准运载舰",
+            "subgroups": [
+              {
+                "name": "Armarr",
+                "cn": "艾玛",
+                "items": [
+                  {
+                    "name": "Bestower",
+                    "cn": "恩赐者级",
+                    "id": 1944
+                  },
+                  {
+                    "name": "Sigil",
+                    "cn": "魔符级",
+                    "id": 19744
+                  }
+                ]
+              },
+              {
+                "name": "Caldari",
+                "cn": "加达里",
+                "items": [
+                  {
+                    "name": "Badger",
+                    "cn": "獾级",
+                    "id": 648
+                  },
+                  {
+                    "name": "Tayra",
+                    "cn": "狐鼬级",
+                    "id": 649
+                  }
+                ]
+              },
+              {
+                "name": "Gellente",
+                "cn": "盖伦特",
+                "items": [
+                  {
+                    "name": "Epithal",
+                    "cn": "埃比斯级",
+                    "id": 655
+                  },
+                  {
+                    "name": "Intern Mark V",
+                    "cn": "伊特龙级MKV",
+                    "id": 657
+                  },
+                  {
+                    "name": "Kryos",
+                    "cn": "克琉斯级",
+                    "id": 654
+                  },
+                  {
+                    "name": "Miasmos",
+                    "cn": "米亚莫斯级",
+                    "id": 656
+                  },
+                  {
+                    "name": "Nereus",
+                    "cn": "涅鲁斯级",
+                    "id": 650
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar",
+                "cn": "米玛塔尔",
+                "items": [
+                  {
+                    "name": "Hoarder",
+                    "cn": "囤积者级",
+                    "id": 651
+                  },
+                  {
+                    "name": "Mammoth",
+                    "cn": "猛犸级",
+                    "id": 652
+                  },
+                  {
+                    "name": "Wreathe",
+                    "cn": "环绕级",
+                    "id": 653
+                  }
+                ]
+              },
+              {
+                "name": "ORE",
+                "cn": "联合矿业",
+                "items": [
+                  {
+                    "name": "Noctis",
+                    "cn": "黑夜级",
+                    "id": 2998
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mining Barges",
+        "cn": "采矿驳船",
+        "subgroups": [
+          {
+            "name": "Exhumers",
+            "cn": "采掘者",
+            "items": [
+              {
+                "name": "Hulk",
+                "cn": "霍克级",
+                "id": 22544
+              },
+              {
+                "name": "Mackinaw",
+                "cn": "麦基诺级",
+                "id": 22548
+              },
+              {
+                "name": "Skiff",
+                "cn": "轻舟级",
+                "id": 22546
+              }
+            ]
+          },
+          {
+            "name": "Mining Barges",
+            "cn": "采矿驳船",
+            "items": [
+              {
+                "name": "Covetor",
+                "cn": "妄想级",
+                "id": 17476
+              },
+              {
+                "name": "Procurer",
+                "cn": "回旋者级",
+                "id": 17478
+              },
+              {
+                "name": "Retriever",
+                "cn": "猎获级",
+                "id": 17480
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Shuttles",
+        "cn": "穿梭机",
+        "items": [
+          {
+            "name": "Armarr Shuttle",
+            "cn": "艾玛穿梭机",
+            "id": 11134
+          },
+          {
+            "name": "Caldari Shuttle",
+            "cn": "加达里穿梭机",
+            "id": 672
+          },
+          {
+            "name": "Gallente Shuttle",
+            "cn": "盖伦特穿梭机",
+            "id": 11129
+          },
+          {
+            "name": "Minmatar Shuttle",
+            "cn": "米玛塔尔穿梭机",
+            "id": 11132
+          },
+          {
+            "name": "Goru's Shuttle",
+            "cn": "高鲁的穿梭机",
+            "id": 21097
+          },
+          {
+            "name": "Guristas Shuttle",
+            "cn": "古斯塔斯穿梭机",
+            "id": 21628
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Manufacture & Research",
     "cn": "制造和研究",
     "subgroups": [
