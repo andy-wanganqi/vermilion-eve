@@ -4162,6 +4162,3974 @@
     ]
   },
   {
+    "name": "Ship and Module Modifications",
+    "cn": "舰船和装备改装件",
+    "subgroups": [
+      {
+        "name": "Rigs",
+        "cn": "改装件",
+        "subgroups": [
+          {
+            "name": "Armor Rigs",
+            "cn": "装甲改装件",
+            "subgroups": [
+              {
+                "name": "Capital Armor Rigs",
+                "cn": "旗舰级装甲改装件",
+                "items": [
+                  {
+                    "name": "Capital Auxiliary Nano Pump I",
+                    "cn": "旗舰级辅助纳米聚合器 I",
+                    "id": 27064
+                  },
+                  {
+                    "name": "Capital EM Armor Reinforcer I",
+                    "cn": "旗舰级电磁装甲强化装置 I",
+                    "id": 31001
+                  },
+                  {
+                    "name": "Capital Explosive Armor Reinforcer I",
+                    "cn": "旗舰级爆炸装甲强化装置 I",
+                    "id": 31013
+                  },
+                  {
+                    "name": "Capital Kinetic Armor Reinforcer I",
+                    "cn": "旗舰级动能装甲强化装置 I",
+                    "id": 31025
+                  },
+                  {
+                    "name": "Capital Nanobot Accelerator I",
+                    "cn": "旗舰级纳米机器人加速器 I",
+                    "id": 31067
+                  },
+                  {
+                    "name": "Capital Remote Repair Augmentor I",
+                    "cn": "旗舰级远程维修增效器 I",
+                    "id": 31075
+                  },
+                  {
+                    "name": "Capital Thermal Armor Reinforcer I",
+                    "cn": "旗舰级热能装甲强化装置 I",
+                    "id": 31037
+                  },
+                  {
+                    "name": "Capital Transverse Bulkhead I",
+                    "cn": "旗舰级横贯舱壁 I",
+                    "id": 33902
+                  },
+                  {
+                    "name": "Capital Trimark Armor Pump I",
+                    "cn": "旗舰级三角装甲聚合器 I",
+                    "id": 30993
+                  },
+                  {
+                    "name": "Capital Auxiliary Nano Pump II",
+                    "cn": "旗舰级辅助纳米聚合器 II",
+                    "id": 31049
+                  },
+                  {
+                    "name": "Capital EM Armor Reinforcer II",
+                    "cn": "旗舰级电磁装甲强化装置 II",
+                    "id": 31007
+                  },
+                  {
+                    "name": "Capital Explosive Armor Reinforcer II",
+                    "cn": "旗舰级爆炸装甲强化装置 II",
+                    "id": 31019
+                  },
+                  {
+                    "name": "Capital Kinetic Armor Reinforcer II",
+                    "cn": "旗舰级动能装甲强化装置 II",
+                    "id": 31031
+                  },
+                  {
+                    "name": "Capital Nanobot Accelerator II",
+                    "cn": "旗舰级纳米机器人加速器 II",
+                    "id": 27066
+                  },
+                  {
+                    "name": "Capital Remote Repair Augmentor II",
+                    "cn": "旗舰级远程维修增效器 II",
+                    "id": 31081
+                  },
+                  {
+                    "name": "Capital Thermal Armor Reinforcer II",
+                    "cn": "旗舰级热能装甲强化装置 II",
+                    "id": 31043
+                  },
+                  {
+                    "name": "Capital Transverse Bulkhead II",
+                    "cn": "旗舰级横贯舱壁 II",
+                    "id": 33904
+                  },
+                  {
+                    "name": "Capital Trimark Armor Pump II",
+                    "cn": "旗舰级三角装甲聚合器 II",
+                    "id": 31061
+                  }
+                ]
+              },
+              {
+                "name": "Large Armor Rigs",
+                "cn": "大型装甲改装件",
+                "items": [
+                  {
+                    "name": "Large Auxiliary Nano Pump I",
+                    "cn": "大型辅助纳米聚合器 I",
+                    "id": 25896
+                  },
+                  {
+                    "name": "Large EM Armor Reinforcer I",
+                    "cn": "大型电磁装甲强化装置 I",
+                    "id": 25736
+                  },
+                  {
+                    "name": "Large Explosive Armor Reinforcer I",
+                    "cn": "大型爆炸装甲强化装置 I",
+                    "id": 25888
+                  },
+                  {
+                    "name": "Large Kinetic Armor Reinforcer I",
+                    "cn": "大型动能装甲强化装置 I",
+                    "id": 25890
+                  },
+                  {
+                    "name": "Large Nanobot Accelerator I",
+                    "cn": "大型纳米机器人加速器 I",
+                    "id": 25898
+                  },
+                  {
+                    "name": "Large Remote Repair Augmentor I",
+                    "cn": "大型远程维修增效器 I",
+                    "id": 25900
+                  },
+                  {
+                    "name": "Large Thermal Armor Reinforcer I",
+                    "cn": "大型热能装甲强化装置 I",
+                    "id": 25892
+                  },
+                  {
+                    "name": "Large Transverse Bulkhead I",
+                    "cn": "大型横贯舱壁 I",
+                    "id": 33898
+                  },
+                  {
+                    "name": "Large Trimark Armor Pump I",
+                    "cn": "大型三角装甲聚合器 I",
+                    "id": 25894
+                  },
+                  {
+                    "name": "Large Auxiliary Nano Pump II",
+                    "cn": "大型辅助纳米聚合器 II",
+                    "id": 26294
+                  },
+                  {
+                    "name": "Large EM Armor Reinforcer II",
+                    "cn": "大型电磁装甲强化装置 II",
+                    "id": 26286
+                  },
+                  {
+                    "name": "Large Explosive Armor Reinforcer II",
+                    "cn": "大型爆炸装甲强化装置 II",
+                    "id": 26288
+                  },
+                  {
+                    "name": "Large Kinetic Armor Reinforcer II",
+                    "cn": "大型动能装甲强化装置 II",
+                    "id": 26290
+                  },
+                  {
+                    "name": "Large Nanobot Accelerator II",
+                    "cn": "大型纳米机器人加速器 II",
+                    "id": 26296
+                  },
+                  {
+                    "name": "Large Remote Repair Augmentor II",
+                    "cn": "大型远程维修增效器 II",
+                    "id": 26298
+                  },
+                  {
+                    "name": "Large Thermal Armor Reinforcer II",
+                    "cn": "大型热能装甲强化装置 II",
+                    "id": 26292
+                  },
+                  {
+                    "name": "Large Transverse Bulkhead II",
+                    "cn": "大型横贯舱壁 II",
+                    "id": 33900
+                  },
+                  {
+                    "name": "Large Trimark Armor Pump II",
+                    "cn": "大型三角装甲聚合器 II",
+                    "id": 26302
+                  }
+                ]
+              },
+              {
+                "name": "Medium Armor Rigs",
+                "cn": "中型装甲改装件",
+                "items": [
+                  {
+                    "name": "Medium Auxiliary Nano Pump I",
+                    "cn": "中型辅助纳米聚合器 I",
+                    "id": 31047
+                  },
+                  {
+                    "name": "Medium EM Armor Reinforcer I",
+                    "cn": "中型电磁装甲强化装置 I",
+                    "id": 30999
+                  },
+                  {
+                    "name": "Medium Explosive Armor Reinforcer I",
+                    "cn": "中型爆炸装甲强化装置 I",
+                    "id": 31011
+                  },
+                  {
+                    "name": "Medium Kinetic Armor Reinforcer I",
+                    "cn": "中型动能装甲强化装置 I",
+                    "id": 31023
+                  },
+                  {
+                    "name": "Medium Nanobot Accelerator I",
+                    "cn": "中型纳米机器人加速器 I",
+                    "id": 31065
+                  },
+                  {
+                    "name": "Medium Remote Repair Augmentor I",
+                    "cn": "中型远程维修增效器 I",
+                    "id": 31073
+                  },
+                  {
+                    "name": "Medium Thermal Armor Reinforcer I",
+                    "cn": "中型热能装甲强化装置 I",
+                    "id": 31035
+                  },
+                  {
+                    "name": "Medium Transverse Bulkhead I",
+                    "cn": "中型横贯舱壁 I",
+                    "id": 33894
+                  },
+                  {
+                    "name": "Medium Trimark Armor Pump I",
+                    "cn": "中型三角装甲聚合器 I",
+                    "id": 31055
+                  },
+                  {
+                    "name": "Medium Auxiliary Nano Pump II",
+                    "cn": "中型辅助纳米聚合器 II",
+                    "id": 31053
+                  },
+                  {
+                    "name": "Medium EM Armor Reinforcer II",
+                    "cn": "中型电磁装甲强化装置 II",
+                    "id": 31005
+                  },
+                  {
+                    "name": "Medium Explosive Armor Reinforcer II",
+                    "cn": "中型爆炸装甲强化装置 II",
+                    "id": 31017
+                  },
+                  {
+                    "name": "Medium Kinetic Armor Reinforcer II",
+                    "cn": "中型动能装甲强化装置 II",
+                    "id": 31029
+                  },
+                  {
+                    "name": "Medium Nanobot Accelerator II",
+                    "cn": "中型纳米机器人加速器 II",
+                    "id": 31071
+                  },
+                  {
+                    "name": "Medium Remote Repair Augmentor II",
+                    "cn": "中型远程维修增效器 II",
+                    "id": 31079
+                  },
+                  {
+                    "name": "Medium Thermal Armor Reinforcer II",
+                    "cn": "中型热能装甲强化装置 II",
+                    "id": 31041
+                  },
+                  {
+                    "name": "Medium Transverse Bulkhead II",
+                    "cn": "中型横贯舱壁 II",
+                    "id": 33896
+                  },
+                  {
+                    "name": "Medium Trimark Armor Pump II",
+                    "cn": "中型三角装甲聚合器 II",
+                    "id": 31059
+                  }
+                ]
+              },
+              {
+                "name": "Small Armor Rigs",
+                "cn": "小型装甲改装件",
+                "items": [
+                  {
+                    "name": "Small Auxiliary Nano Pump I",
+                    "cn": "小型辅助纳米聚合器 I",
+                    "id": 31045
+                  },
+                  {
+                    "name": "Small EM Armor Reinforcer I",
+                    "cn": "小型电磁装甲强化装置 I",
+                    "id": 30997
+                  },
+                  {
+                    "name": "Small Explosive Armor Reinforcer I",
+                    "cn": "小型爆炸装甲强化装置 I",
+                    "id": 31009
+                  },
+                  {
+                    "name": "Small Kinetic Armor Reinforcer I",
+                    "cn": "小型动能装甲强化装置 I",
+                    "id": 31021
+                  },
+                  {
+                    "name": "Small Nanobot Accelerator I",
+                    "cn": "小型纳米机器人加速器 I",
+                    "id": 31063
+                  },
+                  {
+                    "name": "Small Remote Repair Augmentor I",
+                    "cn": "小型远程维修增效器 I",
+                    "id": 27068
+                  },
+                  {
+                    "name": "Small Thermal Armor Reinforcer I",
+                    "cn": "小型热能装甲强化装置 I",
+                    "id": 31033
+                  },
+                  {
+                    "name": "Small Transverse Bulkhead I",
+                    "cn": "小型横贯舱壁 I",
+                    "id": 33890
+                  },
+                  {
+                    "name": "Small Trimark Armor Pump I",
+                    "cn": "小型三角装甲聚合器 I",
+                    "id": 30987
+                  },
+                  {
+                    "name": "Small Auxiliary Nano Pump II",
+                    "cn": "小型辅助纳米聚合器 II",
+                    "id": 31051
+                  },
+                  {
+                    "name": "Small EM Armor Reinforcer II",
+                    "cn": "小型电磁装甲强化装置 II",
+                    "id": 31003
+                  },
+                  {
+                    "name": "Small Explosive Armor Reinforcer II",
+                    "cn": "小型爆炸装甲强化装置 II",
+                    "id": 31015
+                  },
+                  {
+                    "name": "Small Kinetic Armor Reinforcer II",
+                    "cn": "小型动能装甲强化装置 II",
+                    "id": 31027
+                  },
+                  {
+                    "name": "Small Nanobot Accelerator II",
+                    "cn": "小型纳米机器人加速器 II",
+                    "id": 31069
+                  },
+                  {
+                    "name": "Small Remote Repair Augmentor II",
+                    "cn": "小型远程维修增效器 II",
+                    "id": 31077
+                  },
+                  {
+                    "name": "Small Thermal Armor Reinforcer II",
+                    "cn": "小型热能装甲强化装置 II",
+                    "id": 31039
+                  },
+                  {
+                    "name": "Small Transverse Bulkhead II",
+                    "cn": "小型横贯舱壁 II",
+                    "id": 33892
+                  },
+                  {
+                    "name": "Small Trimark Armor Pump II",
+                    "cn": "小型三角装甲聚合器 II",
+                    "id": 31057
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Astronautic Rigs",
+            "cn": "航天技术改装件",
+            "subgroups": [
+              {
+                "name": "Capital Astronautic Rigs",
+                "cn": "旗舰级航天技术改装件",
+                "items": [
+                  {
+                    "name": "Capital Auxiliary Thrusters I",
+                    "cn": "旗舰级辅助推进器 I",
+                    "id": 31109
+                  },
+                  {
+                    "name": "Capital Cargohold Optimization I",
+                    "cn": "旗舰级货柜舱优化改造 I",
+                    "id": 31121
+                  },
+                  {
+                    "name": "Capital Dynamic Fuel Valve I",
+                    "cn": "旗舰级动态燃料控制阀 I",
+                    "id": 31133
+                  },
+                  {
+                    "name": "Capital Engine Thermal Shielding I",
+                    "cn": "旗舰级引擎热能防护装置 I",
+                    "id": 31145
+                  },
+                  {
+                    "name": "Capital Higgs Anchor I",
+                    "cn": "旗舰级希格斯粒子锚 I",
+                    "id": 34308
+                  },
+                  {
+                    "name": "Capital Hyperspatial Velocity Optimizer I",
+                    "cn": "旗舰级超空间速度调节器 I",
+                    "id": 31163
+                  },
+                  {
+                    "name": "Capital Low Friction Nozzle Joints I",
+                    "cn": "旗舰级低摩擦喷嘴接口 I",
+                    "id": 31157
+                  },
+                  {
+                    "name": "Capital Polycarbon Engine Housing I",
+                    "cn": "旗舰级复合碳素引擎舱 I",
+                    "id": 31181
+                  },
+                  {
+                    "name": "Capital Warp Core Optimizer I",
+                    "cn": "旗舰级跃迁核心优化系统 I",
+                    "id": 31193
+                  },
+                  {
+                    "name": "Capital Auxiliary Thrusters II",
+                    "cn": "旗舰级辅助推进器 II",
+                    "id": 31115
+                  },
+                  {
+                    "name": "Capital Cargohold Optimization II",
+                    "cn": "旗舰级货柜舱优化改造 II",
+                    "id": 31127
+                  },
+                  {
+                    "name": "Capital Dynamic Fuel Valve II",
+                    "cn": "旗舰级动态燃料控制阀 II",
+                    "id": 31139
+                  },
+                  {
+                    "name": "Capital Engine Thermal Shielding II",
+                    "cn": "旗舰级引擎热能防护装置 II",
+                    "id": 31151
+                  },
+                  {
+                    "name": "Capital Hyperspatial Velocity Optimizer II",
+                    "cn": "旗舰级超空间速度调节器 II",
+                    "id": 31169
+                  },
+                  {
+                    "name": "Capital Low Friction Nozzle Joints II",
+                    "cn": "旗舰级低摩擦喷嘴接口 II",
+                    "id": 31175
+                  },
+                  {
+                    "name": "Capital Polycarbon Engine Housing II",
+                    "cn": "旗舰级复合碳素引擎舱 II",
+                    "id": 31187
+                  },
+                  {
+                    "name": "Capital Warp Core Optimizer II",
+                    "cn": "旗舰级跃迁核心优化系统 II",
+                    "id": 31199
+                  }
+                ]
+              },
+              {
+                "name": "Large Astronautic Rigs",
+                "cn": "大型航天技术改装件",
+                "items": [
+                  {
+                    "name": "Large Auxiliary Thrusters I",
+                    "cn": "大型辅助推进器 I",
+                    "id": 26060
+                  },
+                  {
+                    "name": "Large Cargohold Optimization I",
+                    "cn": "大型货柜舱优化改造 I",
+                    "id": 26072
+                  },
+                  {
+                    "name": "Large Dynamic Fuel Valve I",
+                    "cn": "大型动态燃料控制阀 I",
+                    "id": 26056
+                  },
+                  {
+                    "name": "Large Engine Thermal Shielding I",
+                    "cn": "大型引擎热能防护装置 I",
+                    "id": 26062
+                  },
+                  {
+                    "name": "Large Higgs Anchor I",
+                    "cn": "大型希格斯粒子锚 I",
+                    "id": 34306
+                  },
+                  {
+                    "name": "Large Hyperspatial Velocity Optimizer I",
+                    "cn": "大型超空间速度调节器 I",
+                    "id": 26068
+                  },
+                  {
+                    "name": "Large Low Friction Nozzle Joints I",
+                    "cn": "大型低摩擦喷嘴接口 I",
+                    "id": 26058
+                  },
+                  {
+                    "name": "Large Polycarbon Engine Housing I",
+                    "cn": "大型复合碳素引擎舱 I",
+                    "id": 26070
+                  },
+                  {
+                    "name": "Large Warp Core Optimizer I",
+                    "cn": "大型跃迁核心优化系统 I",
+                    "id": 26066
+                  },
+                  {
+                    "name": "Large Auxiliary Thrusters II",
+                    "cn": "大型辅助推进器 II",
+                    "id": 26318
+                  },
+                  {
+                    "name": "Large Cargohold Optimization II",
+                    "cn": "大型货柜舱优化改造 II",
+                    "id": 26304
+                  },
+                  {
+                    "name": "Large Dynamic Fuel Valve II",
+                    "cn": "大型动态燃料控制阀 II",
+                    "id": 26306
+                  },
+                  {
+                    "name": "Large Engine Thermal Shielding II",
+                    "cn": "大型引擎热能防护装置 II",
+                    "id": 26308
+                  },
+                  {
+                    "name": "Large Hyperspatial Velocity Optimizer II",
+                    "cn": "大型超空间速度调节器 II",
+                    "id": 26322
+                  },
+                  {
+                    "name": "Large Low Friction Nozzle Joints II",
+                    "cn": "大型低摩擦喷嘴接口 II",
+                    "id": 26310
+                  },
+                  {
+                    "name": "Large Polycarbon Engine Housing II",
+                    "cn": "大型复合碳素引擎舱 II",
+                    "id": 26312
+                  },
+                  {
+                    "name": "Large Warp Core Optimizer II",
+                    "cn": "大型跃迁核心优化系统 II",
+                    "id": 26320
+                  }
+                ]
+              },
+              {
+                "name": "Medium Astronautic Rigs",
+                "cn": "中型航天技术改装件",
+                "items": [
+                  {
+                    "name": "Medium Auxiliary Thrusters I",
+                    "cn": "中型辅助推进器 I",
+                    "id": 31107
+                  },
+                  {
+                    "name": "Medium Cargohold Optimization I",
+                    "cn": "中型货柜舱优化改造 I",
+                    "id": 31119
+                  },
+                  {
+                    "name": "Medium Dynamic Fuel Valve I",
+                    "cn": "中型动态燃料控制阀 I",
+                    "id": 31131
+                  },
+                  {
+                    "name": "Medium Engine Thermal Shielding I",
+                    "cn": "中型引擎热能防护装置 I",
+                    "id": 31143
+                  },
+                  {
+                    "name": "Medium Higgs Anchor I",
+                    "cn": "中型希格斯粒子锚 I",
+                    "id": 34268
+                  },
+                  {
+                    "name": "Medium Hyperspatial Velocity Optimizer I",
+                    "cn": "中型超空间速度调节器 I",
+                    "id": 31161
+                  },
+                  {
+                    "name": "Medium Low Friction Nozzle Joints I",
+                    "cn": "中型低摩擦喷嘴接口 I",
+                    "id": 31155
+                  },
+                  {
+                    "name": "Medium Polycarbon Engine Housing I",
+                    "cn": "中型复合碳素引擎舱 I",
+                    "id": 31179
+                  },
+                  {
+                    "name": "Medium Warp Core Optimizer I",
+                    "cn": "中型跃迁核心优化系统 I",
+                    "id": 31191
+                  },
+                  {
+                    "name": "Medium Auxiliary Thrusters II",
+                    "cn": "中型辅助推进器 II",
+                    "id": 31113
+                  },
+                  {
+                    "name": "Medium Cargohold Optimization II",
+                    "cn": "中型货柜舱优化改造 II",
+                    "id": 31125
+                  },
+                  {
+                    "name": "Medium Dynamic Fuel Valve II",
+                    "cn": "中型动态燃料控制阀 II",
+                    "id": 31137
+                  },
+                  {
+                    "name": "Medium Engine Thermal Shielding II",
+                    "cn": "中型引擎热能防护装置 II",
+                    "id": 31149
+                  },
+                  {
+                    "name": "Medium Hyperspatial Velocity Optimizer II",
+                    "cn": "中型超空间速度调节器 II",
+                    "id": 31167
+                  },
+                  {
+                    "name": "Medium Low Friction Nozzle Joints II",
+                    "cn": "中型低摩擦喷嘴接口 II",
+                    "id": 31173
+                  },
+                  {
+                    "name": "Medium Polycarbon Engine Housing II",
+                    "cn": "中型复合碳素引擎舱 II",
+                    "id": 31185
+                  },
+                  {
+                    "name": "Medium Warp Core Optimizer II",
+                    "cn": "中型跃迁核心优化系统 II",
+                    "id": 31197
+                  }
+                ]
+              },
+              {
+                "name": "Small Astronautic Rigs",
+                "cn": "小型航天技术改装件",
+                "items": [
+                  {
+                    "name": "Small Auxiliary Thrusters I",
+                    "cn": "小型辅助推进器 I",
+                    "id": 31105
+                  },
+                  {
+                    "name": "Small Cargohold Optimization I",
+                    "cn": "小型货柜舱优化改造 I",
+                    "id": 31117
+                  },
+                  {
+                    "name": "Small Dynamic Fuel Valve I",
+                    "cn": "小型动态燃料控制阀 I",
+                    "id": 31129
+                  },
+                  {
+                    "name": "Small Engine Thermal Shielding I",
+                    "cn": "小型引擎热能防护装置 I",
+                    "id": 31141
+                  },
+                  {
+                    "name": "Small Higgs Anchor I",
+                    "cn": "小型希格斯粒子锚 I",
+                    "id": 34266
+                  },
+                  {
+                    "name": "Small Hyperspatial Velocity Optimizer I",
+                    "cn": "小型超空间速度调节器 I",
+                    "id": 31159
+                  },
+                  {
+                    "name": "Small Low Friction Nozzle Joints I",
+                    "cn": "小型低摩擦喷嘴接口 I",
+                    "id": 31153
+                  },
+                  {
+                    "name": "Small Polycarbon Engine Housing I",
+                    "cn": "小型复合碳素引擎舱 I",
+                    "id": 31177
+                  },
+                  {
+                    "name": "Small Warp Core Optimizer I",
+                    "cn": "小型跃迁核心优化系统 I",
+                    "id": 31189
+                  },
+                  {
+                    "name": "Small Auxiliary Thrusters II",
+                    "cn": "小型辅助推进器 II",
+                    "id": 31111
+                  },
+                  {
+                    "name": "Small Cargohold Optimization II",
+                    "cn": "小型货柜舱优化改造 II",
+                    "id": 31123
+                  },
+                  {
+                    "name": "Small Dynamic Fuel Valve II",
+                    "cn": "小型动态燃料控制阀 II",
+                    "id": 31135
+                  },
+                  {
+                    "name": "Small Engine Thermal Shielding II",
+                    "cn": "小型引擎热能防护装置 II",
+                    "id": 31147
+                  },
+                  {
+                    "name": "Small Hyperspatial Velocity Optimizer II",
+                    "cn": "小型超空间速度调节器 II",
+                    "id": 31165
+                  },
+                  {
+                    "name": "Small Low Friction Nozzle Joints II",
+                    "cn": "小型低摩擦喷嘴接口 II",
+                    "id": 31171
+                  },
+                  {
+                    "name": "Small Polycarbon Engine Housing II",
+                    "cn": "小型复合碳素引擎舱 II",
+                    "id": 31183
+                  },
+                  {
+                    "name": "Small Warp Core Optimizer II",
+                    "cn": "小型跃迁核心优化系统 II",
+                    "id": 31195
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Drone Rigs",
+            "cn": "无人机改装件",
+            "subgroups": [
+              {
+                "name": "Capital Drone Rigs",
+                "cn": "旗舰级无人机改装件",
+                "items": [
+                  {
+                    "name": "Capital Drone Control Range Augmentor I",
+                    "cn": "旗舰级无人机控制范围扩大装置 I",
+                    "id": 33277
+                  },
+                  {
+                    "name": "Capital Drone Durability Enhancer I",
+                    "cn": "旗舰级无人机耐用性增强装置 I",
+                    "id": 33281
+                  },
+                  {
+                    "name": "Capital Drone Mining Augmentor I",
+                    "cn": "旗舰级无人机采矿增量器 I",
+                    "id": 33285
+                  },
+                  {
+                    "name": "Capital Drone Repair Augmentor I",
+                    "cn": "旗舰级无人机维修加速器 I",
+                    "id": 33289
+                  },
+                  {
+                    "name": "Capital Drone Scope Chip I",
+                    "cn": "旗舰级无人机射距芯片 I",
+                    "id": 33293
+                  },
+                  {
+                    "name": "Capital Drone Speed Augmentor I",
+                    "cn": "旗舰级无人机增速装置 I",
+                    "id": 33297
+                  },
+                  {
+                    "name": "Capital Sentry Damage Augmentor I",
+                    "cn": "旗舰级岗哨炮伤害增强设备 I",
+                    "id": 33307
+                  },
+                  {
+                    "name": "Capital Stasis Drone Augmentor I",
+                    "cn": "旗舰级停滞无人机增强设备 I",
+                    "id": 33311
+                  },
+                  {
+                    "name": "Capital Drone Control Range Augmentor II",
+                    "cn": "旗舰级无人机控制范围扩大装置 II",
+                    "id": 33279
+                  },
+                  {
+                    "name": "Capital Drone Durability Enhancer II",
+                    "cn": "旗舰级无人机耐用性增强装置 II",
+                    "id": 33283
+                  },
+                  {
+                    "name": "Capital Drone Mining Augmentor II",
+                    "cn": "旗舰级无人机采矿增量器 II",
+                    "id": 33287
+                  },
+                  {
+                    "name": "Capital Drone Repair Augmentor II",
+                    "cn": "旗舰级无人机维修加速器 II",
+                    "id": 33291
+                  },
+                  {
+                    "name": "Capital Drone Scope Chip II",
+                    "cn": "旗舰级无人机射距芯片 II",
+                    "id": 33295
+                  },
+                  {
+                    "name": "Capital Drone Speed Augmentor II",
+                    "cn": "旗舰级无人机增速装置 II",
+                    "id": 33298
+                  },
+                  {
+                    "name": "Capital Sentry Damage Augmentor II",
+                    "cn": "旗舰级岗哨炮伤害增强设备 II",
+                    "id": 33309
+                  },
+                  {
+                    "name": "Capital Stasis Drone Augmentor II",
+                    "cn": "旗舰级停滞无人机增强设备 II",
+                    "id": 33313
+                  }
+                ]
+              },
+              {
+                "name": "Large Drone Rigs",
+                "cn": "大型无人机改装件",
+                "items": [
+                  {
+                    "name": "Large Drone Control Range Augmentor I",
+                    "cn": "大型无人机控制范围扩大装置 I",
+                    "id": 25908
+                  },
+                  {
+                    "name": "Large Drone Durability Enhancer I",
+                    "cn": "大型无人机耐用性增强装置 I",
+                    "id": 25916
+                  },
+                  {
+                    "name": "Large Drone Mining Augmentor I",
+                    "cn": "大型无人机采矿增量器 I",
+                    "id": 25918
+                  },
+                  {
+                    "name": "Large Drone Repair Augmentor I",
+                    "cn": "大型无人机维修加速器 I",
+                    "id": 25910
+                  },
+                  {
+                    "name": "Large Drone Scope Chip I",
+                    "cn": "大型无人机射距芯片 I",
+                    "id": 25912
+                  },
+                  {
+                    "name": "Large Drone Speed Augmentor I",
+                    "cn": "大型无人机增速装置 I",
+                    "id": 25914
+                  },
+                  {
+                    "name": "Large Sentry Damage Augmentor I",
+                    "cn": "大型岗哨炮伤害增强设备 I",
+                    "id": 25920
+                  },
+                  {
+                    "name": "Large Stasis Drone Augmentor I",
+                    "cn": "大型停滞无人机增强设备 I",
+                    "id": 25924
+                  },
+                  {
+                    "name": "Large Drone Control Range Augmentor II",
+                    "cn": "大型无人机控制范围扩大装置 II",
+                    "id": 26324
+                  },
+                  {
+                    "name": "Large Drone Durability Enhancer II",
+                    "cn": "大型无人机耐用性增强装置 II",
+                    "id": 26326
+                  },
+                  {
+                    "name": "Large Drone Mining Augmentor II",
+                    "cn": "大型无人机采矿增量器 II",
+                    "id": 26328
+                  },
+                  {
+                    "name": "Large Drone Repair Augmentor II",
+                    "cn": "大型无人机维修加速器 II",
+                    "id": 26330
+                  },
+                  {
+                    "name": "Large Drone Scope Chip II",
+                    "cn": "大型无人机射距芯片 II",
+                    "id": 26332
+                  },
+                  {
+                    "name": "Large Drone Speed Augmentor II",
+                    "cn": "大型无人机增速装置 II",
+                    "id": 26334
+                  },
+                  {
+                    "name": "Large Sentry Damage Augmentor II",
+                    "cn": "大型岗哨炮伤害增强设备 II",
+                    "id": 26338
+                  },
+                  {
+                    "name": "Large Stasis Drone Augmentor II",
+                    "cn": "大型停滞无人机增强设备 II",
+                    "id": 26340
+                  }
+                ]
+              },
+              {
+                "name": "Medium Drone Rigs",
+                "cn": "中型无人机改装件",
+                "items": [
+                  {
+                    "name": "Medium Drone Control Range Augmentor I",
+                    "cn": "中型无人机控制范围扩大装置 I",
+                    "id": 32027
+                  },
+                  {
+                    "name": "Medium Drone Durability Enhancer I",
+                    "cn": "中型无人机耐用性增强装置 I",
+                    "id": 32035
+                  },
+                  {
+                    "name": "Medium Drone Mining Augmentor I",
+                    "cn": "中型无人机采矿增量器 I",
+                    "id": 32043
+                  },
+                  {
+                    "name": "Medium Drone Repair Augmentor I",
+                    "cn": "中型无人机维修加速器 I",
+                    "id": 32051
+                  },
+                  {
+                    "name": "Medium Drone Scope Chip I",
+                    "cn": "中型无人机巡航芯片 I",
+                    "id": 32071
+                  },
+                  {
+                    "name": "Medium Drone Speed Augmentor I",
+                    "cn": "中型无人机增速装置 I",
+                    "id": 32059
+                  },
+                  {
+                    "name": "Medium Sentry Damage Augmentor I",
+                    "cn": "中型岗哨炮伤害增强设备 I",
+                    "id": 32083
+                  },
+                  {
+                    "name": "Medium Stasis Drone Augmentor I",
+                    "cn": "中型停滞无人机增强设备 I",
+                    "id": 32091
+                  },
+                  {
+                    "name": "Medium Drone Control Range Augmentor II",
+                    "cn": "中型无人机控制范围扩大装置 II",
+                    "id": 32031
+                  },
+                  {
+                    "name": "Medium Drone Durability Enhancer II",
+                    "cn": "中型无人机耐用性增强装置 II",
+                    "id": 32039
+                  },
+                  {
+                    "name": "Medium Drone Mining Augmentor II",
+                    "cn": "中型无人机采矿增量器 II",
+                    "id": 32047
+                  },
+                  {
+                    "name": "Medium Drone Repair Augmentor II",
+                    "cn": "中型无人机维修加速器 II",
+                    "id": 32055
+                  },
+                  {
+                    "name": "Medium Drone Scope Chip II",
+                    "cn": "中型无人机视野芯片 II",
+                    "id": 32075
+                  },
+                  {
+                    "name": "Medium Drone Speed Augmentor II",
+                    "cn": "中型无人机增速装置 II",
+                    "id": 32063
+                  },
+                  {
+                    "name": "Medium Sentry Damage Augmentor II",
+                    "cn": "中型岗哨炮伤害增强设备 II",
+                    "id": 32087
+                  },
+                  {
+                    "name": "Medium Stasis Drone Augmentor II",
+                    "cn": "中型停滞无人机增强设备 II",
+                    "id": 32095
+                  }
+                ]
+              },
+              {
+                "name": "Small Drone Rigs",
+                "cn": "小型无人机改装件",
+                "items": [
+                  {
+                    "name": "Small Drone Control Range Augmentor I",
+                    "cn": "小型无人机控制范围扩大装置 I",
+                    "id": 32025
+                  },
+                  {
+                    "name": "Small Drone Durability Enhancer I",
+                    "cn": "小型无人机耐用性增强装置 I",
+                    "id": 32033
+                  },
+                  {
+                    "name": "Small Drone Mining Augmentor I",
+                    "cn": "小型无人机采矿增量器 I",
+                    "id": 32041
+                  },
+                  {
+                    "name": "Small Drone Repair Augmentor I",
+                    "cn": "小型无人机维修加速器 I",
+                    "id": 32049
+                  },
+                  {
+                    "name": "Small Drone Scope Chip I",
+                    "cn": "小型无人机巡航芯片 I",
+                    "id": 32069
+                  },
+                  {
+                    "name": "Small Drone Speed Augmentor I",
+                    "cn": "小型无人机增速装置 I",
+                    "id": 32057
+                  },
+                  {
+                    "name": "Small Sentry Damage Augmentor I",
+                    "cn": "小型岗哨炮伤害增强设备 I",
+                    "id": 32081
+                  },
+                  {
+                    "name": "Small Stasis Drone Augmentor I",
+                    "cn": "小型停滞无人机增强设备 I",
+                    "id": 32089
+                  },
+                  {
+                    "name": "Small Drone Control Range Augmentor II",
+                    "cn": "小型无人机控制范围扩大装置 II",
+                    "id": 32029
+                  },
+                  {
+                    "name": "Small Drone Durability Enhancer II",
+                    "cn": "小型无人机耐用性增强装置 II",
+                    "id": 32037
+                  },
+                  {
+                    "name": "Small Drone Mining Augmentor II",
+                    "cn": "小型无人机采矿增量器 II",
+                    "id": 32045
+                  },
+                  {
+                    "name": "Small Drone Repair Augmentor II",
+                    "cn": "小型无人机维修加速器 II",
+                    "id": 32053
+                  },
+                  {
+                    "name": "Small Drone Scope Chip II",
+                    "cn": "小型无人机视野芯片 II",
+                    "id": 32073
+                  },
+                  {
+                    "name": "Small Drone Speed Augmentor II",
+                    "cn": "小型无人机增速装置 II",
+                    "id": 32061
+                  },
+                  {
+                    "name": "Small Sentry Damage Augmentor II",
+                    "cn": "小型岗哨炮伤害增强设备 II",
+                    "id": 32085
+                  },
+                  {
+                    "name": "Small Stasis Drone Augmentor II",
+                    "cn": "小型停滞无人机增强设备 II",
+                    "id": 32093
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Electronics Superiority Rigs",
+            "cn": "电子压制改装件",
+            "subgroups": [
+              {
+                "name": "Capital Electronics Superiority Rigs",
+                "cn": "旗舰级电子压制改装件",
+                "items": [
+                  {
+                    "name": "Capital Inverted Signal Field Projector I",
+                    "cn": "旗舰级反信号区域投射器 I",
+                    "id": 31266
+                  },
+                  {
+                    "name": "Capital Particle Dispersion Augmentor I",
+                    "cn": "旗舰级粒子散布放大器 I",
+                    "id": 31290
+                  },
+                  {
+                    "name": "Capital Particle Dispersion Projector I",
+                    "cn": "旗舰级粒子散布投放器 I",
+                    "id": 31302
+                  },
+                  {
+                    "name": "Capital Signal Disruption Amplifier I",
+                    "cn": "旗舰级信号干扰增效装置 I",
+                    "id": 31254
+                  },
+                  {
+                    "name": "Capital Targeting Systems Stabilizer I",
+                    "cn": "旗舰级锁定系统稳定器 I",
+                    "id": 31338
+                  },
+                  {
+                    "name": "Capital Tracking Diagnostic Subroutines I",
+                    "cn": "旗舰级跟踪诊断子程序 I",
+                    "id": 31350
+                  },
+                  {
+                    "name": "Capital Inverted Signal Field Projector II",
+                    "cn": "旗舰级反信号区域投射器 II",
+                    "id": 31272
+                  },
+                  {
+                    "name": "Capital Particle Dispersion Augmentor II",
+                    "cn": "旗舰级粒子散布放大器 II",
+                    "id": 31296
+                  },
+                  {
+                    "name": "Capital Particle Dispersion Projector II",
+                    "cn": "旗舰级粒子散布投放器 II",
+                    "id": 31308
+                  },
+                  {
+                    "name": "Capital Signal Disruption Amplifier II",
+                    "cn": "旗舰级信号干扰增效装置 II",
+                    "id": 31260
+                  },
+                  {
+                    "name": "Capital Targeting Systems Stabilizer II",
+                    "cn": "旗舰级锁定系统稳定器 II",
+                    "id": 31344
+                  },
+                  {
+                    "name": "Capital Tracking Diagnostic Subroutines II",
+                    "cn": "旗舰级跟踪诊断子程序 II",
+                    "id": 31356
+                  }
+                ]
+              },
+              {
+                "name": "Large Electronics Superiority Rigs",
+                "cn": "大型电子压制改装件",
+                "items": [
+                  {
+                    "name": "Large Inverted Signal Field Projector I",
+                    "cn": "大型反信号区域投射器 I",
+                    "id": 26110
+                  },
+                  {
+                    "name": "Large Particle Dispersion Augmentor I",
+                    "cn": "大型粒子散布放大器 I",
+                    "id": 26106
+                  },
+                  {
+                    "name": "Large Particle Dispersion Projector I",
+                    "cn": "大型粒子散布投放器 I",
+                    "id": 26108
+                  },
+                  {
+                    "name": "Large Signal Disruption Amplifier I",
+                    "cn": "大型信号干扰增效装置 I",
+                    "id": 25928
+                  },
+                  {
+                    "name": "Large Targeting Systems Stabilizer I",
+                    "cn": "大型锁定系统稳定器 I",
+                    "id": 26096
+                  },
+                  {
+                    "name": "Large Tracking Diagnostic Subroutines I",
+                    "cn": "大型跟踪诊断子程序 I",
+                    "id": 26112
+                  },
+                  {
+                    "name": "Large Inverted Signal Field Projector II",
+                    "cn": "大型反信号区域投射器 II",
+                    "id": 26354
+                  },
+                  {
+                    "name": "Large Particle Dispersion Augmentor II",
+                    "cn": "大型粒子散布放大器 II",
+                    "id": 26352
+                  },
+                  {
+                    "name": "Large Particle Dispersion Projector II",
+                    "cn": "大型粒子散布投放器 II",
+                    "id": 26360
+                  },
+                  {
+                    "name": "Large Signal Disruption Amplifier II",
+                    "cn": "大型信号干扰增效装置 II",
+                    "id": 26344
+                  },
+                  {
+                    "name": "Large Targeting Systems Stabilizer II",
+                    "cn": "大型锁定系统稳定器 II",
+                    "id": 26366
+                  },
+                  {
+                    "name": "Large Tracking Diagnostic Subroutines II",
+                    "cn": "大型跟踪诊断子程序 II",
+                    "id": 26356
+                  }
+                ]
+              },
+              {
+                "name": "Medium Electronics Superiority Rigs",
+                "cn": "中型电子压制改装件",
+                "items": [
+                  {
+                    "name": "Medium Inverted Signal Field Projector I",
+                    "cn": "中型反信号区域投射器 I",
+                    "id": 31264
+                  },
+                  {
+                    "name": "Medium Particle Dispersion Augmentor I",
+                    "cn": "中型粒子散布放大器 I",
+                    "id": 31288
+                  },
+                  {
+                    "name": "Medium Particle Dispersion Projector I",
+                    "cn": "中型粒子散布投放器 I",
+                    "id": 31300
+                  },
+                  {
+                    "name": "Medium Signal Disruption Amplifier I",
+                    "cn": "中型信号干扰增效装置 I",
+                    "id": 31252
+                  },
+                  {
+                    "name": "Medium Targeting Systems Stabilizer I",
+                    "cn": "中型锁定系统稳定器 I",
+                    "id": 31336
+                  },
+                  {
+                    "name": "Medium Tracking Diagnostic Subroutines I",
+                    "cn": "中型跟踪诊断子程序 I",
+                    "id": 31348
+                  },
+                  {
+                    "name": "Medium Inverted Signal Field Projector II",
+                    "cn": "中型反信号区域投射器 II",
+                    "id": 31270
+                  },
+                  {
+                    "name": "Medium Particle Dispersion Augmentor II",
+                    "cn": "中型粒子散布放大器 II",
+                    "id": 31294
+                  },
+                  {
+                    "name": "Medium Particle Dispersion Projector II",
+                    "cn": "中型粒子散布投放器 II",
+                    "id": 31306
+                  },
+                  {
+                    "name": "Medium Signal Disruption Amplifier II",
+                    "cn": "中型信号干扰增效装置 II",
+                    "id": 31258
+                  },
+                  {
+                    "name": "Medium Targeting Systems Stabilizer II",
+                    "cn": "中型锁定系统稳定器 II",
+                    "id": 31342
+                  },
+                  {
+                    "name": "Medium Tracking Diagnostic Subroutines II",
+                    "cn": "中型跟踪诊断子程序 II",
+                    "id": 31354
+                  }
+                ]
+              },
+              {
+                "name": "Small Electronics Superiority Rigs",
+                "cn": "小型电子压制改装件",
+                "items": [
+                  {
+                    "name": "Small Inverted Signal Field Projector I",
+                    "cn": "小型反信号区域投射器 I",
+                    "id": 31262
+                  },
+                  {
+                    "name": "Small Particle Dispersion Augmentor I",
+                    "cn": "小型粒子散布放大器 I",
+                    "id": 31286
+                  },
+                  {
+                    "name": "Small Particle Dispersion Projector I",
+                    "cn": "小型粒子散布投放器 I",
+                    "id": 31298
+                  },
+                  {
+                    "name": "Small Signal Disruption Amplifier I",
+                    "cn": "小型信号干扰增效装置 I",
+                    "id": 31250
+                  },
+                  {
+                    "name": "Small Targeting Systems Stabilizer I",
+                    "cn": "小型锁定系统稳定器 I",
+                    "id": 31334
+                  },
+                  {
+                    "name": "Small Tracking Diagnostic Subroutines I",
+                    "cn": "小型跟踪诊断子程序 I",
+                    "id": 31346
+                  },
+                  {
+                    "name": "Small Inverted Signal Field Projector II",
+                    "cn": "小型反信号区域投射器 II",
+                    "id": 31268
+                  },
+                  {
+                    "name": "Small Particle Dispersion Augmentor II",
+                    "cn": "小型粒子散布放大器 II",
+                    "id": 31292
+                  },
+                  {
+                    "name": "Small Particle Dispersion Projector II",
+                    "cn": "小型粒子散布投放器 II",
+                    "id": 31304
+                  },
+                  {
+                    "name": "Small Signal Disruption Amplifier II",
+                    "cn": "小型信号干扰增效装置 II",
+                    "id": 31256
+                  },
+                  {
+                    "name": "Small Targeting Systems Stabilizer II",
+                    "cn": "小型锁定系统稳定器 II",
+                    "id": 31340
+                  },
+                  {
+                    "name": "Small Tracking Diagnostic Subroutines II",
+                    "cn": "小型跟踪诊断子程序 II",
+                    "id": 31352
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Energy Weapon Rigs",
+            "cn": "能量武器改装件",
+            "subgroups": [
+              {
+                "name": "Capital Energy Weapon Rigs",
+                "cn": "旗舰级能量武器改装件",
+                "items": [
+                  {
+                    "name": "Capital Algid Energy Administrations Unit I",
+                    "cn": "旗舰级冷凝能量管理单元 I",
+                    "id": 31422
+                  },
+                  {
+                    "name": "Capital Energy Ambit Extension I",
+                    "cn": "旗舰级能量武器范围扩大设备 I",
+                    "id": 31434
+                  },
+                  {
+                    "name": "Capital Energy Burst Aerator I",
+                    "cn": "旗舰级能量武器发散调节装置 I",
+                    "id": 31446
+                  },
+                  {
+                    "name": "Capital Energy Collision Accelerator I",
+                    "cn": "旗舰级能量武器冲击加速器 I",
+                    "id": 31458
+                  },
+                  {
+                    "name": "Capital Energy Discharge Elutriation I",
+                    "cn": "旗舰级能量武器释放过滤器 I",
+                    "id": 31470
+                  },
+                  {
+                    "name": "Capital Energy Locus Coordinator I",
+                    "cn": "旗舰级能量武器轨迹校准设备 I",
+                    "id": 31482
+                  },
+                  {
+                    "name": "Capital Energy Metastasis Adjuster I",
+                    "cn": "旗舰级能量武器急转控制器 I",
+                    "id": 31494
+                  },
+                  {
+                    "name": "Capital Algid Energy Administrations Unit II",
+                    "cn": "旗舰级冷凝能量管理单元 II",
+                    "id": 31428
+                  },
+                  {
+                    "name": "Capital Energy Ambit Extension II",
+                    "cn": "旗舰级能量武器范围扩大设备 II",
+                    "id": 31440
+                  },
+                  {
+                    "name": "Capital Energy Burst Aerator II",
+                    "cn": "旗舰级能量武器发散调节装置 II",
+                    "id": 31452
+                  },
+                  {
+                    "name": "Capital Energy Collision Accelerator II",
+                    "cn": "旗舰级能量武器冲击加速器 II",
+                    "id": 31464
+                  },
+                  {
+                    "name": "Capital Energy Discharge Elutriation II",
+                    "cn": "旗舰级能量武器释放过滤器 II",
+                    "id": 31476
+                  },
+                  {
+                    "name": "Capital Energy Locus Coordinator II",
+                    "cn": "旗舰级能量武器轨迹校准设备 II",
+                    "id": 31488
+                  },
+                  {
+                    "name": "Capital Energy Metastasis Adjuster II",
+                    "cn": "旗舰级能量武器急转控制器 II",
+                    "id": 31500
+                  }
+                ]
+              },
+              {
+                "name": "Large Energy Weapon Rigs",
+                "cn": "大型能量武器改装件",
+                "items": [
+                  {
+                    "name": "Large Algid Energy Administrations Unit I",
+                    "cn": "大型冷凝能量管理单元 I",
+                    "id": 25976
+                  },
+                  {
+                    "name": "Large Energy Ambit Extension I",
+                    "cn": "大型能量武器范围扩大设备 I",
+                    "id": 25970
+                  },
+                  {
+                    "name": "Large Energy Burst Aerator I",
+                    "cn": "大型能量武器发散调节装置 I",
+                    "id": 25978
+                  },
+                  {
+                    "name": "Large Energy Collision Accelerator I",
+                    "cn": "大型能量武器冲击加速器 I",
+                    "id": 25980
+                  },
+                  {
+                    "name": "Large Energy Discharge Elutriation I",
+                    "cn": "大型能量武器释放过滤器 I",
+                    "id": 25968
+                  },
+                  {
+                    "name": "Large Energy Locus Coordinator I",
+                    "cn": "大型能量武器轨迹校准设备 I",
+                    "id": 25972
+                  },
+                  {
+                    "name": "Large Energy Metastasis Adjuster I",
+                    "cn": "大型能量武器急转控制器 I",
+                    "id": 25974
+                  },
+                  {
+                    "name": "Large Algid Energy Administrations Unit II",
+                    "cn": "大型冷凝能量管理单元 II",
+                    "id": 26384
+                  },
+                  {
+                    "name": "Large Energy Ambit Extension II",
+                    "cn": "大型能量武器范围扩大设备 II",
+                    "id": 26386
+                  },
+                  {
+                    "name": "Large Energy Burst Aerator II",
+                    "cn": "大型能量武器发散调节装置 II",
+                    "id": 26380
+                  },
+                  {
+                    "name": "Large Energy Collision Accelerator II",
+                    "cn": "大型能量武器冲击加速器 II",
+                    "id": 26382
+                  },
+                  {
+                    "name": "Large Energy Discharge Elutriation II",
+                    "cn": "大型能量武器释放过滤器 II",
+                    "id": 26378
+                  },
+                  {
+                    "name": "Large Energy Locus Coordinator II",
+                    "cn": "大型能量武器轨迹校准设备 II",
+                    "id": 26388
+                  },
+                  {
+                    "name": "Large Energy Metastasis Adjuster II",
+                    "cn": "大型能量武器急转控制器 II",
+                    "id": 26390
+                  }
+                ]
+              },
+              {
+                "name": "Medium Energy Weapon Rigs",
+                "cn": "中型能量武器改装件",
+                "items": [
+                  {
+                    "name": "Medium Algid Energy Administrations Unit I",
+                    "cn": "中型冷凝能量管理单元 I",
+                    "id": 31420
+                  },
+                  {
+                    "name": "Medium Energy Ambit Extension I",
+                    "cn": "中型能量武器范围扩大设备 I",
+                    "id": 31432
+                  },
+                  {
+                    "name": "Medium Energy Burst Aerator I",
+                    "cn": "中型能量武器发散调节装置 I",
+                    "id": 31444
+                  },
+                  {
+                    "name": "Medium Energy Collision Accelerator I",
+                    "cn": "中型能量武器冲击加速器 I",
+                    "id": 31456
+                  },
+                  {
+                    "name": "Medium Energy Discharge Elutriation I",
+                    "cn": "中型能量武器释放过滤器 I",
+                    "id": 31468
+                  },
+                  {
+                    "name": "Medium Energy Locus Coordinator I",
+                    "cn": "中型能量武器轨迹校准设备 I",
+                    "id": 31480
+                  },
+                  {
+                    "name": "Medium Energy Metastasis Adjuster I",
+                    "cn": "中型能量武器急转控制器 I",
+                    "id": 31492
+                  },
+                  {
+                    "name": "Medium Algid Energy Administrations Unit II",
+                    "cn": "中型冷凝能量管理单元 II",
+                    "id": 31426
+                  },
+                  {
+                    "name": "Medium Energy Ambit Extension II",
+                    "cn": "中型能量武器范围扩大设备 II",
+                    "id": 31438
+                  },
+                  {
+                    "name": "Medium Energy Burst Aerator II",
+                    "cn": "中型能量武器发散调节装置 II",
+                    "id": 31450
+                  },
+                  {
+                    "name": "Medium Energy Collision Accelerator II",
+                    "cn": "中型能量武器冲击加速器 II",
+                    "id": 31462
+                  },
+                  {
+                    "name": "Medium Energy Discharge Elutriation II",
+                    "cn": "中型能量武器释放过滤器 II",
+                    "id": 31474
+                  },
+                  {
+                    "name": "Medium Energy Locus Coordinator II",
+                    "cn": "中型能量武器轨迹校准设备 II",
+                    "id": 31486
+                  },
+                  {
+                    "name": "Medium Energy Metastasis Adjuster II",
+                    "cn": "中型能量武器急转控制器 II",
+                    "id": 31498
+                  }
+                ]
+              },
+              {
+                "name": "Small Energy Weapon Rigs",
+                "cn": "小型能量武器改装件",
+                "items": [
+                  {
+                    "name": "Small Algid Energy Administrations Unit I",
+                    "cn": "小型冷凝能量管理单元 I",
+                    "id": 31418
+                  },
+                  {
+                    "name": "Small Energy Ambit Extension I",
+                    "cn": "小型能量武器范围扩大设备 I",
+                    "id": 31430
+                  },
+                  {
+                    "name": "Small Energy Burst Aerator I",
+                    "cn": "小型能量武器发散调节装置 I",
+                    "id": 31442
+                  },
+                  {
+                    "name": "Small Energy Collision Accelerator I",
+                    "cn": "小型能量武器冲击加速器 I",
+                    "id": 31454
+                  },
+                  {
+                    "name": "Small Energy Discharge Elutriation I",
+                    "cn": "小型能量武器释放过滤器 I",
+                    "id": 31466
+                  },
+                  {
+                    "name": "Small Energy Locus Coordinator I",
+                    "cn": "小型能量武器轨迹校准设备 I",
+                    "id": 31478
+                  },
+                  {
+                    "name": "Small Energy Metastasis Adjuster I",
+                    "cn": "小型能量武器急转控制器 I",
+                    "id": 31490
+                  },
+                  {
+                    "name": "Small Algid Energy Administrations Unit II",
+                    "cn": "小型冷凝能量管理单元 II",
+                    "id": 31424
+                  },
+                  {
+                    "name": "Small Energy Ambit Extension II",
+                    "cn": "小型能量武器范围扩大设备 II",
+                    "id": 31436
+                  },
+                  {
+                    "name": "Small Energy Burst Aerator II",
+                    "cn": "小型能量武器发散调节装置 II",
+                    "id": 31448
+                  },
+                  {
+                    "name": "Small Energy Collision Accelerator II",
+                    "cn": "小型能量武器冲击加速器 II",
+                    "id": 31460
+                  },
+                  {
+                    "name": "Small Energy Discharge Elutriation II",
+                    "cn": "小型能量武器释放过滤器 II",
+                    "id": 31472
+                  },
+                  {
+                    "name": "Small Energy Locus Coordinator II",
+                    "cn": "小型能量武器轨迹校准设备 II",
+                    "id": 31484
+                  },
+                  {
+                    "name": "Small Energy Metastasis Adjuster II",
+                    "cn": "小型能量武器急转控制器 II",
+                    "id": 31496
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Engineering Rigs",
+            "cn": "工程改装件",
+            "subgroups": [
+              {
+                "name": "Capital Engineering Rigs",
+                "cn": "旗舰级工程改装件",
+                "items": [
+                  {
+                    "name": "Capital Ancillary Current Router I",
+                    "cn": "旗舰级辅助电源路由器 I",
+                    "id": 31362
+                  },
+                  {
+                    "name": "Capital Capacitor Control Circuit I",
+                    "cn": "旗舰级电容器控制电路 I",
+                    "id": 31374
+                  },
+                  {
+                    "name": "Capital Command Processor I",
+                    "cn": "旗舰级指挥处理器 I",
+                    "id": 43900
+                  },
+                  {
+                    "name": "Capital Egress Port Maximizer I",
+                    "cn": "旗舰级出口端口放大器 I",
+                    "id": 31386
+                  },
+                  {
+                    "name": "Capital Liquid Cooled Electronics I",
+                    "cn": "旗舰级水冷电子设备 I",
+                    "id": 31230
+                  },
+                  {
+                    "name": "Capital Powergrid Subroutine Maximizer I",
+                    "cn": "旗舰级能量栅格子程序优化器 I",
+                    "id": 31398
+                  },
+                  {
+                    "name": "Capital Processor Overclocking Unit I",
+                    "cn": "旗舰级处理器超频组件 I",
+                    "id": 33303
+                  },
+                  {
+                    "name": "Capital Semiconductor Memory Cell I",
+                    "cn": "旗舰级半导体记忆电池 I",
+                    "id": 31410
+                  },
+                  {
+                    "name": "Capital Ancillary Current Router II",
+                    "cn": "旗舰级辅助电源路由器 II",
+                    "id": 31368
+                  },
+                  {
+                    "name": "Capital Capacitor Control Circuit II",
+                    "cn": "旗舰级电容器控制电路 II",
+                    "id": 31380
+                  },
+                  {
+                    "name": "Capital Egress Port Maximizer II",
+                    "cn": "旗舰级出口端口放大器 II",
+                    "id": 31392
+                  },
+                  {
+                    "name": "Capital Liquid Cooled Electronics II",
+                    "cn": "旗舰级水冷电子设备 II",
+                    "id": 31236
+                  },
+                  {
+                    "name": "Capital Powergrid Subroutine Maximizer II",
+                    "cn": "旗舰级能量栅格子程序优化器 II",
+                    "id": 31404
+                  },
+                  {
+                    "name": "Capital Processor Overclocking Unit II",
+                    "cn": "旗舰级处理器超频组件 II",
+                    "id": 33305
+                  },
+                  {
+                    "name": "Capital Semiconductor Memory Cell II",
+                    "cn": "旗舰级半导体记忆电池 II",
+                    "id": 31416
+                  }
+                ]
+              },
+              {
+                "name": "Large Engineering Rigs",
+                "cn": "大型工程改装件",
+                "items": [
+                  {
+                    "name": "Large Ancillary Current Router I",
+                    "cn": "大型辅助电源路由器 I",
+                    "id": 25956
+                  },
+                  {
+                    "name": "Large Capacitor Control Circuit I",
+                    "cn": "大型电容器控制电路 I",
+                    "id": 25948
+                  },
+                  {
+                    "name": "Large Command Processor I",
+                    "cn": "大型指挥处理器 I",
+                    "id": 43898
+                  },
+                  {
+                    "name": "Large Egress Port Maximizer I",
+                    "cn": "大型出口端口放大器 I",
+                    "id": 25950
+                  },
+                  {
+                    "name": "Large Liquid Cooled Electronics I",
+                    "cn": "大型水冷电子设备 I",
+                    "id": 25934
+                  },
+                  {
+                    "name": "Large Powergrid Subroutine Maximizer I",
+                    "cn": "大型能量栅格子程序优化器 I",
+                    "id": 25952
+                  },
+                  {
+                    "name": "Large Processor Overclocking Unit I",
+                    "cn": "大型处理器超频组件 I",
+                    "id": 4397
+                  },
+                  {
+                    "name": "Large Semiconductor Memory Cell I",
+                    "cn": "大型半导体记忆电池 I",
+                    "id": 25954
+                  },
+                  {
+                    "name": "Large Ancillary Current Router II",
+                    "cn": "大型辅助电源路由器 II",
+                    "id": 26370
+                  },
+                  {
+                    "name": "Large Capacitor Control Circuit II",
+                    "cn": "大型电容器控制电路 II",
+                    "id": 26374
+                  },
+                  {
+                    "name": "Large Egress Port Maximizer II",
+                    "cn": "大型出口端口放大器 II",
+                    "id": 26368
+                  },
+                  {
+                    "name": "Large Liquid Cooled Electronics II",
+                    "cn": "大型水冷电子设备 II",
+                    "id": 26348
+                  },
+                  {
+                    "name": "Large Powergrid Subroutine Maximizer II",
+                    "cn": "大型能量栅格子程序优化器 II",
+                    "id": 26372
+                  },
+                  {
+                    "name": "Large Processor Overclocking Unit II",
+                    "cn": "大型处理器超频组件 II",
+                    "id": 4401
+                  },
+                  {
+                    "name": "Large Semiconductor Memory Cell II",
+                    "cn": "大型半导体记忆电池 II",
+                    "id": 26376
+                  }
+                ]
+              },
+              {
+                "name": "Medium Engineering Rigs",
+                "cn": "中型工程改装件",
+                "items": [
+                  {
+                    "name": "Medium Ancillary Current Router I",
+                    "cn": "中型辅助电源路由器 I",
+                    "id": 31360
+                  },
+                  {
+                    "name": "Medium Capacitor Control Circuit I",
+                    "cn": "中型电容器控制电路 I",
+                    "id": 31372
+                  },
+                  {
+                    "name": "Medium Command Processor I",
+                    "cn": "中型指挥处理器 I",
+                    "id": 43896
+                  },
+                  {
+                    "name": "Medium Egress Port Maximizer I",
+                    "cn": "中型出口端口放大器 I",
+                    "id": 31384
+                  },
+                  {
+                    "name": "Medium Liquid Cooled Electronics I",
+                    "cn": "中型水冷电子设备 I",
+                    "id": 31228
+                  },
+                  {
+                    "name": "Medium Powergrid Subroutine Maximizer I",
+                    "cn": "中型能量栅格子程序优化器 I",
+                    "id": 31396
+                  },
+                  {
+                    "name": "Medium Processor Overclocking Unit I",
+                    "cn": "中型处理器超频组件 I",
+                    "id": 4395
+                  },
+                  {
+                    "name": "Medium Semiconductor Memory Cell I",
+                    "cn": "中型半导体记忆电池 I",
+                    "id": 31408
+                  },
+                  {
+                    "name": "Medium Ancillary Current Router II",
+                    "cn": "中型辅助电源路由器 II",
+                    "id": 31366
+                  },
+                  {
+                    "name": "Medium Capacitor Control Circuit II",
+                    "cn": "中型电容器控制电路 II",
+                    "id": 31378
+                  },
+                  {
+                    "name": "Medium Egress Port Maximizer II",
+                    "cn": "中型出口端口放大器 II",
+                    "id": 31390
+                  },
+                  {
+                    "name": "Medium Liquid Cooled Electronics II",
+                    "cn": "中型水冷电子设备 II",
+                    "id": 31234
+                  },
+                  {
+                    "name": "Medium Powergrid Subroutine Maximizer II",
+                    "cn": "中型能量栅格子程序优化器 II",
+                    "id": 31402
+                  },
+                  {
+                    "name": "Medium Processor Overclocking Unit II",
+                    "cn": "中型处理器超频组件 II",
+                    "id": 4399
+                  },
+                  {
+                    "name": "Medium Semiconductor Memory Cell II",
+                    "cn": "中型半导体记忆电池 II",
+                    "id": 31414
+                  }
+                ]
+              },
+              {
+                "name": "Small Engineering Rigs",
+                "cn": "小型工程改装件",
+                "items": [
+                  {
+                    "name": "Small Ancillary Current Router I",
+                    "cn": "小型辅助电源路由器 I",
+                    "id": 31358
+                  },
+                  {
+                    "name": "Small Capacitor Control Circuit I",
+                    "cn": "小型电容器控制电路 I",
+                    "id": 31370
+                  },
+                  {
+                    "name": "Small Command Processor I",
+                    "cn": "小型指挥处理器 I",
+                    "id": 43894
+                  },
+                  {
+                    "name": "Small Egress Port Maximizer I",
+                    "cn": "小型出口端口放大器 I",
+                    "id": 31382
+                  },
+                  {
+                    "name": "Small Liquid Cooled Electronics I",
+                    "cn": "小型水冷电子设备 I",
+                    "id": 31226
+                  },
+                  {
+                    "name": "Small Powergrid Subroutine Maximizer I",
+                    "cn": "小型能量栅格子程序优化器 I",
+                    "id": 31394
+                  },
+                  {
+                    "name": "Small Processor Overclocking Unit I",
+                    "cn": "小型处理器超频组件 I",
+                    "id": 26929
+                  },
+                  {
+                    "name": "Small Semiconductor Memory Cell I",
+                    "cn": "小型半导体记忆电池 I",
+                    "id": 31406
+                  },
+                  {
+                    "name": "Small Ancillary Current Router II",
+                    "cn": "小型辅助电源路由器 II",
+                    "id": 31364
+                  },
+                  {
+                    "name": "Small Capacitor Control Circuit II",
+                    "cn": "小型电容器控制电路 II",
+                    "id": 31376
+                  },
+                  {
+                    "name": "Small Egress Port Maximizer II",
+                    "cn": "小型出口端口放大器 II",
+                    "id": 31388
+                  },
+                  {
+                    "name": "Small Liquid Cooled Electronics II",
+                    "cn": "小型水冷电子设备 II",
+                    "id": 31232
+                  },
+                  {
+                    "name": "Small Powergrid Subroutine Maximizer II",
+                    "cn": "小型能量栅格子程序优化器 II",
+                    "id": 31400
+                  },
+                  {
+                    "name": "Small Processor Overclocking Unit II",
+                    "cn": "小型处理器超频组件 II",
+                    "id": 26931
+                  },
+                  {
+                    "name": "Small Semiconductor Memory Cell II",
+                    "cn": "小型半导体记忆电池 II",
+                    "id": 31412
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hybrid Weapon Rigs",
+            "cn": "混合武器改装件",
+            "subgroups": [
+              {
+                "name": "Capital Hybrid Weapon Rigs",
+                "cn": "旗舰级混合武器改装件",
+                "items": [
+                  {
+                    "name": "Capital Algid Hybrid Administrations Unit I",
+                    "cn": "旗舰级冷凝混合管理单元 I",
+                    "id": 31506
+                  },
+                  {
+                    "name": "Capital Hybrid Ambit Extension I",
+                    "cn": "旗舰级混合武器范围扩大装置 I",
+                    "id": 31518
+                  },
+                  {
+                    "name": "Capital Hybrid Burst Aerator I",
+                    "cn": "旗舰级混合武器射速调节装置 I",
+                    "id": 31530
+                  },
+                  {
+                    "name": "Capital Hybrid Collision Accelerator I",
+                    "cn": "旗舰级混合武器冲击加速器 I",
+                    "id": 31542
+                  },
+                  {
+                    "name": "Capital Hybrid Discharge Elutriation I",
+                    "cn": "旗舰级混合武器节能设备 I",
+                    "id": 31554
+                  },
+                  {
+                    "name": "Capital Hybrid Locus Coordinator I",
+                    "cn": "旗舰级混合武器轨迹校准设备 I",
+                    "id": 31566
+                  },
+                  {
+                    "name": "Capital Hybrid Metastasis Adjuster I",
+                    "cn": "旗舰级混合武器急转控制器 I",
+                    "id": 31578
+                  },
+                  {
+                    "name": "Capital Algid Hybrid Administrations Unit II",
+                    "cn": "旗舰级冷凝混合管理单元 II",
+                    "id": 31512
+                  },
+                  {
+                    "name": "Capital Hybrid Ambit Extension II",
+                    "cn": "旗舰级混合武器范围扩大装置 II",
+                    "id": 31524
+                  },
+                  {
+                    "name": "Capital Hybrid Burst Aerator II",
+                    "cn": "旗舰级混合武器射速调节装置 II",
+                    "id": 31536
+                  },
+                  {
+                    "name": "Capital Hybrid Collision Accelerator II",
+                    "cn": "旗舰级混合武器冲击加速器 II",
+                    "id": 31548
+                  },
+                  {
+                    "name": "Capital Hybrid Discharge Elutriation II",
+                    "cn": "旗舰级混合武器节能设备 II",
+                    "id": 31560
+                  },
+                  {
+                    "name": "Capital Hybrid Locus Coordinator II",
+                    "cn": "旗舰级混合武器轨迹校准设备 II",
+                    "id": 31572
+                  },
+                  {
+                    "name": "Capital Hybrid Metastasis Adjuster II",
+                    "cn": "旗舰级混合武器急转控制器 II",
+                    "id": 31584
+                  }
+                ]
+              },
+              {
+                "name": "Large Hybrid Weapon Rigs",
+                "cn": "大型混合武器改装件",
+                "items": [
+                  {
+                    "name": "Large Algid Hybrid Administrations Unit I",
+                    "cn": "大型冷凝混合管理单元 I",
+                    "id": 26004
+                  },
+                  {
+                    "name": "Large Hybrid Ambit Extension I",
+                    "cn": "大型混合武器范围扩大装置 I",
+                    "id": 25998
+                  },
+                  {
+                    "name": "Large Hybrid Burst Aerator I",
+                    "cn": "大型混合武器射速调节装置 I",
+                    "id": 26006
+                  },
+                  {
+                    "name": "Large Hybrid Collision Accelerator I",
+                    "cn": "大型混合武器冲击加速器 I",
+                    "id": 26008
+                  },
+                  {
+                    "name": "Large Hybrid Discharge Elutriation I",
+                    "cn": "大型混合武器节能设备 I",
+                    "id": 25996
+                  },
+                  {
+                    "name": "Large Hybrid Locus Coordinator I",
+                    "cn": "大型混合武器轨迹校准设备 I",
+                    "id": 26000
+                  },
+                  {
+                    "name": "Large Hybrid Metastasis Adjuster I",
+                    "cn": "大型混合武器急转控制器 I",
+                    "id": 26002
+                  },
+                  {
+                    "name": "Large Algid Hybrid Administrations Unit II",
+                    "cn": "大型冷凝混合管理单元 II",
+                    "id": 26398
+                  },
+                  {
+                    "name": "Large Hybrid Ambit Extension II",
+                    "cn": "大型混合武器范围扩大装置 II",
+                    "id": 26400
+                  },
+                  {
+                    "name": "Large Hybrid Burst Aerator II",
+                    "cn": "大型混合武器射速调节装置 II",
+                    "id": 26394
+                  },
+                  {
+                    "name": "Large Hybrid Collision Accelerator II",
+                    "cn": "大型混合武器冲击加速器 II",
+                    "id": 26396
+                  },
+                  {
+                    "name": "Large Hybrid Discharge Elutriation II",
+                    "cn": "大型混合武器节能设备 II",
+                    "id": 26392
+                  },
+                  {
+                    "name": "Large Hybrid Locus Coordinator II",
+                    "cn": "大型混合武器轨迹校准设备 II",
+                    "id": 26402
+                  },
+                  {
+                    "name": "Large Hybrid Metastasis Adjuster II",
+                    "cn": "大型混合武器急转控制器 II",
+                    "id": 26404
+                  }
+                ]
+              },
+              {
+                "name": "Medium Hybrid Weapon Rigs",
+                "cn": "中型混合武器改装件",
+                "items": [
+                  {
+                    "name": "Medium Algid Hybrid Administrations Unit I",
+                    "cn": "中型冷凝混合管理单元 I",
+                    "id": 31504
+                  },
+                  {
+                    "name": "Medium Hybrid Ambit Extension I",
+                    "cn": "中型混合武器范围扩大装置 I",
+                    "id": 31516
+                  },
+                  {
+                    "name": "Medium Hybrid Burst Aerator I",
+                    "cn": "中型混合武器射速调节装置 I",
+                    "id": 31528
+                  },
+                  {
+                    "name": "Medium Hybrid Collision Accelerator I",
+                    "cn": "中型混合武器冲击加速器 I",
+                    "id": 31540
+                  },
+                  {
+                    "name": "Medium Hybrid Discharge Elutriation I",
+                    "cn": "中型混合武器节能设备 I",
+                    "id": 31552
+                  },
+                  {
+                    "name": "Medium Hybrid Locus Coordinator I",
+                    "cn": "中型混合武器轨迹校准设备 I",
+                    "id": 31564
+                  },
+                  {
+                    "name": "Medium Hybrid Metastasis Adjuster I",
+                    "cn": "中型混合武器急转控制器 I",
+                    "id": 31576
+                  },
+                  {
+                    "name": "Medium Algid Hybrid Administrations Unit II",
+                    "cn": "中型冷凝混合管理单元 II",
+                    "id": 31510
+                  },
+                  {
+                    "name": "Medium Hybrid Ambit Extension II",
+                    "cn": "中型混合武器范围扩大装置 II",
+                    "id": 31522
+                  },
+                  {
+                    "name": "Medium Hybrid Burst Aerator II",
+                    "cn": "中型混合武器射速调节装置 II",
+                    "id": 31534
+                  },
+                  {
+                    "name": "Medium Hybrid Collision Accelerator II",
+                    "cn": "中型混合武器冲击加速器 II",
+                    "id": 31546
+                  },
+                  {
+                    "name": "Medium Hybrid Discharge Elutriation II",
+                    "cn": "中型混合武器节能设备 II",
+                    "id": 31558
+                  },
+                  {
+                    "name": "Medium Hybrid Locus Coordinator II",
+                    "cn": "中型混合武器轨迹校准设备 II",
+                    "id": 31570
+                  },
+                  {
+                    "name": "Medium Hybrid Metastasis Adjuster II",
+                    "cn": "中型混合武器急转控制器 II",
+                    "id": 31582
+                  }
+                ]
+              },
+              {
+                "name": "Small Hybrid Weapon Rigs",
+                "cn": "小型混合武器改装件",
+                "items": [
+                  {
+                    "name": "Small Algid Hybrid Administrations Unit I",
+                    "cn": "小型冷凝混合管理单元 I",
+                    "id": 31502
+                  },
+                  {
+                    "name": "Small Hybrid Ambit Extension I",
+                    "cn": "小型混合武器范围扩大装置 I",
+                    "id": 31514
+                  },
+                  {
+                    "name": "Small Hybrid Burst Aerator I",
+                    "cn": "小型混合武器射速调节装置 I",
+                    "id": 31526
+                  },
+                  {
+                    "name": "Small Hybrid Collision Accelerator I",
+                    "cn": "小型混合武器冲击加速器 I",
+                    "id": 31538
+                  },
+                  {
+                    "name": "Small Hybrid Discharge Elutriation I",
+                    "cn": "小型混合武器节能设备 I",
+                    "id": 31550
+                  },
+                  {
+                    "name": "Small Hybrid Locus Coordinator I",
+                    "cn": "小型混合武器轨迹校准设备 I",
+                    "id": 31562
+                  },
+                  {
+                    "name": "Small Hybrid Metastasis Adjuster I",
+                    "cn": "小型混合武器急转控制器 I",
+                    "id": 31574
+                  },
+                  {
+                    "name": "Small Algid Hybrid Administrations Unit II",
+                    "cn": "小型冷凝混合管理单元 II",
+                    "id": 31508
+                  },
+                  {
+                    "name": "Small Hybrid Ambit Extension II",
+                    "cn": "小型混合武器范围扩大装置 II",
+                    "id": 31520
+                  },
+                  {
+                    "name": "Small Hybrid Burst Aerator II",
+                    "cn": "小型混合武器射速调节装置 II",
+                    "id": 31532
+                  },
+                  {
+                    "name": "Small Hybrid Collision Accelerator II",
+                    "cn": "小型混合武器冲击加速器 II",
+                    "id": 31544
+                  },
+                  {
+                    "name": "Small Hybrid Discharge Elutriation II",
+                    "cn": "小型混合武器节能设备 II",
+                    "id": 31556
+                  },
+                  {
+                    "name": "Small Hybrid Locus Coordinator II",
+                    "cn": "小型混合武器轨迹校准设备 II",
+                    "id": 31568
+                  },
+                  {
+                    "name": "Small Hybrid Metastasis Adjuster II",
+                    "cn": "小型混合武器急转控制器 II",
+                    "id": 31580
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Missile Launcher Rigs",
+            "cn": "导弹发射器改装件",
+            "subgroups": [
+              {
+                "name": "Capital Missile Launcher Rigs",
+                "cn": "旗舰级导弹发射器改装件",
+                "items": [
+                  {
+                    "name": "Capital Bay Loading Accelerator I",
+                    "cn": "旗舰级装卸加速装置 I",
+                    "id": 31590
+                  },
+                  {
+                    "name": "Capital Hydraulic Bay Thrusters I",
+                    "cn": "旗舰级液压舱推进器 I",
+                    "id": 31602
+                  },
+                  {
+                    "name": "Capital Rocket Fuel Cache Partition I",
+                    "cn": "旗舰级火箭燃料缓冲隔离装置 I",
+                    "id": 31612
+                  },
+                  {
+                    "name": "Capital Warhead Calefaction Catalyst I",
+                    "cn": "旗舰级弹头加热辅助系统 I",
+                    "id": 31624
+                  },
+                  {
+                    "name": "Capital Warhead Flare Catalyst I",
+                    "cn": "旗舰级弹头爆燃辅助系统 I",
+                    "id": 31636
+                  },
+                  {
+                    "name": "Capital Warhead Rigor Catalyst I",
+                    "cn": "旗舰级弹头强化辅助系统 I",
+                    "id": 31648
+                  },
+                  {
+                    "name": "Capital Bay Loading Accelerator II",
+                    "cn": "旗舰级装卸加速装置 II",
+                    "id": 31596
+                  },
+                  {
+                    "name": "Capital Hydraulic Bay Thrusters II",
+                    "cn": "旗舰级液压舱推进器 II",
+                    "id": 33301
+                  },
+                  {
+                    "name": "Capital Rocket Fuel Cache Partition II",
+                    "cn": "旗舰级火箭燃料缓冲隔离装置 II",
+                    "id": 31618
+                  },
+                  {
+                    "name": "Capital Warhead Calefaction Catalyst II",
+                    "cn": "旗舰级弹头加热辅助系统 II",
+                    "id": 31630
+                  },
+                  {
+                    "name": "Capital Warhead Flare Catalyst II",
+                    "cn": "旗舰级弹头爆燃辅助系统 II",
+                    "id": 31642
+                  },
+                  {
+                    "name": "Capital Warhead Rigor Catalyst II",
+                    "cn": "旗舰级弹头强化辅助系统 II",
+                    "id": 31654
+                  }
+                ]
+              },
+              {
+                "name": "Large Missile Launcher Rigs",
+                "cn": "大型导弹发射器改装件",
+                "items": [
+                  {
+                    "name": "Large Bay Loading Accelerator I",
+                    "cn": "大型装卸加速装置 I",
+                    "id": 26026
+                  },
+                  {
+                    "name": "Large Hydraulic Bay Thrusters I",
+                    "cn": "大型液压舱推进器 I",
+                    "id": 26016
+                  },
+                  {
+                    "name": "Large Rocket Fuel Cache Partition I",
+                    "cn": "大型火箭燃料缓冲隔离装置 I",
+                    "id": 26022
+                  },
+                  {
+                    "name": "Large Warhead Calefaction Catalyst I",
+                    "cn": "大型弹头加热辅助系统 I",
+                    "id": 26030
+                  },
+                  {
+                    "name": "Large Warhead Flare Catalyst I",
+                    "cn": "大型弹头爆燃辅助系统 I",
+                    "id": 26028
+                  },
+                  {
+                    "name": "Large Warhead Rigor Catalyst I",
+                    "cn": "大型弹头强化辅助系统 I",
+                    "id": 26020
+                  },
+                  {
+                    "name": "Large Bay Loading Accelerator II",
+                    "cn": "大型装卸加速装置 II",
+                    "id": 26406
+                  },
+                  {
+                    "name": "Large Hydraulic Bay Thrusters II",
+                    "cn": "大型液压舱推进器 II",
+                    "id": 26416
+                  },
+                  {
+                    "name": "Large Rocket Fuel Cache Partition II",
+                    "cn": "大型火箭燃料缓冲隔离装置 II",
+                    "id": 26418
+                  },
+                  {
+                    "name": "Large Warhead Calefaction Catalyst II",
+                    "cn": "大型弹头加热辅助系统 II",
+                    "id": 26420
+                  },
+                  {
+                    "name": "Large Warhead Flare Catalyst II",
+                    "cn": "大型弹头爆燃辅助系统 II",
+                    "id": 26412
+                  },
+                  {
+                    "name": "Large Warhead Rigor Catalyst II",
+                    "cn": "大型弹头强化辅助系统 II",
+                    "id": 26414
+                  }
+                ]
+              },
+              {
+                "name": "Medium Missile Launcher Rigs",
+                "cn": "中型导弹发射器改装件",
+                "items": [
+                  {
+                    "name": "Medium Bay Loading Accelerator I",
+                    "cn": "中型装卸加速装置 I",
+                    "id": 31588
+                  },
+                  {
+                    "name": "Medium Hydraulic Bay Thrusters I",
+                    "cn": "中型液压舱推进器 I",
+                    "id": 31600
+                  },
+                  {
+                    "name": "Medium Rocket Fuel Cache Partition I",
+                    "cn": "中型火箭燃料缓冲隔离装置 I",
+                    "id": 31610
+                  },
+                  {
+                    "name": "Medium Warhead Calefaction Catalyst I",
+                    "cn": "中型弹头加热辅助系统 I",
+                    "id": 31622
+                  },
+                  {
+                    "name": "Medium Warhead Flare Catalyst I",
+                    "cn": "中型弹头爆燃辅助系统 I",
+                    "id": 31634
+                  },
+                  {
+                    "name": "Medium Warhead Rigor Catalyst I",
+                    "cn": "中型弹头强化辅助系统 I",
+                    "id": 31646
+                  },
+                  {
+                    "name": "Medium Bay Loading Accelerator II",
+                    "cn": "中型装卸加速装置 II",
+                    "id": 31594
+                  },
+                  {
+                    "name": "Medium Hydraulic Bay Thrusters II",
+                    "cn": "中型液压舱推进器 II",
+                    "id": 31606
+                  },
+                  {
+                    "name": "Medium Rocket Fuel Cache Partition II",
+                    "cn": "中型火箭燃料缓冲隔离装置 II",
+                    "id": 31616
+                  },
+                  {
+                    "name": "Medium Warhead Calefaction Catalyst II",
+                    "cn": "中型弹头加热辅助系统 II",
+                    "id": 31628
+                  },
+                  {
+                    "name": "Medium Warhead Flare Catalyst II",
+                    "cn": "中型弹头爆燃辅助系统 II",
+                    "id": 31640
+                  },
+                  {
+                    "name": "Medium Warhead Rigor Catalyst II",
+                    "cn": "中型弹头强化辅助系统 II",
+                    "id": 31652
+                  }
+                ]
+              },
+              {
+                "name": "Small Missile Launcher Rigs",
+                "cn": "小型导弹发射器改装件",
+                "items": [
+                  {
+                    "name": "Small Bay Loading Accelerator I",
+                    "cn": "小型装卸加速装置 I",
+                    "id": 31586
+                  },
+                  {
+                    "name": "Small Hydraulic Bay Thrusters I",
+                    "cn": "小型液压舱推进器 I",
+                    "id": 31598
+                  },
+                  {
+                    "name": "Small Rocket Fuel Cache Partition I",
+                    "cn": "小型火箭燃料缓冲隔离装置 I",
+                    "id": 31608
+                  },
+                  {
+                    "name": "Small Warhead Calefaction Catalyst I",
+                    "cn": "小型弹头加热辅助系统 I",
+                    "id": 31620
+                  },
+                  {
+                    "name": "Small Warhead Flare Catalyst I",
+                    "cn": "小型弹头爆燃辅助系统 I",
+                    "id": 31632
+                  },
+                  {
+                    "name": "Small Warhead Rigor Catalyst I",
+                    "cn": "小型弹头强化辅助系统 I",
+                    "id": 31644
+                  },
+                  {
+                    "name": "Small Bay Loading Accelerator II",
+                    "cn": "小型装卸加速装置 II",
+                    "id": 31592
+                  },
+                  {
+                    "name": "Small Hydraulic Bay Thrusters II",
+                    "cn": "小型液压舱推进器 II",
+                    "id": 31604
+                  },
+                  {
+                    "name": "Small Rocket Fuel Cache Partition II",
+                    "cn": "小型火箭燃料缓冲隔离装置 II",
+                    "id": 31614
+                  },
+                  {
+                    "name": "Small Warhead Calefaction Catalyst II",
+                    "cn": "小型弹头加热辅助系统 II",
+                    "id": 31626
+                  },
+                  {
+                    "name": "Small Warhead Flare Catalyst II",
+                    "cn": "小型弹头爆燃辅助系统 II",
+                    "id": 31638
+                  },
+                  {
+                    "name": "Small Warhead Rigor Catalyst II",
+                    "cn": "小型弹头强化辅助系统 II",
+                    "id": 31650
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Projectile Weapon Rigs",
+            "cn": "射弹武器改装件",
+            "subgroups": [
+              {
+                "name": "Capital Projectile Weapon Rigs",
+                "cn": "旗舰级射弹武器改装件",
+                "items": [
+                  {
+                    "name": "Capital Projectile Ambit Extension I",
+                    "cn": "旗舰级射弹武器范围扩大装置 I",
+                    "id": 31660
+                  },
+                  {
+                    "name": "Capital Projectile Burst Aerator I",
+                    "cn": "旗舰级射弹武器射速调节装置 I",
+                    "id": 31672
+                  },
+                  {
+                    "name": "Capital Projectile Collision Accelerator I",
+                    "cn": "旗舰级射弹武器冲击加速器 I",
+                    "id": 31684
+                  },
+                  {
+                    "name": "Capital Projectile Locus Coordinator I",
+                    "cn": "旗舰级射弹武器轨迹校准设备 I",
+                    "id": 31696
+                  },
+                  {
+                    "name": "Capital Projectile Metastasis Adjuster I",
+                    "cn": "旗舰级射弹武器急转控制器 I",
+                    "id": 31708
+                  },
+                  {
+                    "name": "Capital Projectile Ambit Extension II",
+                    "cn": "旗舰级射弹武器范围扩大装置 II",
+                    "id": 31666
+                  },
+                  {
+                    "name": "Capital Projectile Burst Aerator II",
+                    "cn": "旗舰级射弹武器射速调节装置 II",
+                    "id": 31678
+                  },
+                  {
+                    "name": "Capital Projectile Collision Accelerator II",
+                    "cn": "旗舰级射弹武器冲击加速器 II",
+                    "id": 31690
+                  },
+                  {
+                    "name": "Capital Projectile Locus Coordinator II",
+                    "cn": "旗舰级射弹武器轨迹校准设备 II",
+                    "id": 31702
+                  },
+                  {
+                    "name": "Capital Projectile Metastasis Adjuster II",
+                    "cn": "旗舰级射弹武器急转控制器 II",
+                    "id": 31714
+                  }
+                ]
+              },
+              {
+                "name": "Large Projectile Weapon Rigs",
+                "cn": "大型射弹武器改装件",
+                "items": [
+                  {
+                    "name": "Large Projectile Ambit Extension I",
+                    "cn": "大型射弹武器范围扩大装置 I",
+                    "id": 26038
+                  },
+                  {
+                    "name": "Large Projectile Burst Aerator I",
+                    "cn": "大型射弹武器射速调节装置 I",
+                    "id": 26046
+                  },
+                  {
+                    "name": "Large Projectile Collision Accelerator I",
+                    "cn": "大型射弹武器冲击加速器 I",
+                    "id": 26048
+                  },
+                  {
+                    "name": "Large Projectile Locus Coordinator I",
+                    "cn": "大型射弹武器轨迹校准设备 I",
+                    "id": 26040
+                  },
+                  {
+                    "name": "Large Projectile Metastasis Adjuster I",
+                    "cn": "大型射弹武器急转控制器 I",
+                    "id": 26042
+                  },
+                  {
+                    "name": "Large Projectile Ambit Extension II",
+                    "cn": "大型射弹武器范围扩大装置 II",
+                    "id": 26428
+                  },
+                  {
+                    "name": "Large Projectile Burst Aerator II",
+                    "cn": "大型射弹武器射速调节装置 II",
+                    "id": 26430
+                  },
+                  {
+                    "name": "Large Projectile Collision Accelerator II",
+                    "cn": "大型射弹武器冲击加速器 II",
+                    "id": 26424
+                  },
+                  {
+                    "name": "Large Projectile Locus Coordinator II",
+                    "cn": "大型射弹武器轨迹校准设备 II",
+                    "id": 26432
+                  },
+                  {
+                    "name": "Large Projectile Metastasis Adjuster II",
+                    "cn": "大型射弹武器急转控制器 II",
+                    "id": 26434
+                  }
+                ]
+              },
+              {
+                "name": "Medium Projectile Weapon Rigs",
+                "cn": "中型射弹武器改装件",
+                "items": [
+                  {
+                    "name": "Medium Projectile Ambit Extension I",
+                    "cn": "中型射弹武器范围扩大装置 I",
+                    "id": 31658
+                  },
+                  {
+                    "name": "Medium Projectile Burst Aerator I",
+                    "cn": "中型射弹武器射速调节装置 I",
+                    "id": 31670
+                  },
+                  {
+                    "name": "Medium Projectile Collision Accelerator I",
+                    "cn": "中型射弹武器冲击加速器 I",
+                    "id": 31682
+                  },
+                  {
+                    "name": "Medium Projectile Locus Coordinator I",
+                    "cn": "中型射弹武器轨迹校准设备 I",
+                    "id": 31694
+                  },
+                  {
+                    "name": "Medium Projectile Metastasis Adjuster I",
+                    "cn": "中型射弹武器急转控制器 I",
+                    "id": 31706
+                  },
+                  {
+                    "name": "Medium Projectile Ambit Extension II",
+                    "cn": "中型射弹武器范围扩大装置 II",
+                    "id": 31664
+                  },
+                  {
+                    "name": "Medium Projectile Burst Aerator II",
+                    "cn": "中型射弹武器射速调节装置 II",
+                    "id": 31676
+                  },
+                  {
+                    "name": "Medium Projectile Collision Accelerator II",
+                    "cn": "中型射弹武器冲击加速器 II",
+                    "id": 31688
+                  },
+                  {
+                    "name": "Medium Projectile Locus Coordinator II",
+                    "cn": "中型射弹武器轨迹校准设备 II",
+                    "id": 31700
+                  },
+                  {
+                    "name": "Medium Projectile Metastasis Adjuster II",
+                    "cn": "中型射弹武器急转控制器 II",
+                    "id": 31712
+                  }
+                ]
+              },
+              {
+                "name": "Small Projectile Weapon Rigs",
+                "cn": "小型射弹武器改装件",
+                "items": [
+                  {
+                    "name": "Small Projectile Ambit Extension I",
+                    "cn": "小型射弹武器范围扩大装置 I",
+                    "id": 31656
+                  },
+                  {
+                    "name": "Small Projectile Burst Aerator I",
+                    "cn": "小型射弹武器射速调节装置 I",
+                    "id": 31668
+                  },
+                  {
+                    "name": "Small Projectile Collision Accelerator I",
+                    "cn": "小型射弹武器冲击加速器 I",
+                    "id": 31680
+                  },
+                  {
+                    "name": "Small Projectile Locus Coordinator I",
+                    "cn": "小型射弹武器轨迹校准设备 I",
+                    "id": 31692
+                  },
+                  {
+                    "name": "Small Projectile Metastasis Adjuster I",
+                    "cn": "小型射弹武器急转控制器 I",
+                    "id": 31704
+                  },
+                  {
+                    "name": "Small Projectile Ambit Extension II",
+                    "cn": "小型射弹武器范围扩大装置 II",
+                    "id": 31662
+                  },
+                  {
+                    "name": "Small Projectile Burst Aerator II",
+                    "cn": "小型射弹武器射速调节装置 II",
+                    "id": 31674
+                  },
+                  {
+                    "name": "Small Projectile Collision Accelerator II",
+                    "cn": "小型射弹武器冲击加速器 II",
+                    "id": 31686
+                  },
+                  {
+                    "name": "Small Projectile Locus Coordinator II",
+                    "cn": "小型射弹武器轨迹校准设备 II",
+                    "id": 31698
+                  },
+                  {
+                    "name": "Small Projectile Metastasis Adjuster II",
+                    "cn": "小型射弹武器急转控制器 II",
+                    "id": 31710
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Resource Processing Rigs",
+            "cn": "资源加工改装件",
+            "subgroups": [
+              {
+                "name": "Capital Resource Processing Rigs",
+                "cn": "旗舰级资源加工改装件",
+                "items": [
+                  {
+                    "name": "Capital Salvage Tackle I",
+                    "cn": "旗舰级打捞回收工具 I",
+                    "id": 31087
+                  },
+                  {
+                    "name": "Capital Salvage Tackle II",
+                    "cn": "旗舰级打捞回收工具 II",
+                    "id": 31093
+                  }
+                ]
+              },
+              {
+                "name": "Large Resource Processing Rigs",
+                "cn": "大型资源加工改装件",
+                "items": [
+                  {
+                    "name": "Large Salvage Tackle I",
+                    "cn": "大型打捞回收工具 I",
+                    "id": 25902
+                  },
+                  {
+                    "name": "Large Salvage Tackle II",
+                    "cn": "大型打捞回收工具 II",
+                    "id": 26300
+                  }
+                ]
+              },
+              {
+                "name": "Medium Resource Processing Rigs",
+                "cn": "中型资源加工改装件",
+                "items": [
+                  {
+                    "name": "Medium Salvage Tackle I",
+                    "cn": "中型打捞回收工具 I",
+                    "id": 31085
+                  },
+                  {
+                    "name": "Medium Salvage Tackle II",
+                    "cn": "中型打捞回收工具 II",
+                    "id": 31091
+                  }
+                ]
+              },
+              {
+                "name": "Small Resource Processing Rigs",
+                "cn": "小型资源加工改装件",
+                "items": [
+                  {
+                    "name": "Small Salvage Tackle I",
+                    "cn": "小型打捞回收工具 I",
+                    "id": 31083
+                  },
+                  {
+                    "name": "Small Salvage Tackle II",
+                    "cn": "小型打捞回收工具 II",
+                    "id": 31089
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Scanning Rigs",
+            "cn": "扫描改装件",
+            "subgroups": [
+              {
+                "name": "Capital Scanning Rigs",
+                "cn": "旗舰级扫描改装件",
+                "items": [
+                  {
+                    "name": "Capital Emission Scope Sharpener I",
+                    "cn": "旗舰级放射范围约束装置 I",
+                    "id": 31205
+                  },
+                  {
+                    "name": "Capital Gravity Capacitor Upgrade I",
+                    "cn": "旗舰级引力电容器升级 I",
+                    "id": 31217
+                  },
+                  {
+                    "name": "Capital Memetic Algorithm Bank I",
+                    "cn": "旗舰级弥集进化演算法数据库 I",
+                    "id": 31242
+                  },
+                  {
+                    "name": "Capital Signal Focusing Kit I",
+                    "cn": "旗舰级信号集中设备 I",
+                    "id": 31314
+                  },
+                  {
+                    "name": "Capital Emission Scope Sharpener II",
+                    "cn": "旗舰级放射范围约束装置 II",
+                    "id": 31211
+                  },
+                  {
+                    "name": "Capital Gravity Capacitor Upgrade II",
+                    "cn": "旗舰级引力电容器升级 II",
+                    "id": 31224
+                  },
+                  {
+                    "name": "Capital Memetic Algorithm Bank II",
+                    "cn": "旗舰级弥集进化演算法数据库 II",
+                    "id": 31248
+                  },
+                  {
+                    "name": "Capital Signal Focusing Kit II",
+                    "cn": "旗舰级信号集中设备 II",
+                    "id": 31320
+                  }
+                ]
+              },
+              {
+                "name": "Large Scanning Rigs",
+                "cn": "大型扫描改装件",
+                "items": [
+                  {
+                    "name": "Large Emission Scope Sharpener I",
+                    "cn": "大型放射范围约束装置 I",
+                    "id": 25930
+                  },
+                  {
+                    "name": "Large Gravity Capacitor Upgrade I",
+                    "cn": "大型引力电容器升级 I",
+                    "id": 25936
+                  },
+                  {
+                    "name": "Large Memetic Algorithm Bank I",
+                    "cn": "大型弥集进化演算法数据库 I",
+                    "id": 25932
+                  },
+                  {
+                    "name": "Large Signal Focusing Kit I",
+                    "cn": "大型信号集中设备 I",
+                    "id": 26104
+                  },
+                  {
+                    "name": "Large Emission Scope Sharpener II",
+                    "cn": "大型放射范围约束装置 II",
+                    "id": 26342
+                  },
+                  {
+                    "name": "Large Gravity Capacitor Upgrade II",
+                    "cn": "大型引力电容器升级 II",
+                    "id": 26350
+                  },
+                  {
+                    "name": "Large Memetic Algorithm Bank II",
+                    "cn": "大型弥集进化演算法数据库 II",
+                    "id": 26346
+                  },
+                  {
+                    "name": "Large Signal Focusing Kit II",
+                    "cn": "大型信号集中设备 II",
+                    "id": 26362
+                  }
+                ]
+              },
+              {
+                "name": "Medium Scanning Rigs",
+                "cn": "中型扫描改装件",
+                "items": [
+                  {
+                    "name": "Medium Emission Scope Sharpener I",
+                    "cn": "中型放射范围约束装置 I",
+                    "id": 31203
+                  },
+                  {
+                    "name": "Medium Gravity Capacitor Upgrade I",
+                    "cn": "中型引力电容器升级 I",
+                    "id": 31215
+                  },
+                  {
+                    "name": "Medium Memetic Algorithm Bank I",
+                    "cn": "中型弥集进化演算法数据库 I",
+                    "id": 31240
+                  },
+                  {
+                    "name": "Medium Signal Focusing Kit I",
+                    "cn": "中型信号集中设备 I",
+                    "id": 31312
+                  },
+                  {
+                    "name": "Medium Emission Scope Sharpener II",
+                    "cn": "中型放射范围约束装置 II",
+                    "id": 31209
+                  },
+                  {
+                    "name": "Medium Gravity Capacitor Upgrade II",
+                    "cn": "中型引力电容器升级 II",
+                    "id": 31222
+                  },
+                  {
+                    "name": "Medium Memetic Algorithm Bank II",
+                    "cn": "中型弥集进化演算法数据库 II",
+                    "id": 31246
+                  },
+                  {
+                    "name": "Medium Signal Focusing Kit II",
+                    "cn": "中型信号集中设备 II",
+                    "id": 31318
+                  }
+                ]
+              },
+              {
+                "name": "Small Scanning Rigs",
+                "cn": "小型扫描改装件",
+                "items": [
+                  {
+                    "name": "Small Emission Scope Sharpener I",
+                    "cn": "小型放射范围约束装置 I",
+                    "id": 31201
+                  },
+                  {
+                    "name": "Small Gravity Capacitor Upgrade I",
+                    "cn": "小型引力电容器升级 I",
+                    "id": 31213
+                  },
+                  {
+                    "name": "Small Memetic Algorithm Bank I",
+                    "cn": "小型弥集进化演算法数据库 I",
+                    "id": 31238
+                  },
+                  {
+                    "name": "Small Signal Focusing Kit I",
+                    "cn": "小型信号集中设备 I",
+                    "id": 31310
+                  },
+                  {
+                    "name": "Small Emission Scope Sharpener II",
+                    "cn": "小型放射范围约束装置 II",
+                    "id": 31207
+                  },
+                  {
+                    "name": "Small Gravity Capacitor Upgrade II",
+                    "cn": "小型引力电容器升级 II",
+                    "id": 31220
+                  },
+                  {
+                    "name": "Small Memetic Algorithm Bank II",
+                    "cn": "小型弥集进化演算法数据库 II",
+                    "id": 31244
+                  },
+                  {
+                    "name": "Small Signal Focusing Kit II",
+                    "cn": "小型信号集中设备 II",
+                    "id": 31316
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Shield Rigs",
+            "cn": "护盾改装件",
+            "subgroups": [
+              {
+                "name": "Capital Shield Rigs",
+                "cn": "旗舰级护盾改装件",
+                "items": [
+                  {
+                    "name": "Capital Core Defense Capacitor Safeguard I",
+                    "cn": "旗舰级核心防御电容器安全管理装置 I",
+                    "id": 31768
+                  },
+                  {
+                    "name": "Capital Core Defense Charge Economizer I",
+                    "cn": "旗舰级核心防御节能装置 I",
+                    "id": 31780
+                  },
+                  {
+                    "name": "Capital Core Defense Field Extender I",
+                    "cn": "旗舰级核心防御力场扩张装置 I",
+                    "id": 31792
+                  },
+                  {
+                    "name": "Capital Core Defense Field Purger I",
+                    "cn": "旗舰级核心防御力场稳固装置 I",
+                    "id": 31804
+                  },
+                  {
+                    "name": "Capital Core Defense Operational Solidifier I",
+                    "cn": "旗舰级核心防御操控稳定装置 I",
+                    "id": 31820
+                  },
+                  {
+                    "name": "Capital EM Shield Reinforcer I",
+                    "cn": "旗舰级电磁护盾强化装置 I",
+                    "id": 31720
+                  },
+                  {
+                    "name": "Capital Explosive Shield Reinforcer I",
+                    "cn": "旗舰级爆炸护盾强化装置 I",
+                    "id": 31732
+                  },
+                  {
+                    "name": "Capital Kinetic Shield Reinforcer I",
+                    "cn": "旗舰级动能护盾强化装置 I",
+                    "id": 31744
+                  },
+                  {
+                    "name": "Capital Thermal Shield Reinforcer I",
+                    "cn": "旗舰级热能护盾强化装置 I",
+                    "id": 31756
+                  },
+                  {
+                    "name": "Capital Core Defense Capacitor Safeguard II",
+                    "cn": "旗舰级核心防御电容器安全管理装置 II",
+                    "id": 31774
+                  },
+                  {
+                    "name": "Capital Core Defense Charge Economizer II",
+                    "cn": "旗舰级核心防御节能装置 II",
+                    "id": 31786
+                  },
+                  {
+                    "name": "Capital Core Defense Field Extender II",
+                    "cn": "旗舰级核心防御力场扩张装置 II",
+                    "id": 31798
+                  },
+                  {
+                    "name": "Capital Core Defense Field Purger II",
+                    "cn": "旗舰级核心防御力场稳固装置 II",
+                    "id": 31814
+                  },
+                  {
+                    "name": "Capital Core Defense Operational Solidifier II",
+                    "cn": "旗舰级核心防御操控稳定装置 II",
+                    "id": 31826
+                  },
+                  {
+                    "name": "Capital EM Shield Reinforcer II",
+                    "cn": "旗舰级电磁护盾强化装置 II",
+                    "id": 31726
+                  },
+                  {
+                    "name": "Capital Explosive Shield Reinforcer II",
+                    "cn": "旗舰级爆炸护盾强化装置 II",
+                    "id": 31738
+                  },
+                  {
+                    "name": "Capital Kinetic Shield Reinforcer II",
+                    "cn": "旗舰级动能护盾强化装置 II",
+                    "id": 31750
+                  },
+                  {
+                    "name": "Capital Thermal Shield Reinforcer II",
+                    "cn": "旗舰级热能护盾强化装置 II",
+                    "id": 31762
+                  }
+                ]
+              },
+              {
+                "name": "Large Shield Rigs",
+                "cn": "大型护盾改装件",
+                "items": [
+                  {
+                    "name": "Large Core Defense Capacitor Safeguard I",
+                    "cn": "大型核心防御电容器安全管理装置 I",
+                    "id": 25906
+                  },
+                  {
+                    "name": "Large Core Defense Charge Economizer I",
+                    "cn": "大型核心防御节能装置 I",
+                    "id": 26090
+                  },
+                  {
+                    "name": "Large Core Defense Field Extender I",
+                    "cn": "大型核心防御力场扩张装置 I",
+                    "id": 26088
+                  },
+                  {
+                    "name": "Large Core Defense Field Purger I",
+                    "cn": "大型核心防御力场稳固装置 I",
+                    "id": 26084
+                  },
+                  {
+                    "name": "Large Core Defense Operational Solidifier I",
+                    "cn": "大型核心防御操控稳定装置 I",
+                    "id": 26086
+                  },
+                  {
+                    "name": "Large EM Shield Reinforcer I",
+                    "cn": "大型电磁护盾强化装置 I",
+                    "id": 26076
+                  },
+                  {
+                    "name": "Large Explosive Shield Reinforcer I",
+                    "cn": "大型爆炸护盾强化装置 I",
+                    "id": 26078
+                  },
+                  {
+                    "name": "Large Kinetic Shield Reinforcer I",
+                    "cn": "大型动能护盾强化装置 I",
+                    "id": 26080
+                  },
+                  {
+                    "name": "Large Thermal Shield Reinforcer I",
+                    "cn": "大型热能护盾强化装置 I",
+                    "id": 26082
+                  },
+                  {
+                    "name": "Large Core Defense Capacitor Safeguard II",
+                    "cn": "大型核心防御电容器安全管理装置 II",
+                    "id": 26444
+                  },
+                  {
+                    "name": "Large Core Defense Charge Economizer II",
+                    "cn": "大型核心防御节能装置 II",
+                    "id": 26446
+                  },
+                  {
+                    "name": "Large Core Defense Field Extender II",
+                    "cn": "大型核心防御力场扩张装置 II",
+                    "id": 26448
+                  },
+                  {
+                    "name": "Large Core Defense Field Purger II",
+                    "cn": "大型核心防御力场稳固装置 II",
+                    "id": 26450
+                  },
+                  {
+                    "name": "Large Core Defense Operational Solidifier II",
+                    "cn": "大型核心防御操控稳定装置 II",
+                    "id": 26452
+                  },
+                  {
+                    "name": "Large EM Shield Reinforcer II",
+                    "cn": "大型电磁护盾强化装置 II",
+                    "id": 26436
+                  },
+                  {
+                    "name": "Large Explosive Shield Reinforcer II",
+                    "cn": "大型爆炸护盾强化装置 II",
+                    "id": 26438
+                  },
+                  {
+                    "name": "Large Kinetic Shield Reinforcer II",
+                    "cn": "大型动能护盾强化装置 II",
+                    "id": 26440
+                  },
+                  {
+                    "name": "Large Thermal Shield Reinforcer II",
+                    "cn": "大型热能护盾强化装置 II",
+                    "id": 26442
+                  }
+                ]
+              },
+              {
+                "name": "Medium Shield Rigs",
+                "cn": "中型护盾改装件",
+                "items": [
+                  {
+                    "name": "Medium Core Defense Capacitor Safeguard I",
+                    "cn": "中型核心防御电容器安全管理装置 I",
+                    "id": 31766
+                  },
+                  {
+                    "name": "Medium Core Defense Charge Economizer I",
+                    "cn": "中型核心防御节能装置 I",
+                    "id": 31778
+                  },
+                  {
+                    "name": "Medium Core Defense Field Extender I",
+                    "cn": "中型核心防御力场扩张装置 I",
+                    "id": 31790
+                  },
+                  {
+                    "name": "Medium Core Defense Field Purger I",
+                    "cn": "中型核心防御力场稳固装置 I",
+                    "id": 31802
+                  },
+                  {
+                    "name": "Medium Core Defense Operational Solidifier I",
+                    "cn": "中型核心防御操控稳定装置 I",
+                    "id": 31818
+                  },
+                  {
+                    "name": "Medium EM Shield Reinforcer I",
+                    "cn": "中型电磁护盾强化装置 I",
+                    "id": 31718
+                  },
+                  {
+                    "name": "Medium Explosive Shield Reinforcer I",
+                    "cn": "中型爆炸护盾强化装置 I",
+                    "id": 31730
+                  },
+                  {
+                    "name": "Medium Kinetic Shield Reinforcer I",
+                    "cn": "中型动能护盾强化装置 I",
+                    "id": 31742
+                  },
+                  {
+                    "name": "Medium Thermal Shield Reinforcer I",
+                    "cn": "中型热能护盾强化装置 I",
+                    "id": 31754
+                  },
+                  {
+                    "name": "Medium Core Defense Capacitor Safeguard II",
+                    "cn": "中型核心防御电容器安全管理装置 II",
+                    "id": 31772
+                  },
+                  {
+                    "name": "Medium Core Defense Charge Economizer II",
+                    "cn": "中型核心防御节能装置 II",
+                    "id": 31784
+                  },
+                  {
+                    "name": "Medium Core Defense Field Extender II",
+                    "cn": "中型核心防御力场扩张装置 II",
+                    "id": 31796
+                  },
+                  {
+                    "name": "Medium Core Defense Field Purger II",
+                    "cn": "中型核心防御力场稳固装置 II",
+                    "id": 31812
+                  },
+                  {
+                    "name": "Medium Core Defense Operational Solidifier II",
+                    "cn": "中型核心防御操控稳定装置 II",
+                    "id": 31824
+                  },
+                  {
+                    "name": "Medium EM Shield Reinforcer II",
+                    "cn": "中型电磁护盾强化装置 II",
+                    "id": 31724
+                  },
+                  {
+                    "name": "Medium Explosive Shield Reinforcer II",
+                    "cn": "中型爆炸护盾强化装置 II",
+                    "id": 31736
+                  },
+                  {
+                    "name": "Medium Kinetic Shield Reinforcer II",
+                    "cn": "中型动能护盾强化装置 II",
+                    "id": 31748
+                  },
+                  {
+                    "name": "Medium Thermal Shield Reinforcer II",
+                    "cn": "中型热能护盾强化装置 II",
+                    "id": 31760
+                  }
+                ]
+              },
+              {
+                "name": "Small Shield Rigs",
+                "cn": "小型护盾改装件",
+                "items": [
+                  {
+                    "name": "Small Core Defense Capacitor Safeguard I",
+                    "cn": "小型核心防御电容器安全管理装置 I",
+                    "id": 31764
+                  },
+                  {
+                    "name": "Small Core Defense Charge Economizer I",
+                    "cn": "小型核心防御节能装置 I",
+                    "id": 31776
+                  },
+                  {
+                    "name": "Small Core Defense Field Extender I",
+                    "cn": "小型核心防御力场扩张装置 I",
+                    "id": 31788
+                  },
+                  {
+                    "name": "Small Core Defense Field Purger I",
+                    "cn": "小型核心防御力场稳固装置 I",
+                    "id": 31800
+                  },
+                  {
+                    "name": "Small Core Defense Operational Solidifier I",
+                    "cn": "小型核心防御操控稳定装置 I",
+                    "id": 31816
+                  },
+                  {
+                    "name": "Small EM Shield Reinforcer I",
+                    "cn": "小型电磁护盾强化装置 I",
+                    "id": 31716
+                  },
+                  {
+                    "name": "Small Explosive Shield Reinforcer I",
+                    "cn": "小型爆炸护盾强化装置 I",
+                    "id": 31728
+                  },
+                  {
+                    "name": "Small Kinetic Shield Reinforcer I",
+                    "cn": "小型动能护盾强化装置 I",
+                    "id": 31740
+                  },
+                  {
+                    "name": "Small Thermal Shield Reinforcer I",
+                    "cn": "小型热能护盾强化装置 I",
+                    "id": 31752
+                  },
+                  {
+                    "name": "Small Core Defense Capacitor Safeguard II",
+                    "cn": "小型核心防御电容器安全管理装置 II",
+                    "id": 31770
+                  },
+                  {
+                    "name": "Small Core Defense Charge Economizer II",
+                    "cn": "小型核心防御节能装置 II",
+                    "id": 31782
+                  },
+                  {
+                    "name": "Small Core Defense Field Extender II",
+                    "cn": "小型核心防御力场扩张装置 II",
+                    "id": 31794
+                  },
+                  {
+                    "name": "Small Core Defense Field Purger II",
+                    "cn": "小型核心防御力场稳固装置 II",
+                    "id": 31810
+                  },
+                  {
+                    "name": "Small Core Defense Operational Solidifier II",
+                    "cn": "小型核心防御操控稳定装置 II",
+                    "id": 31822
+                  },
+                  {
+                    "name": "Small EM Shield Reinforcer II",
+                    "cn": "小型电磁护盾强化装置 II",
+                    "id": 31722
+                  },
+                  {
+                    "name": "Small Explosive Shield Reinforcer II",
+                    "cn": "小型爆炸护盾强化装置 II",
+                    "id": 31734
+                  },
+                  {
+                    "name": "Small Kinetic Shield Reinforcer II",
+                    "cn": "小型动能护盾强化装置 II",
+                    "id": 31746
+                  },
+                  {
+                    "name": "Small Thermal Shield Reinforcer II",
+                    "cn": "小型热能护盾强化装置 II",
+                    "id": 31758
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Targeting Rigs",
+            "cn": "锁定系统改装件",
+            "subgroups": [
+              {
+                "name": "Capital Targeting Rigs",
+                "cn": "旗舰级锁定系统改装件",
+                "items": [
+                  {
+                    "name": "Capital Ionic Field Projector I",
+                    "cn": "旗舰级离子力场投射器 I",
+                    "id": 31278
+                  },
+                  {
+                    "name": "Capital Targeting System Subcontroller I",
+                    "cn": "旗舰级锁定系统辅助控制器 I",
+                    "id": 31326
+                  },
+                  {
+                    "name": "Capital Ionic Field Projector II",
+                    "cn": "旗舰级离子力场投射器 II",
+                    "id": 31284
+                  },
+                  {
+                    "name": "Capital Targeting System Subcontroller II",
+                    "cn": "旗舰级锁定系统辅助控制器 II",
+                    "id": 31332
+                  }
+                ]
+              },
+              {
+                "name": "Large Targeting Rigs",
+                "cn": "大型锁定系统改装件",
+                "items": [
+                  {
+                    "name": "Large Ionic Field Projector I",
+                    "cn": "大型离子力场投射器 I",
+                    "id": 26102
+                  },
+                  {
+                    "name": "Large Targeting System Subcontroller I",
+                    "cn": "大型锁定系统辅助控制器 I",
+                    "id": 26100
+                  },
+                  {
+                    "name": "Large Ionic Field Projector II",
+                    "cn": "大型离子力场投射器 II",
+                    "id": 26358
+                  },
+                  {
+                    "name": "Large Targeting System Subcontroller II",
+                    "cn": "大型锁定系统辅助控制器 II",
+                    "id": 26364
+                  }
+                ]
+              },
+              {
+                "name": "Medium Targeting Rigs",
+                "cn": "中型锁定系统改装件",
+                "items": [
+                  {
+                    "name": "Medium Ionic Field Projector I",
+                    "cn": "中型离子力场投射器 I",
+                    "id": 31276
+                  },
+                  {
+                    "name": "Medium Targeting System Subcontroller I",
+                    "cn": "中型锁定系统辅助控制器 I",
+                    "id": 31324
+                  },
+                  {
+                    "name": "Medium Ionic Field Projector II",
+                    "cn": "中型离子力场投射器 II",
+                    "id": 31282
+                  },
+                  {
+                    "name": "Medium Targeting System Subcontroller II",
+                    "cn": "中型锁定系统辅助控制器 II",
+                    "id": 31330
+                  }
+                ]
+              },
+              {
+                "name": "Small Targeting Rigs",
+                "cn": "小型锁定系统改装件",
+                "items": [
+                  {
+                    "name": "Small Ionic Field Projector I",
+                    "cn": "小型离子力场投射器 I",
+                    "id": 31274
+                  },
+                  {
+                    "name": "Small Targeting System Subcontroller I",
+                    "cn": "小型锁定系统辅助控制器 I",
+                    "id": 31322
+                  },
+                  {
+                    "name": "Small Ionic Field Projector II",
+                    "cn": "小型离子力场投射器 II",
+                    "id": 31280
+                  },
+                  {
+                    "name": "Small Targeting System Subcontroller II",
+                    "cn": "小型锁定系统辅助控制器 II",
+                    "id": 31328
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Subsystems",
+        "cn": "子系统",
+        "subgroups": [
+          {
+            "name": "Armarr Subsystems",
+            "cn": "艾玛子系统",
+            "subgroups": [
+              {
+                "name": "Armarr Core Subsystems",
+                "cn": "艾玛核心子系统",
+                "items": [
+                  {
+                    "name": "Legion Core - Augmented Antimatter Reactor",
+                    "cn": "圣卒核心 - 增强反物质反应堆",
+                    "id": 45623
+                  },
+                  {
+                    "name": "Legion Core - Dissolution Sequencer",
+                    "cn": "圣卒核心 - 散解程控装置",
+                    "id": 45622
+                  },
+                  {
+                    "name": "Legion Core - Energy Parasitic Complex",
+                    "cn": "圣卒核心 - 能量寄取集成体",
+                    "id": 45624
+                  }
+                ]
+              },
+              {
+                "name": "Armarr Defensive Subsystems",
+                "cn": "艾玛防御子系统",
+                "items": [
+                  {
+                    "name": "Legion Defensive - Covert Reconfiguration",
+                    "cn": "圣卒防御 - 隐形优化器",
+                    "id": 45586
+                  },
+                  {
+                    "name": "Legion Defensive - Augmented Plating",
+                    "cn": "圣卒防御 - 增强装甲板",
+                    "id": 45587
+                  },
+                  {
+                    "name": "Legion Defensive - Nanobot Injector",
+                    "cn": "圣卒防御 - 纳米机器人喷注器",
+                    "id": 45588
+                  }
+                ]
+              },
+              {
+                "name": "Armarr Offensive Subsystems",
+                "cn": "艾玛攻击子系统",
+                "items": [
+                  {
+                    "name": "Legion Offensive - Assault Optimization",
+                    "cn": "圣卒攻击 - 攻击导弹优化器",
+                    "id": 45599
+                  },
+                  {
+                    "name": "Legion Offensive - Liquid Crystal Magnifiers",
+                    "cn": "圣卒攻击 - 液晶放大器",
+                    "id": 45598
+                  },
+                  {
+                    "name": "Legion Offensive - Support Processor",
+                    "cn": "圣卒攻击 - 后勤处理器",
+                    "id": 45600
+                  }
+                ]
+              },
+              {
+                "name": "Armarr Propulsion Subsystems",
+                "cn": "艾玛推进子系统",
+                "items": [
+                  {
+                    "name": "Legion Propulsion - Intercalated Nanofibers",
+                    "cn": "圣卒推进 - 间层纳米纤维",
+                    "id": 45611
+                  },
+                  {
+                    "name": "Legion Propulsion - Interdiction Nullifier",
+                    "cn": "圣卒推进 - 拦截湮灭者",
+                    "id": 45610
+                  },
+                  {
+                    "name": "Legion Propulsion - Wake Limiter",
+                    "cn": "圣卒推进 - 尾迹抑制器",
+                    "id": 45612
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Caldari Subsystems",
+            "cn": "加达里子系统",
+            "subgroups": [
+              {
+                "name": "Caldari Core Subsystems",
+                "cn": "加达里核心子系统",
+                "items": [
+                  {
+                    "name": "Tengu Core - Augmented Graviton Reactor",
+                    "cn": "金鹏核心 - 增强引力子反应堆",
+                    "id": 45626
+                  },
+                  {
+                    "name": "Tengu Core - Electronic Efficiency Gate",
+                    "cn": "金鹏核心 - 电子效能组合逻辑元件",
+                    "id": 45625
+                  },
+                  {
+                    "name": "Tengu Core - Obfuscation Manifold",
+                    "cn": "金鹏核心 - 干扰管",
+                    "id": 45627
+                  }
+                ]
+              },
+              {
+                "name": "Caldari Defensive Subsystems",
+                "cn": "加达里防御子系统",
+                "items": [
+                  {
+                    "name": "Tengu Defensive - Covert Reconfiguration",
+                    "cn": "金鹏防御 - 隐形优化器",
+                    "id": 45589
+                  },
+                  {
+                    "name": "Tengu Defensive - Amplification Node",
+                    "cn": "金鹏防御 - 放大节点",
+                    "id": 45591
+                  },
+                  {
+                    "name": "Tengu Defensive - Supplemental Screening",
+                    "cn": "金鹏防御 - 辅助保护幕墙",
+                    "id": 45590
+                  }
+                ]
+              },
+              {
+                "name": "Caldari Offensive Subsystems",
+                "cn": "加达里攻击子系统",
+                "items": [
+                  {
+                    "name": "Tengu Offensive - Accelerated Ejection Bay",
+                    "cn": "金鹏攻击 - 加速弹射舱",
+                    "id": 45601
+                  },
+                  {
+                    "name": "Tengu Offensive - Magnetic Infusion Basin",
+                    "cn": "金鹏攻击 - 磁性注入闸",
+                    "id": 45602
+                  },
+                  {
+                    "name": "Tengu Offensive - Support Processor",
+                    "cn": "金鹏攻击 - 后勤处理器",
+                    "id": 45603
+                  }
+                ]
+              },
+              {
+                "name": "Caldari Propulsion Subsystems",
+                "cn": "加达里推进子系统",
+                "items": [
+                  {
+                    "name": "Tengu Propulsion - Chassis Optimization",
+                    "cn": "金鹏推进 - 机舱优化",
+                    "id": 45614
+                  },
+                  {
+                    "name": "Tengu Propulsion - Fuel Catalyst",
+                    "cn": "金鹏推进 - 燃料催化器",
+                    "id": 45615
+                  },
+                  {
+                    "name": "Tengu Propulsion - Interdiction Nullifier",
+                    "cn": "金鹏推进 - 拦截湮灭者",
+                    "id": 45613
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gellente Subsystems",
+            "cn": "盖伦特子系统",
+            "subgroups": [
+              {
+                "name": "Gellente Core Subsystems",
+                "cn": "盖伦特核心子系统",
+                "items": [
+                  {
+                    "name": "Proteus Core - Augmented Fusion Reactor",
+                    "cn": "海神核心 - 增强聚变反应堆",
+                    "id": 45629
+                  },
+                  {
+                    "name": "Proteus Core - Electronic Efficiency Gate",
+                    "cn": "海神核心 - 电子效能组合逻辑元件",
+                    "id": 45628
+                  },
+                  {
+                    "name": "Proteus Core - Friction Extension Processor",
+                    "cn": "海神核心 - 分歧缓散处理器",
+                    "id": 45630
+                  }
+                ]
+              },
+              {
+                "name": "Gellente Defensive Subsystems",
+                "cn": "盖伦特防御子系统",
+                "items": [
+                  {
+                    "name": "Proteus Defensive - Covert Reconfiguration",
+                    "cn": "海神防御 - 隐形优化器",
+                    "id": 45592
+                  },
+                  {
+                    "name": "Proteus Defensive - Augmented Plating",
+                    "cn": "海神防御 - 增强无人机装甲板",
+                    "id": 45593
+                  },
+                  {
+                    "name": "Proteus Defensive - Nanobot Injector",
+                    "cn": "海神防御 - 纳米机器人喷注器",
+                    "id": 45594
+                  }
+                ]
+              },
+              {
+                "name": "Gellente Offensive Subsystem",
+                "cn": "盖伦特攻击子系统",
+                "items": [
+                  {
+                    "name": "Proteus Offensive - Drone Synthesis Projector",
+                    "cn": "海神攻击 - 无人机合成投射装置",
+                    "id": 45605
+                  },
+                  {
+                    "name": "Proteus Offensive - Hybrid Encoding Platform",
+                    "cn": "海神攻击 - 混合解码平台",
+                    "id": 45604
+                  },
+                  {
+                    "name": "Proteus Offensive - Support Processor",
+                    "cn": "海神攻击 - 后勤处理器",
+                    "id": 45606
+                  }
+                ]
+              },
+              {
+                "name": "Gellente Propulsion Subsystems",
+                "cn": "盖伦特推进子系统",
+                "items": [
+                  {
+                    "name": "Proteus Propulsion - Hyperspatial Optimization",
+                    "cn": "海神推进 - 超空间优化器",
+                    "id": 45617
+                  },
+                  {
+                    "name": "Proteus Propulsion - Interdiction Nullifier",
+                    "cn": "海神推进 - 拦截湮灭者",
+                    "id": 45616
+                  },
+                  {
+                    "name": "Proteus Propulsion - Localized Injectors",
+                    "cn": "海神推进 - 分布喷注器",
+                    "id": 45618
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Minmatar Subsystems",
+            "cn": "米玛塔尔子系统",
+            "subgroups": [
+              {
+                "name": "Minmatar Core Subsystems",
+                "cn": "米玛塔尔核心子系统",
+                "items": [
+                  {
+                    "name": "Loki Core - Augmented Nuclear Reactor",
+                    "cn": "洛基核心 - 增强核反应堆",
+                    "id": 45632
+                  },
+                  {
+                    "name": "Loki Core - Dissolution Sequencer",
+                    "cn": "洛基核心 - 散解程控装置",
+                    "id": 45631
+                  },
+                  {
+                    "name": "Loki Core - Immobility Drivers",
+                    "cn": "洛基核心 - 停滞光束驱动器",
+                    "id": 45633
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar Defensive Subsystems",
+                "cn": "米玛塔尔防御子系统",
+                "items": [
+                  {
+                    "name": "Loki Defensive - Covert Reconfiguration",
+                    "cn": "洛基防御 - 隐形优化器",
+                    "id": 45595
+                  },
+                  {
+                    "name": "Loki Defensive - Adaptive Defense Node",
+                    "cn": "洛基防御 - 自适应防御节点",
+                    "id": 45597
+                  },
+                  {
+                    "name": "Loki Defensive - Augmented Durability",
+                    "cn": "洛基防御 - 增强耐用装置",
+                    "id": 45596
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar Offensive Subsystems",
+                "cn": "米玛塔尔攻击子系统",
+                "items": [
+                  {
+                    "name": "Loki Offensive - Launcher Efficiency Configuration",
+                    "cn": "洛基攻击 - 发射器增效装置",
+                    "id": 45608
+                  },
+                  {
+                    "name": "Loki Offensive - Projectile Scoping Array",
+                    "cn": "洛基攻击 - 弹道描迹阵列",
+                    "id": 45607
+                  },
+                  {
+                    "name": "Loki Offensive - Support Processor",
+                    "cn": "洛基攻击 - 后勤处理器",
+                    "id": 45609
+                  }
+                ]
+              },
+              {
+                "name": "Minmatar Propulsion Subsystems",
+                "cn": "米玛塔尔推进子系统",
+                "items": [
+                  {
+                    "name": "Loki Propulsion - Intercalated Nanofibers",
+                    "cn": "洛基推进 - 间层纳米纤维",
+                    "id": 45620
+                  },
+                  {
+                    "name": "Loki Propulsion - Interdiction Nullifier",
+                    "cn": "洛基推进 - 拦截湮灭者",
+                    "id": 45619
+                  },
+                  {
+                    "name": "Loki Propulsion - Wake Limiter",
+                    "cn": "洛基推进 - 尾迹抑制器",
+                    "id": 45621
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Manufacture & Research",
     "cn": "制造和研究",
     "subgroups": [
