@@ -1,23 +1,18 @@
 {
-  "name": "Blueprints",
-  "cn": "蓝图",
+  "name": "蓝图",
   "subgroups": [
     {
-      "name": "Manufacture & Research",
-      "cn": "制造和研究",
+      "name": "制造和研究",
       "subgroups": [
         {
-          "name": "Components",
-          "cn": "组件",
+          "name": "组件",
           "subgroups": [
             {
-              "name": "Standard Capital Ship Components",
-              "cn": "标准旗舰组件",
+              "name": "标准旗舰组件",
               "blueprints": [
                 {
                   "id": 21018,
-                  "name": "Capital Armor Plates Blueprint",
-                  "cn": "旗舰附甲蓝图",
+                  "name": "旗舰附甲蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21017,
@@ -89,8 +84,7 @@
                 },
                 {
                   "id": 21020,
-                  "name": "Capital Capacitor Battery Blueprint",
-                  "cn": "旗舰电容器电池蓝图",
+                  "name": "旗舰电容器电池蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21019,
@@ -162,8 +156,7 @@
                 },
                 {
                   "id": 21028,
-                  "name": "Capital Cargo Bay Blueprint",
-                  "cn": "旗舰货柜舱蓝图",
+                  "name": "旗舰货柜舱蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21027,
@@ -231,8 +224,7 @@
                 },
                 {
                   "id": 24548,
-                  "name": "Capital Clone Vat Bay Blueprint",
-                  "cn": "旗舰克隆舱蓝图",
+                  "name": "旗舰克隆舱蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 24547,
@@ -308,8 +300,7 @@
                 },
                 {
                   "id": 21036,
-                  "name": "Capital Computer System Blueprint",
-                  "cn": "旗舰计算机系统蓝图",
+                  "name": "旗舰计算机系统蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21035,
@@ -381,8 +372,7 @@
                 },
                 {
                   "id": 21038,
-                  "name": "Capital Construction Parts Blueprint",
-                  "cn": "旗舰建设构件蓝图",
+                  "name": "旗舰建设构件蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21037,
@@ -450,8 +440,7 @@
                 },
                 {
                   "id": 24561,
-                  "name": "Capital Corporate Hangar Bay Blueprint",
-                  "cn": "旗舰联合机库舱蓝图",
+                  "name": "旗舰联合机库舱蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 24560,
@@ -519,8 +508,7 @@
                 },
                 {
                   "id": 24557,
-                  "name": "Capital Doomsday Weapon Mount Blueprint",
-                  "cn": "旗舰末日武器安装位蓝图",
+                  "name": "旗舰末日武器安装位蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 24556,
@@ -596,8 +584,7 @@
                 },
                 {
                   "id": 21030,
-                  "name": "Capital Drone Bay Blueprint",
-                  "cn": "旗舰无人机挂舱蓝图",
+                  "name": "旗舰无人机挂舱蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21029,
@@ -669,8 +656,7 @@
                 },
                 {
                   "id": 24546,
-                  "name": "Capital Jump Bridge Array Blueprint",
-                  "cn": "旗舰跳跃桥接阵列蓝图",
+                  "name": "旗舰跳跃桥接阵列蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 24545,
@@ -746,8 +732,7 @@
                 },
                 {
                   "id": 21026,
-                  "name": "Capital Jump Drive Blueprint",
-                  "cn": "旗舰跳跃引擎蓝图",
+                  "name": "旗舰跳跃引擎蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21025,
@@ -819,8 +804,7 @@
                 },
                 {
                   "id": 21042,
-                  "name": "Capital Launcher Hardpoint Blueprint",
-                  "cn": "旗舰发射器安装座蓝图",
+                  "name": "旗舰发射器安装座蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21041,
@@ -892,8 +876,7 @@
                 },
                 {
                   "id": 21022,
-                  "name": "Capital Power Generator Blueprint",
-                  "cn": "旗舰发电机组蓝图",
+                  "name": "旗舰发电机组蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21021,
@@ -965,8 +948,7 @@
                 },
                 {
                   "id": 21010,
-                  "name": "Capital Propulsion Engine Blueprint",
-                  "cn": "旗舰推进引擎蓝图",
+                  "name": "旗舰推进引擎蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21009,
@@ -1038,8 +1020,7 @@
                 },
                 {
                   "id": 21014,
-                  "name": "Capital Sensor Cluster Blueprint",
-                  "cn": "旗舰感应器组蓝图",
+                  "name": "旗舰感应器组蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21013,
@@ -1111,8 +1092,7 @@
                 },
                 {
                   "id": 21024,
-                  "name": "Capital Shield Emitter Blueprint",
-                  "cn": "旗舰护盾发射器蓝图",
+                  "name": "旗舰护盾发射器蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21023,
@@ -1184,8 +1164,7 @@
                 },
                 {
                   "id": 24559,
-                  "name": "Capital Ship Maintenance Bay Blueprint",
-                  "cn": "旗舰船只维护舱蓝图",
+                  "name": "旗舰船只维护舱蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 24558,
@@ -1257,8 +1236,7 @@
                 },
                 {
                   "id": 21040,
-                  "name": "Capital Siege Array Blueprint",
-                  "cn": "旗舰会战能源阵列蓝图",
+                  "name": "旗舰会战能源阵列蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21039,
@@ -1330,8 +1308,7 @@
                 },
                 {
                   "id": 21012,
-                  "name": "Capital Turret Hardpoint Blueprint",
-                  "cn": "旗舰炮台挂点蓝图",
+                  "name": "旗舰炮台挂点蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 21011,
@@ -1408,17 +1385,14 @@
       ]
     },
     {
-      "name": "Structures",
-      "cn": "建筑",
+      "name": "建筑",
       "subgroups": [
         {
-          "name": "Citadels",
-          "cn": "堡垒",
+          "name": "堡垒",
           "blueprints": [
             {
               "id": 36966,
-              "name": "Astrahus Blueprint",
-              "cn": "空堡蓝图",
+              "name": "空堡蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35832,
@@ -1462,8 +1436,7 @@
             },
             {
               "id": 36967,
-              "name": "Fortizar Blueprint",
-              "cn": "铁壁蓝图",
+              "name": "铁壁蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35833,
@@ -1523,8 +1496,7 @@
             },
             {
               "id": 36968,
-              "name": "Keepstar Blueprint",
-              "cn": "星城蓝图",
+              "name": "星城蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35834,
@@ -1605,13 +1577,11 @@
           ]
         },
         {
-          "name": "Engineering Complexes",
-          "cn": "工程复合体",
+          "name": "工程复合体",
           "blueprints": [
             {
               "id": 36972,
-              "name": "Azbel Blueprint",
-              "cn": "阿兹贝尔蓝图",
+              "name": "阿兹贝尔蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35826,
@@ -1671,8 +1641,7 @@
             },
             {
               "id": 36971,
-              "name": "Raitaru Blueprint",
-              "cn": "莱塔卢蓝图",
+              "name": "莱塔卢蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35825,
@@ -1720,8 +1689,7 @@
             },
             {
               "id": 36973,
-              "name": "Sotiyo Blueprint",
-              "cn": "索迪约蓝图",
+              "name": "索迪约蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35827,
@@ -1802,13 +1770,11 @@
           ]
         },
         {
-          "name": "Navigation Structures",
-          "cn": "导航建筑",
+          "name": "导航建筑",
           "blueprints": [
             {
               "id": 36961,
-              "name": "Ansiblex Jump Gate Blueprint",
-              "cn": "安塞波跳跃星门蓝图",
+              "name": "安塞波跳跃星门蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35841,
@@ -1848,8 +1814,7 @@
             },
             {
               "id": 36960,
-              "name": "Pharolux Cyno Beacon Blueprint",
-              "cn": "明灯诱导信标蓝图",
+              "name": "明灯诱导信标蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35840,
@@ -1889,8 +1854,7 @@
             },
             {
               "id": 37538,
-              "name": "Tenebrex Cyno Jammer Blueprint",
-              "cn": "暗影诱导干扰塔蓝图",
+              "name": "暗影诱导干扰塔蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 37534,
@@ -1927,13 +1891,11 @@
           ]
         },
         {
-          "name": "Refineries",
-          "cn": "精炼厂",
+          "name": "精炼厂",
           "blueprints": [
             {
               "id": 36977,
-              "name": "Athanor Blueprint",
-              "cn": "阿塔诺蓝图",
+              "name": "阿塔诺蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35835,
@@ -1977,8 +1939,7 @@
             },
             {
               "id": 36978,
-              "name": "Tatara Blueprint",
-              "cn": "塔塔拉蓝图",
+              "name": "塔塔拉蓝图",
               "manufacturing": {
                 "outcome": {
                   "id": 35836,
@@ -2047,17 +2008,14 @@
           ]
         },
         {
-          "name": "Sovereignty and Infrastructure",
-          "cn": "主权和建筑",
+          "name": "主权和建筑",
           "subgroups": [
             {
-              "name": "Industrial Upgrades",
-              "cn": "工业升级",
+              "name": "工业升级",
               "blueprints": [
                 {
                   "id": 34855,
-                  "name": "Ore Prospecting Array 1 Blueprint",
-                  "cn": "矿石勘探阵列1 蓝图",
+                  "name": "矿石勘探阵列1 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2040,
@@ -2105,8 +2063,7 @@
                 },
                 {
                   "id": 34856,
-                  "name": "Ore Prospecting Array 2 Blueprint",
-                  "cn": "矿石勘探阵列2 蓝图",
+                  "name": "矿石勘探阵列2 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2041,
@@ -2154,8 +2111,7 @@
                 },
                 {
                   "id": 34857,
-                  "name": "Ore Prospecting Array 3 Blueprint",
-                  "cn": "矿石勘探阵列3 蓝图",
+                  "name": "矿石勘探阵列3 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2042,
@@ -2203,8 +2159,7 @@
                 },
                 {
                   "id": 34858,
-                  "name": "Ore Prospecting Array 4 Blueprint",
-                  "cn": "矿石勘探阵列4 蓝图",
+                  "name": "矿石勘探阵列4 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2043,
@@ -2252,8 +2207,7 @@
                 },
                 {
                   "id": 34859,
-                  "name": "Ore Prospecting Array 5 Blueprint",
-                  "cn": "矿石勘探阵列5 蓝图",
+                  "name": "矿石勘探阵列5 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2044,
@@ -2301,8 +2255,7 @@
                 },
                 {
                   "id": 34860,
-                  "name": "Survey Networks 1 Blueprint",
-                  "cn": "勘探网络1 蓝图",
+                  "name": "勘探网络1 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2053,
@@ -2350,8 +2303,7 @@
                 },
                 {
                   "id": 34861,
-                  "name": "Survey Networks 2 Blueprint",
-                  "cn": "勘探网络2 蓝图",
+                  "name": "勘探网络2 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2054,
@@ -2399,8 +2351,7 @@
                 },
                 {
                   "id": 34862,
-                  "name": "Survey Networks 3 Blueprint",
-                  "cn": "勘探网络3 蓝图",
+                  "name": "勘探网络3 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2055,
@@ -2448,8 +2399,7 @@
                 },
                 {
                   "id": 34863,
-                  "name": "Survey Networks 4 Blueprint",
-                  "cn": "勘探网络4 蓝图",
+                  "name": "勘探网络4 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2056,
@@ -2497,8 +2447,7 @@
                 },
                 {
                   "id": 34864,
-                  "name": "Survey Networks 5 Blueprint",
-                  "cn": "勘探网络5 蓝图",
+                  "name": "勘探网络5 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2057,
@@ -2547,13 +2496,11 @@
               ]
             },
             {
-              "name": "Military Upgrades",
-              "cn": "军事升级",
+              "name": "军事升级",
               "blueprints": [
                 {
                   "id": 34869,
-                  "name": "Entrapment Array 1 Blueprint",
-                  "cn": "诱捕阵列1 蓝图",
+                  "name": "诱捕阵列1 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2031,
@@ -2601,8 +2548,7 @@
                 },
                 {
                   "id": 34841,
-                  "name": "Entrapment Array 2 Blueprint",
-                  "cn": "诱捕阵列2 蓝图",
+                  "name": "诱捕阵列2 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2034,
@@ -2650,8 +2596,7 @@
                 },
                 {
                   "id": 34842,
-                  "name": "Entrapment Array 3 Blueprint",
-                  "cn": "诱捕阵列3 蓝图",
+                  "name": "诱捕阵列3 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2035,
@@ -2699,8 +2644,7 @@
                 },
                 {
                   "id": 34843,
-                  "name": "Entrapment Array 4 Blueprint",
-                  "cn": "诱捕阵列4 蓝图",
+                  "name": "诱捕阵列4 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2036,
@@ -2748,8 +2692,7 @@
                 },
                 {
                   "id": 34844,
-                  "name": "Entrapment Array 5 Blueprint",
-                  "cn": "诱捕阵列5 蓝图",
+                  "name": "诱捕阵列5 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2037,
@@ -2797,8 +2740,7 @@
                 },
                 {
                   "id": 34845,
-                  "name": "Pirate Detection Array 1 Blueprint",
-                  "cn": "游寇监测阵列1 蓝图",
+                  "name": "游寇监测阵列1 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2026,
@@ -2846,8 +2788,7 @@
                 },
                 {
                   "id": 34846,
-                  "name": "Pirate Detection Array 2 Blueprint",
-                  "cn": "游寇监测阵列2 蓝图",
+                  "name": "游寇监测阵列2 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2027,
@@ -2895,8 +2836,7 @@
                 },
                 {
                   "id": 34847,
-                  "name": "Pirate Detection Array 3 Blueprint",
-                  "cn": "游寇监测阵列3 蓝图",
+                  "name": "游寇监测阵列3 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2028,
@@ -2944,8 +2884,7 @@
                 },
                 {
                   "id": 34848,
-                  "name": "Pirate Detection Array 4 Blueprint",
-                  "cn": "游寇监测阵列4 蓝图",
+                  "name": "游寇监测阵列4 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2029,
@@ -2993,8 +2932,7 @@
                 },
                 {
                   "id": 34849,
-                  "name": "Pirate Detection Array 5 Blueprint",
-                  "cn": "游寇监测阵列5 蓝图",
+                  "name": "游寇监测阵列5 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2030,
@@ -3042,8 +2980,7 @@
                 },
                 {
                   "id": 34850,
-                  "name": "Quantum Flux Generator 1 Blueprint",
-                  "cn": "量子通量发生器1 蓝图",
+                  "name": "量子通量发生器1 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2058,
@@ -3091,8 +3028,7 @@
                 },
                 {
                   "id": 34851,
-                  "name": "Quantum Flux Generator 2 Blueprint",
-                  "cn": "量子通量发生器2 蓝图",
+                  "name": "量子通量发生器2 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2059,
@@ -3140,8 +3076,7 @@
                 },
                 {
                   "id": 34852,
-                  "name": "Quantum Flux Generator 3 Blueprint",
-                  "cn": "量子通量发生器3 蓝图",
+                  "name": "量子通量发生器3 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2060,
@@ -3189,8 +3124,7 @@
                 },
                 {
                   "id": 34853,
-                  "name": "Quantum Flux Generator 4 Blueprint",
-                  "cn": "量子通量发生器4 蓝图",
+                  "name": "量子通量发生器4 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2061,
@@ -3238,8 +3172,7 @@
                 },
                 {
                   "id": 34854,
-                  "name": "Quantum Flux Generator 5 Blueprint",
-                  "cn": "量子通量发生器5 蓝图",
+                  "name": "量子通量发生器5 蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2062,
@@ -3288,13 +3221,11 @@
               ]
             },
             {
-              "name": "Sovereignty Structures",
-              "cn": "主权设施",
+              "name": "主权设施",
               "blueprints": [
                 {
                   "id": 2737,
-                  "name": "Territorial Claim Unit Blueprint",
-                  "cn": "主权宣布设施蓝图",
+                  "name": "主权宣布设施蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 32226,
@@ -3342,8 +3273,7 @@
                 },
                 {
                   "id": 2735,
-                  "name": "Infrastructure Hub Blueprint",
-                  "cn": "基础设施中心蓝图",
+                  "name": "基础设施中心蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 32458,
@@ -3392,13 +3322,11 @@
               ]
             },
             {
-              "name": "Strategic Upgrades",
-              "cn": "战略升级",
+              "name": "战略升级",
               "blueprints": [
                 {
                   "id": 34865,
-                  "name": "Advanced Logicstics Network Blueprint",
-                  "cn": "高级后勤网络蓝图",
+                  "name": "高级后勤网络蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 32422,
@@ -3446,8 +3374,7 @@
                 },
                 {
                   "id": 34866,
-                  "name": "Cynosual Navigation Blueprint",
-                  "cn": "诱导力场导航系统蓝图",
+                  "name": "诱导力场导航系统蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2008,
@@ -3495,8 +3422,7 @@
                 },
                 {
                   "id": 34867,
-                  "name": "Cynosual Suppression Blueprint",
-                  "cn": "诱导力场压制系统蓝图",
+                  "name": "诱导力场压制系统蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2001,
@@ -3544,8 +3470,7 @@
                 },
                 {
                   "id": 34868,
-                  "name": "Supercapital Construction Facilities Blueprint",
-                  "cn": "超级旗舰建造设施蓝图",
+                  "name": "超级旗舰建造设施蓝图",
                   "manufacturing": {
                     "outcome": {
                       "id": 2009,

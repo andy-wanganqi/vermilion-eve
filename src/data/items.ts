@@ -2,13 +2,11 @@ import itemGroups from './items.json';
 
 export interface Item {
   name: string;
-  cn?: string;
   id: number;
 }
 
 export interface ItemGroup {
   name: string;
-  cn?: string | null;
   subgroups?: ItemGroup[];
   items?: Item[];
 };

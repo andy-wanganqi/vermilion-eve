@@ -24,14 +24,12 @@ interface RawBlueprintIndustry {
 interface RawBlueprint {
   id: number;
   name: string;
-  cn?: string;
   manufacturing?: RawBlueprintIndustry;
   reaction?: RawBlueprintIndustry;
 }
 
 interface RawBlueprintGroup {
   name: string;
-  cn?: string;
   subgroups?: RawBlueprintGroup[];
   blueprints?: RawBlueprint[];
   formulas?: RawBlueprint[];
@@ -50,14 +48,12 @@ export interface BlueprintIndustry {
 export interface Blueprint {
   id: number;
   name: string;
-  cn?: string;
   manufacturing?: BlueprintIndustry;
   reaction?: BlueprintIndustry;
 }
 
 export interface BlueprintGroup {
   name: string;
-  cn?: string;
   subgroups?: BlueprintGroup[];
   blueprints?: Blueprint[];
   formulas?: Blueprint[];
@@ -82,7 +78,6 @@ const convertRawBlueprint = (raw: RawBlueprint): Blueprint => {
   const {
     id,
     name,
-    cn,
     manufacturing: rawManufacturing,
     reaction: rawReaction,
   } = raw;
@@ -97,7 +92,6 @@ const convertRawBlueprint = (raw: RawBlueprint): Blueprint => {
   return {
     id,
     name,
-    cn,
     manufacturing,
     reaction,
   };
@@ -105,7 +99,6 @@ const convertRawBlueprint = (raw: RawBlueprint): Blueprint => {
 const convertRawBlueprintGroup = (raw: RawBlueprintGroup): BlueprintGroup => {
   const {
     name,
-    cn,
     subgroups: rawSubgroups,
     blueprints: rawBlueprints,
     formulas: rawFormulas,
@@ -125,7 +118,6 @@ const convertRawBlueprintGroup = (raw: RawBlueprintGroup): BlueprintGroup => {
 
   return {
     name,
-    cn,
     subgroups,
     blueprints,
     formulas,

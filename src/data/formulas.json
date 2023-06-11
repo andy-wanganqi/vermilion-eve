@@ -1,15 +1,12 @@
 {
-  "name": "Reaction Formulas",
-  "cn": "反应公式",
+  "name": "反应公式",
   "subgroups": [
     {
-      "name": "Composite Formulas",
-      "cn": "复合反应",
+      "name": "复合反应",
       "formulas": [
         {
           "id": 46166,
-          "name": "Caesarium Cadmide Reaction Formula",
-          "cn": "镉化铯反应配方",
+          "name": "镉化铯反应配方",
           "reaction": {
             "materials": [
               {
